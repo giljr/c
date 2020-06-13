@@ -18,6 +18,7 @@ everything but needs to fix something)
 
 ```
 
+I´m using [Visual C++ 2019](https://visualstudio.microsoft.com/vs/community/).
 The solution will be numereded and divided into important computer subject:
 Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3). 
 I'm J3, The Arduino Hobbyist! and I will be your host :blush:    
