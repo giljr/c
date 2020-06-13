@@ -1,5 +1,5 @@
 # C Language
-Styding c language
+Styding C language
 
 Hi, This is all about C. :raising_hand:
 
