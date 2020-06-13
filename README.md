@@ -19,7 +19,7 @@ everything but needs to fix something)
 ```
 
 The solution will be numereded and divided into important computer subject:
-Be Welcome to my website, where I explore Arduino, PIC& Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3) 
+Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3) 
 I'm J3, and I will be your host :blush:    
 Welcome!!!
 
