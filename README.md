@@ -1,16 +1,18 @@
 # c
 Styding c language
 
-Hi, This is all about c :sparkles:.
+Hi, This is all about C. :raising_hand:
 
-Why c?
+Why C?
 
 C and C++ are among the most powerful languages you can find. Those are quite fast and stable, and thus are a good choice for microcontrollers. The compiler used to transform code into object files is avr-g++. Then, a program called avrdude is used to upload the program into the Arduino microcontroller.
 
 During my Computer Engineering Degrees I will make this repo as I learn more and more...
 
 ```
-The most important audience for your code is yourself, six month after writing it (ie after you forgotten everything but needs to fix something) :smirk:
+The most important audience for your code is yourself, 
+six month after writing it (ie after you forgotten 
+everything but needs to fix something) :smirk:
 
 ```
 The solution will be numereded and divided into subject:
