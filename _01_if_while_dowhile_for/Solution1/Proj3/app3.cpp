@@ -1,11 +1,15 @@
 /*
   Using do-while statement
 
+  Description:
+  You enter any number and the system tells you if it is even or odd number.
+  To halt the process type 0 or any negative number;)
+  This is implemented by using do-while loop. Simple like that
+
   Iteration statements
   The iteration statements repeatedly execute a statement.
-
   do statement while ( expression ) ;	(2)
-   
+
   author: j3
   date: jun, 12/2020
 */
