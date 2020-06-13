@@ -7,7 +7,7 @@ Why C?
 
 C and C++ are among the most powerful languages you can find. Those are quite fast and stable, and thus are a good choice for microcontrollers. The compiler used to transform code into object files is avr-g++. Then, a program called avrdude is used to upload the program into the Arduino microcontroller.
 
-During my Computer Engineering Degrees I will make this repo as As I learn more and more each day...
+During my Computer Engineering Degrees I will make this repo as I learn more and more each day...
 I thought I'd document what worked for me.
 This is just for hobbyist fun. I did not expect anything more at a price of less than a cup of coffee :coffee:.
 
