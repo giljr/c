@@ -28,10 +28,10 @@ Welcome!!!
 
 [#01 - Solution -_if_while_dowhile_for](_01_if_while_dowhile_for/) #CSeries - Solution1 - Inside 4 projs exemplifying the use of selection (if) & Iterations statements while, do-while & for loops; 
 
-#[Project1 - Visual C++ 2019](/source/repos/Project1)
+#[Project1 - Visual C++ 2019](/source/repos/Project1) -  It is even or odd? If statement - simple Selection Statement.
 
-#[Project2 - Visual C++ 2019](/source/repos/Project2)
+#[Project2 - Visual C++ 2019](/source/repos/Project2) -  Halting the system w/ while:)
 
-#[Project3 - Visual C++ 2019](/source/repos/Project3)
+#[Project3 - Visual C++ 2019](/source/repos/Project3) -  Halting the system w/ while:)
 
-#[Project4 - Visual C++ 2019](/source/repos/Project4)
+#[Project4 - Visual C++ 2019](/source/repos/Project4) - Halting the system w/ for - run 5 times only
