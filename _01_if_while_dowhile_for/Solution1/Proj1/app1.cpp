@@ -1,11 +1,15 @@
 /*
   Using if statement
 
-  Selection statements (if):
+  Description:
+  You enter any number and the system tells you if it is even or odd number.
+
+  Selection statements (if):    
   The selection statements choose between one of several statements depending on the value of an expression.
+  
   if ( expression ) statement_1
   if ( expression ) statement_1 else statement_2
-     
+
   author: j3
   date: jun, 12/2020
 */
