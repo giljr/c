@@ -1,7 +1,7 @@
 # c
 Styding c language
 
-Hi, This is all about :sparkles: c :sparkles:.
+Hi, This is all about c :sparkles:.
 
 Why c?
 
