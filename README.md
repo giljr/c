@@ -17,7 +17,8 @@ six month after writing it (ie after you forgotten
 everything but needs to fix something)
 
 ```
- :smirk: The solution will be numereded and divided into important computer subject:
+ :smirk:
+The solution will be numereded and divided into important computer subject:
 Be Welcome to my website, where I explore Arduino, PIC& Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3) 
 I'm J3, and I will be your host :blush:
 
