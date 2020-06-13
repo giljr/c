@@ -17,6 +17,7 @@ six month after writing it (ie after you forgotten
 everything but needs to fix something) :smirk:
 
 ```
-The solution will be numereded and divided into subject:
-
+The solution will be numereded and divided into important computer subject:
+Be Welcome to my website, where I explore Arduino, PIC& Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3) 
+I'm J3, and I will be your host:
 [#01_if_while_dowhile_for](_01_if_while_dowhile_for/) #CSeries - Solution1 - Inside 4 projs exemplifying the use of selection (if) & Iterations statements while, do-while & for loops;
