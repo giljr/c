@@ -40,4 +40,6 @@ Welcome!!!
 
 #[Project6 - Visual C++ 2019](/source/repos/Project6) - Using Matrices - How to scan each element using 2 for loops
 
+#[Project7 - Visual C++ 2019](/source/repos/Project7) - Using Function in C - a simple calculator - returning the bigger from 3 integers
+
 
