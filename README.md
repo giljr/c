@@ -37,3 +37,7 @@ Welcome!!!
 #[Project4 - Visual C++ 2019](/source/repos/Project4) - Halting the system w/ for - run 5 times only
 
 #[Project5 - Visual C++ 2019](/source/repos/Project5) - Using Vectors and scanning it w/ 1 for loop
+
+#[Project56 - Visual C++ 2019](/source/repos/Project6) - Using Matrices - How to scan each element using 2 for loops
+
+
