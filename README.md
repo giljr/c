@@ -32,7 +32,7 @@ Welcome!!!
 
 #[Project2 - Visual C++ 2019](/source/repos/Project2) -  Halting the system w/ while:)
 
-#[Project3 - Visual C++ 2019](/source/repos/Project3) -  Halting the system w/ while:)
+#[Project3 - Visual C++ 2019](/source/repos/Project3) -  Halting the system w/ do-while:)
 
 #[Project4 - Visual C++ 2019](/source/repos/Project4) - Halting the system w/ for - run 5 times only
 
