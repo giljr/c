@@ -6,15 +6,15 @@
 
   Description:
   The system will accept user input at each index of the matrix
-  and store these numbers in a matrix arrragemnent 3x3.
+  and store these numbers in a matrix arrangement 3x3.
   Then it will show all the elements of the matrix in the screen
-  then desplay the Main diogonal of the matrix too :)
+  then display the Main diogonal of the matrix too :)
 
   Iteration statements
   The iteration statements repeatedly execute a statement
   for ( init_clause ; expression(optional) ; expression(optional) ) statement(1)
 
-  author: j3
+  author: Borin Edited by j3
   date: jun, 13/2020
 */
 
