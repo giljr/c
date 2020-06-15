@@ -16,7 +16,8 @@
 
   We will make a function called bigNumber()
 
-  author: j3
+  Author: Borin (https://br.linkedin.com/in/borinvini) 
+  Edited by j3
   date: jun, 13/2020
 */
 #include<stdio.h>
