@@ -14,7 +14,8 @@
   The iteration statements repeatedly execute a statement
   for ( init_clause ; expression(optional) ; expression(optional) ) statement(1)
 
-  author: j3
+  Author: Borin (https://br.linkedin.com/in/borinvini)
+  Edited by j3
   date: jun, 12/2020
 */
 
