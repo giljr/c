@@ -9,7 +9,10 @@
   Iteration statements
   The iteration statements repeatedly execute a statement.
   while ( expression ) statement	(1)
-  author: j3
+  
+  Author: Borin (https://br.linkedin.com/in/borinvini) 
+  Edited by j3
+  
   date: jun, 12/2020
 */
 #include <stdio.h>
