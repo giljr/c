@@ -18,11 +18,11 @@
 		#endif
 		
    Structure:
-		   ---->  sys.h ------          High level sheet
+	       ---->  sys.h ------          High level sheet
 	     |                    |
 	 main.c                  |
-		|                   v
-	    ------------> lcd.c & lcd.h
+	     |                   v
+	      ------------> lcd.c & lcd.h
 	   |-----------> calc.c & calc.h
 	   
 ************************
