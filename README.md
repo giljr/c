@@ -87,6 +87,8 @@ Welcome!!!
 
 #[EX16 - DEVC](/DEVC/EX16) -  Project 16 - Struct - How to Create Struct in C
 
+#[EX17 - DEVC](/DEVC/EX17) -  Project 17 - 3 ways to declare a struct in C
+
 
 
 
