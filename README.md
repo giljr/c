@@ -85,6 +85,11 @@ Welcome!!!
 
 #[EX15 - DEVC](/DEVC/EX15) -  Project 15 - Problem w/ Buffer overflow
 
+#[EX16 - DEVC](/DEVC/EX16) -  Project 16 - Struct - How to Create Struct in C
+
+
+
+
 ### License
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
