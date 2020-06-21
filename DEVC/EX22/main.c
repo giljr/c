@@ -49,14 +49,6 @@ int main()
 	
 	//result = ((high<<8) | low);
 	
-	/*
-	  How does the machine makes the operation?
-	  (high << 8) | low
-	  0XAA00      | OXBB
-	  OXAA00      | AX00BB
-	  -----------------------
-	  RESULT = 0XAABB	
-	*/
 	printf("%X", data.result);
 	
 	
