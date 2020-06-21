@@ -95,7 +95,7 @@ Welcome!!!
 
 #[EX20 - DEVC](/DEVC/EX20) -  Project 20 - How to Use ARROWS - More elegant solution to Point to an element of the struct
 
-
+#[EX21 - DEVC](/DEVC/EX21) -  Project 21 - How to make a union of two char as int?   First Approach - Using Bitwise Operations
 
 
 ### License
