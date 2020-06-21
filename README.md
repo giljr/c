@@ -55,27 +55,27 @@ Welcome!!!
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
-#[EX01](/DEVC/EX01) - Studying C Types (char, int, float & double)
+#[EX01-DEVC](/DEVC/EX01) - Studying C Types (char, int, float & double)
 
-#[EX02](/DEVC/EX02) -  Simple use of modifiers: 'long' and 'short'
+#[EX02-DEVC](/DEVC/EX02) -  Simple use of modifiers: 'long' and 'short'
 
-#[EX03](/DEVC/EX03) -  A simple function 'add' declaration
+#[EX03-DEVC](/DEVC/EX03) -  A simple function 'add' declaration
 
-#[EX04](/DEVC/EX04) -  Multi-file programs - How to Use it!
+#[EX04-DEVC](/DEVC/EX04) -  Multi-file programs - How to Use it!
 
-#[EX05](/DEVC/EX05) -  Multi-file programs Extented - How to Use it!
+#[EX05-DEVC](/DEVC/EX05) -  Multi-file programs Extented - How to Use it!
 
-#[EX06](/DEVC/EX06) -  Function call by reference in C
+#[EX06-DEVC](/DEVC/EX06) -  Function call by reference in C
 
-#[EX07](/DEVC/EX07) -  Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
+#[EX07-DEVC](/DEVC/EX07) -  Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
 
-#[EX08](/DEVC/EX08) -  How to use NULL in C
+#[EX08-DEVC](/DEVC/EX08) -  How to use NULL in C
 
-#[EX09](/DEVC/EX09) -  Is C Little or Big Endian?
+#[EX09-DEVC](/DEVC/EX09) -  Is C Little or Big Endian?
 
-#[EX10](/DEVC/EX10) -  #HowToConvertFromLittleToBigEndian
+#[EX10-DEVC](/DEVC/EX10) -  #HowToConvertFromLittleToBigEndian
 
-#[EX11](/DEVC/EX11) -  Pointer - #HowToUse
+#[EX11-DEVC](/DEVC/EX11) -  Pointer - #HowToUse
 
 #[EX12](/DEVC/EX12) -  How to Compare 2 strings in C
 
