@@ -2,7 +2,7 @@
   Struct - 3 ways to declare it!
   
   Description:
-  Demo how to declaring struct in C.
+  Demo how to declare struct in C.
   
   Note: uncomment the other methods:)
   
