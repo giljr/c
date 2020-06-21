@@ -3,7 +3,8 @@
   How to make a union of two char as int?
   Second Approach - Using UNION \o/
   
-  UNION is address memory sharing!
+  UNION is address memory sharing!   
+  There is no conversion. quick access!
   
   Description:
   Demo how to make a union of 2 char into int using UNION. 
