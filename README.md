@@ -14,9 +14,12 @@ I thought I'd document what worked for me.
 This is just for hobbyist fun. I did not expect anything more at a price of less than a cup of coffee :coffee:.
 
 ```
-The most important audience for your code is yourself, 
-six month after writing it (ie after you forgotten 
-everything but needs to fix something)
+The most important audience 
+for your code is yourself, 
+six month after writing it 
+(ie after you forgotten 
+everything but needs 
+to fix something)
 
 ```
 
