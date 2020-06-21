@@ -10,7 +10,7 @@
   The system is a demo for how to split your project into especifics function sheets.
   This is a Good Programming Practice to follow!
   
-  Please see how to encapsulate each .h file, by use precompilation directives:
+  Please see how to encapsulate each .h file, by using precompilation directives:
   		
 		#ifndef __NAME__OF__THE SHEET___
 		#define __NAME__OF__THE SHEET___
