@@ -30,7 +30,7 @@ main()
 	Serial_t Uart;
 	Uart.ComPort = 1;
 	Uart.BaudRate = 9600;	
-    */
+        */
 	
 	/*
 	Serial_t Uart = {2, 57600}; 
@@ -45,7 +45,7 @@ main()
 	
 	printf("COM%d; BaudRate=%d\n", Uart.ComPort, Uart.BaudRate);
 	
-    //system("pause"); 
+        //system("pause"); 
 	return 0;
 	
 }
