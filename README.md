@@ -21,12 +21,13 @@ everything but needs to fix something)
 ```
 
 I´m using [Visual C++ 2019](https://visualstudio.microsoft.com/vs/community/).
+I will alsso use [Dev-C++ download | SourceForge.net](https://sourceforge.net/projects/orwelldevcpp/) This is an amazing IDE! Try it yourself!
 The solution will be numereded and divided into important computer subject:
 Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3). 
 I'm J3, The Arduino Hobbyist! and I will be your host :blush:    
 Welcome!!!
 
-### Solutions list (from 2020 until now): :moyai:
+### Visual C++ 2019 Solutions list (from 2020 until now): :moyai:
 
 [#01 - Solution -_if_while_dowhile_for](_01_if_while_dowhile_for/) #CSeries - Solution1 - Inside 4 projs exemplifying the use of selection (if) & Iterations statements while, do-while & for loops; 
 
@@ -47,6 +48,27 @@ Welcome!!!
 #[Project8 - Visual C++ 2019](/source/repos/Project8) -   Simple calculator v1 (addition & subtraction) - Demo for functions
 
 
-### Dev-C++5.11 Projects Solutions list  (from 2020 until now): :moyai:
+### Dev-C++5.11 Projects Solutions list  (from 2020 until now): :paperclip: 
 #[EX01](/DEVC/EX01) - Studying C Types (char, int, float & double)
+#[EX02](/DEVC/EX02) -  Simple use of modifiers: 'long' and 'short'
+#[EX03](/DEVC/EX03) -  A simple function 'add' declaration
+#[EX04](/DEVC/EX04) -  Multi-file programs - How to Use it!
+#[EX05](/DEVC/EX05) -  Multi-file programs Extented - How to Use it!
+#[EX06](/DEVC/EX06) -  Function call by reference in C
+#[EX07](/DEVC/EX07) -  Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
+#[EX08](/DEVC/EX08) -  How to use NULL in C
+#[EX09](/DEVC/EX09) -  Is C Little and Big Endian?
+#[EX10](/DEVC/EX10) -  #HowToConvertFromLittleToBigEndian
+#[EX11](/DEVC/EX11) -  Pointer - #HowToUse
+#[EX12](/DEVC/EX12) -  How to Compare 2 strings in C
+#[EX13](/DEVC/EX13) -  sprintf - The Use of
+#[EX14](/DEVC/EX14) -  sprintf - Another Use (convert integer & float to strings)
+
+
+
+
+
+
+
+
 
