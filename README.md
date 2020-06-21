@@ -55,33 +55,33 @@ Welcome!!!
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
-#[EX01 - DEVC](/DEVC/EX01) - Studying C Types (char, int, float & double)
+#[EX01 - DEVC](/DEVC/EX01) - Project 01 - Studying C Types (char, int, float & double)
 
-#[EX02 - DEVC](/DEVC/EX02) -  Simple use of modifiers: 'long' and 'short'
+#[EX02 - DEVC](/DEVC/EX02) -  Project 02 - Simple use of modifiers: 'long' and 'short'
 
-#[EX03 - DEVC](/DEVC/EX03) -  A simple function 'add' declaration
+#[EX03 - DEVC](/DEVC/EX03) -  Project 03 - A simple function 'add' declaration
 
-#[EX04 - DEVC](/DEVC/EX04) -  Multi-file programs - How to Use it!
+#[EX04 - DEVC](/DEVC/EX04) -  Project 04 - Multi-file programs - How to Use it!
 
-#[EX05 - DEVC](/DEVC/EX05) -  Multi-file programs Extented - How to Use it!
+#[EX05 - DEVC](/DEVC/EX05) -  Project 05 - Multi-file programs Extented - How to Use it!
 
-#[EX06 - DEVC](/DEVC/EX06) -  Function call by reference in C
+#[EX06 - DEVC](/DEVC/EX06) -  Project 06 - Function call by reference in C
 
-#[EX07 - DEVC](/DEVC/EX07) -  Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
+#[EX07 - DEVC](/DEVC/EX07) -  Project 07 - Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
 
-#[EX08 - DEVC](/DEVC/EX08) -  How to use NULL in C
+#[EX08 - DEVC](/DEVC/EX08) -  Project 08 - How to use NULL in C
 
-#[EX09 - DEVC](/DEVC/EX09) -  Is C Little or Big Endian?
+#[EX09 - DEVC](/DEVC/EX09) -  Project 09 - Is C Little or Big Endian?
 
-#[EX10 - DEVC](/DEVC/EX10) -  #HowToConvertFromLittleToBigEndian
+#[EX10 - DEVC](/DEVC/EX10) -  Project 10 - #HowToConvertFromLittleToBigEndian
 
-#[EX11 - DEVC](/DEVC/EX11) -  Pointer - #HowToUse
+#[EX11 - DEVC](/DEVC/EX11) -  Project 11 - Pointer - #HowToUse
 
-#[EX12 - DEVC](/DEVC/EX12) -  How to Compare 2 strings in C
+#[EX12 - DEVC](/DEVC/EX12) -  Project 12 - How to Compare 2 strings in C
 
-#[EX13 - DEVC](/DEVC/EX13) -  sprintf - The Use of
+#[EX13 - DEVC](/DEVC/EX13) -  Project 13 - sprintf - The Use of
 
-#[EX14 - DEVC](/DEVC/EX14) -  sprintf - Another Use (convert integer & float to strings)
+#[EX14 - DEVC](/DEVC/EX14) -  Project 14 - sprintf - Another Use (convert integer & float to strings)
 
 #[EX15 - DEVC](/DEVC/EX15) -  Project 15 - Problem w/ Buffer overflow
 
