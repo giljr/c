@@ -91,6 +91,8 @@ Welcome!!!
 
 #[EX18 - DEVC](/DEVC/EX18) -  Project 18 - Chained Struct - How To Declared Nested Struct
 
+#[EX19 - DEVC](/DEVC/EX19) -  Project 19 - How to Align Structs
+
 
 
 
