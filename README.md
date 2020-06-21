@@ -51,21 +51,40 @@ Welcome!!!
 
 
 ### Dev-C++5.11 Projects Solutions list  (from 2020 until now): :paperclip: 
+
 #[EX01](/DEVC/EX01) - Studying C Types (char, int, float & double)
+
 #[EX02](/DEVC/EX02) -  Simple use of modifiers: 'long' and 'short'
+
 #[EX03](/DEVC/EX03) -  A simple function 'add' declaration
+
 #[EX04](/DEVC/EX04) -  Multi-file programs - How to Use it!
+
 #[EX05](/DEVC/EX05) -  Multi-file programs Extented - How to Use it!
+
 #[EX06](/DEVC/EX06) -  Function call by reference in C
+
 #[EX07](/DEVC/EX07) -  Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
+
 #[EX08](/DEVC/EX08) -  How to use NULL in C
+
 #[EX09](/DEVC/EX09) -  Is C Little and Big Endian?
+
 #[EX10](/DEVC/EX10) -  #HowToConvertFromLittleToBigEndian
+
 #[EX11](/DEVC/EX11) -  Pointer - #HowToUse
+
 #[EX12](/DEVC/EX12) -  How to Compare 2 strings in C
+
 #[EX13](/DEVC/EX13) -  sprintf - The Use of
+
 #[EX14](/DEVC/EX14) -  sprintf - Another Use (convert integer & float to strings)
 
+
+### License
+
+[![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+ 
 
 
 
