@@ -71,7 +71,7 @@ Welcome!!!
 
 #[EX08](/DEVC/EX08) -  How to use NULL in C
 
-#[EX09](/DEVC/EX09) -  Is C Little and Big Endian?
+#[EX09](/DEVC/EX09) -  Is C Little or Big Endian?
 
 #[EX10](/DEVC/EX10) -  #HowToConvertFromLittleToBigEndian
 
