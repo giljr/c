@@ -10,7 +10,7 @@
   the address of another variable. A Pointer in C is used 
   to allocate memory dynamically i.e. at run time.
   
-  Poiter in C is an array of characters with '\0' as terminator.
+  Pointer in C is an array of characters with '\0' as terminator.
   
   ***********************
   Output:
