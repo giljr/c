@@ -93,7 +93,7 @@ Welcome!!!
 
 #[EX19 - DEVC](/DEVC/EX19) -  Project 19 - How to Align Structs
 
-#[EX20 - DEVC](/DEVC/EX20) -  Project 20 - How to Use ARROWS - More elegant solution to Point to a element of the struct
+#[EX20 - DEVC](/DEVC/EX20) -  Project 20 - How to Use ARROWS - More elegant solution to Point to an element of the struct
 
 
 
