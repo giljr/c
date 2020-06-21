@@ -31,7 +31,7 @@ int main()
 	// Scanning the vector w/ for loop
 	for (int i = 0; i < (VECTOR_SIZE); i++)
 	{
-		printf("Please enter the number at posistion %d :", i);
+		printf("Please enter the number at position %d :", i);
 		scanf_s("%d", &vec[i]);
 	}
 	// Displaying the vector  w/ for loop
