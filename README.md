@@ -50,7 +50,7 @@ Welcome!!!
 #[Project8 - Visual C++ 2019](/source/repos/Project8) -   Simple calculator v1 (addition & subtraction) - Demo for functions
 
 
-### Dev-C++5.11 Projects Solutions list  (from 2020 until now): :paperclip: 
+### Dev-C++5.11 Projects Solutions list  (from 2020 until now): :black_nib:
 
 #[EX01](/DEVC/EX01) - Studying C Types (char, int, float & double)
 
@@ -85,11 +85,3 @@ Welcome!!!
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
  
-
-
-
-
-
-
-
-
