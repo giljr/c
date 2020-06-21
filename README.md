@@ -89,6 +89,8 @@ Welcome!!!
 
 #[EX17 - DEVC](/DEVC/EX17) -  Project 17 - 3 ways to declare a struct in C
 
+#[EX18 - DEVC](/DEVC/EX18) -  Project 18 - Chained Struct - How To Declared Nested Struct
+
 
 
 
