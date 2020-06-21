@@ -33,7 +33,7 @@ Output
 	LCD COUNT = 0
 ************************
 	   
-	Author: microgenios.co.br
+	Author: microgenios.com.br
 	Edited by j3
 	
 	Date: Jun, 18/2020
