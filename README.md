@@ -29,7 +29,7 @@ Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & 
 I'm J3, The Arduino Hobbyist! and I will be your host :blush:    
 Welcome!!!
 
-### Visual C++ 2019 Solutions list (from 2020 until now): :notebook_with_decorative_cover:
+### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
 
 [#01 - Solution -_if_while_dowhile_for](_01_if_while_dowhile_for/) #CSeries - Solution1 - Inside 4 projs exemplifying the use of selection (if) & Iterations statements while, do-while & for loops; 
 
@@ -50,7 +50,7 @@ Welcome!!!
 #[Project8 - Visual C++ 2019](/source/repos/Project8) -   Simple calculator v1 (addition & subtraction) - Demo for functions
 
 
-### Dev-C++5.11 Projects Solutions list  (from 2020 until now): :black_nib:
+### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
 #[EX01](/DEVC/EX01) - Studying C Types (char, int, float & double)
 
