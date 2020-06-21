@@ -77,11 +77,11 @@ Welcome!!!
 
 #[EX11-DEVC](/DEVC/EX11) -  Pointer - #HowToUse
 
-#[EX12](/DEVC/EX12) -  How to Compare 2 strings in C
+#[EX12-DEVC](/DEVC/EX12) -  How to Compare 2 strings in C
 
-#[EX13](/DEVC/EX13) -  sprintf - The Use of
+#[EX13-DEVC](/DEVC/EX13) -  sprintf - The Use of
 
-#[EX14](/DEVC/EX14) -  sprintf - Another Use (convert integer & float to strings)
+#[EX14-DEVC](/DEVC/EX14) -  sprintf - Another Use (convert integer & float to strings)
 
 
 ### License
