@@ -47,7 +47,7 @@ int main()
 	// How to make a union of these two char as int?
 	// result = high + low ?? => 0XAABB;
 	
-	result = ((high<<8) | low);
+	//result = ((high<<8) | low);
 	
 	/*
 	  How does the machine makes the operation?
