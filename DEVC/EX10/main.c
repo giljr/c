@@ -3,7 +3,7 @@
  
  Description
  The program converts an integer from one to another system
- (Big Endian <-> Little Endian) using biwise operations.
+ (Big Endian <-> Little Endian) using bitwise operations.
  
  Big-endian systems store the Most Significant Byte (MSB)  
  of a word First. 
