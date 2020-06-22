@@ -95,7 +95,7 @@ int main ()
 	printf("8 - Inserting a double quote\(\"\):\n");
 	printf("\"Sharing's carring!\"\n\n");
 	
-		/* \" Inserts a single quote (') */
+	/* \" Inserts a single quote (') */
 	printf("9 - Inserting a single quote\(\'\):\n");
 	printf("\'That is amazing! That is so cool!\'\n\n");
 	
@@ -103,7 +103,6 @@ int main ()
 	printf("10 -Inserting backslash\(\\\):\n");
 	printf("Please see this link:\n\t \\media.com\\jungletronics\n\t\t for more info:) Bye!\n\n");
 	
-	
-	
+	//system("pause");
 	return 0;
 }
