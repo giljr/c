@@ -4,15 +4,15 @@
    Table: Symbols Representing Range Limits for Integer Types
    ---------------------------------------------------------- 
 
-    -----------------------------------
- 	Type	Lower_limit 	Upper_limit
-    ----	-----------   	-----------
+        -----------------------------------------
+ 	Type	Lower_limit 	      Upper_limit
+        ----	-----------   	      -----------
 	char	CHAR_MIN 		CHAR_MAX
 	short 	SHRT_MIN 		SHRT_MAX
 	int 	INT_MIN 		INT_MAX
 	long 	LONG_MIN 		LONG_MAX
-	long 	long LLONG_MIN 	LLONG_MAX
-	-----------------------------------
+	long 	long LLONG_MIN 	        LLONG_MAX
+	------------------------------------------
 	
 ***************************************************************************
 Output:
@@ -39,7 +39,7 @@ LARGEST VALUE OF LONG DOUBLE               is 3.205e-317
 --------------------------------------------------------------------------
 
 *************************************************************************** 
-   From Beginning_c_5th_edition
+   From Beginning_c_5th_edition, pg 57
    Edited by j3
    
    Date: Jun, 22/2020
@@ -55,20 +55,20 @@ int main(void) {
 	printf("--------------------------------------------------------------------------\n");
 	printf("                    Table: Variables types store values from:\n");
 	printf("--------------------------------------------------------------------------\n");
-	printf("CHAR:\t\t\t %d -> %d\n",     		 CHAR_MIN, CHAR_MAX);
+	printf("CHAR:\t\t\t %d -> %d\n",             CHAR_MIN, CHAR_MAX);
  	printf("UNISIGNED CHAR:\t\t 0 -> %u\n",      UCHAR_MAX);
  	printf("SHORT (INT):\t\t %d -> %d\n",        SHRT_MIN, SHRT_MAX);
  	printf("UNSINED SHORT (INT):\t 0 -> %u\n",   USHRT_MAX);
  	printf("INT:\t\t\t %d -> %d\n",              INT_MIN, INT_MAX);
  	printf("UNSIGNED INT:\t\t 0 -> %u\n",        UINT_MAX);
  	printf("LONG:\t\t\t %ld -> %ld\n",           LONG_MIN, LONG_MAX);
- 	printf("UNSIGNED LONG:\t\t 0 -> %lu\n", 	 ULONG_MAX);
+ 	printf("UNSIGNED LONG:\t\t 0 -> %lu\n",      ULONG_MAX);
  	printf("LONG LONG:\t\t %lld -> %lld\n",      LLONG_MIN, LLONG_MAX);
  	printf("UNSIGNED LONG LONG:\t 0 -> %llu\n",  ULLONG_MAX);
  	printf("--------------------------------------------------------------------------\n");
  	printf("SMALLEST POSITIVE NON-ZERO VALUE OF FLOAT  is %.3e\n",  FLT_MIN);
- 	printf("LARGEST  FLOAT    			   is %.3e\n",  			FLT_MAX);
- 	printf("SMALLEST NON-ZERO VALUE OF DOUBLE  	   is %.3e\n",  	DBL_MIN);
+ 	printf("LARGEST  FLOAT    			   is %.3e\n",  FLT_MAX);
+ 	printf("SMALLEST NON-ZERO VALUE OF DOUBLE  	   is %.3e\n",  DBL_MIN);
  	printf("LARGEST DOUBLE                      	   is %.3e\n",  DBL_MAX);
  	printf("SMALLEST NON-ZERO VALUE OF LONG DOUBLE 	   is %.3Le\n", LDBL_MIN);
  	printf("LARGEST VALUE OF LONG DOUBLE           	   is %.3Le\n", LDBL_MAX);
