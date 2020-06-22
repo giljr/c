@@ -1,3 +1,55 @@
+/*
+  Project 23 - Demo for Scape sequences in C:
+  
+*******************************************************************
+Output:
+
+ DEMO FOR ESCAPE SEQUENCES IN C
+
+-------------------------------
+
+1 - The use of newline (\n) & scaping double quotes (\"):
+"My formula for success?
+Rise early, work late, strike oil."
+J. Paul Getty
+
+2 - Returning carriage with \r:
+Right after it...
+
+
+3 - The use of form-feed character \f...
+
+Right after it...
+
+4 - The use of horizontal tab \t...     Right after it...
+
+5 - The use of vertical tab \v...Right after it...
+This is getting awkward, isn't it?...
+
+6 - Inserting a bell sound (alert):
+Be careful!!
+
+7 - Inserting a question mark (?):
+The use of question mark \?
+...For what?
+
+8 - Inserting a double quote("):
+"Sharing's carring!"
+
+9 - Inserting a single quote('):
+'That is amazing! That is so cool!'
+
+10 -Inserting backslash(\):
+Please see this link:
+         \media.com\jungletronics
+                 for more info:) Bye!
+*******************************************************************
+ 
+ Author j3
+ 
+ Date: Jun, 21/2020
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
