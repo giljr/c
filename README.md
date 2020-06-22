@@ -109,7 +109,7 @@ Welcome!!!
 
 #[EX27 - DEVC](/DEVC/EX27) -  Project 27 - How To Declare Floats & Doubles
 
-#[EX28 - DEVC](/DEVC/EX28) -  Project 28 - Finding  The Liits: <limits.h>
+#[EX28 - DEVC](/DEVC/EX28) -  Project 28 - Finding  The Limits: <limits.h>
 
 
 ### License
