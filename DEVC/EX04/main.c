@@ -6,6 +6,10 @@
   It also allows some of the code, e.g. utility functions such as linked list 
   handlers or array allocation code, to be shared with other programs.
   
+  By breaking it up into a number of smaller source files that each
+  provide a coherent part of what the complete program does, you can make the 
+  development of the program a lot easier. 
+  
   Description  
   The system is a demo for how to split your project into especifics function sheets.
   This is a Good Programming Practice to follow!
