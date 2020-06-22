@@ -103,6 +103,8 @@ Welcome!!!
 
 #[EX24 - DEVC](/DEVC/EX24) -  Project 24 - The use of Type Names for Un/signed Integer Types (U, L, UL, LL, ULL)
 
+#[EX25 - DEVC](/DEVC/EX25) -  Project 25 - Controlling the Number of Decimal Places in the Output.
+
 
 
 ### License
