@@ -7,7 +7,7 @@ Table 1
 --------------------------------------------------------
 Format Specifiers for Reading Data
 --------------------------------------------------------
-Action 							Required control string
+Action 				Required control string
 To read a value of type short 	%hd
 To read a value of type int 	%d
 To read a value of type long 	%ld
@@ -26,6 +26,7 @@ The circumference is 6.28. The area is 3.14
 
 *******************************************************
 
+From Beginning_c_5th_edition - Book pg 52
  Author: j3
  
  Date: Jun, 22/2020  
@@ -40,7 +41,7 @@ int main(void)
 	
 	float diameter = 2.0f;
 	float radius1 = diameter/2.0f; 				// Calculate the radius
-	float circumference1 = 2.0f*Pi*radius1; 	// Calculate the circumference
+	float circumference1 = 2.0f*Pi*radius1; 		// Calculate the circumference
 	float area1 = Pi*radius1*radius1; 			// Calculate the area
 	printf("\nFloat consumes %d Bytes\n", sizeof(area1));
 	
@@ -49,7 +50,7 @@ int main(void)
 	printf("The area is %.2f\n", area1);
 	
 	double radius2 = diameter/2.0f; 			// Calculate the radius
-	double circumference2 = 2.0*Pi*radius2; 	// Calculate the circumference
+	double circumference2 = 2.0*Pi*radius2; 		// Calculate the circumference
 	double area2 = Pi*radius2*radius2; 			// Calculate the area
 	printf("\nDouble consumes %d Bytes\n", sizeof(area2));
 	
