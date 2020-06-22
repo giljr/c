@@ -39,7 +39,7 @@ The use of question mark \?
 9 - Inserting a single quote('):
 'That is amazing! That is so cool!'
 
-10 -Inserting backslash(\):
+10 - Inserting backslash(\):
 Please see this link:
          \media.com\jungletronics
                  for more info:) Bye!
