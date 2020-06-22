@@ -100,7 +100,7 @@ int main ()
 	printf("\'That is amazing! That is so cool!\'\n\n");
 	
 	/* \\ Inserts a backslash (\) */
-	printf("10 -Inserting backslash\(\\\):\n");
+	printf("10 - Inserting backslash\(\\\):\n");
 	printf("Please see this link:\n\t \\media.com\\jungletronics\n\t\t for more info:) Bye!\n\n");
 	
 	//system("pause");
