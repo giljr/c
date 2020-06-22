@@ -99,12 +99,13 @@ Welcome!!!
 
 #[EX22 - DEVC](/DEVC/EX22) -  Project 22 - How to make a union of two char as int? Second Approach - Using UNION \o/
 
-#[EX23 - DEVC](/DEVC/EX23) -  Project 23 - DEMO FOR ESCAPE SEQUENCES IN C
+#[EX23 - DEVC](/DEVC/EX23) -  Project 23 - Demo For Escape Sequences In C
 
 #[EX24 - DEVC](/DEVC/EX24) -  Project 24 - The use of Type Names for Un/signed Integer Types (U, L, UL, LL, ULL)
 
 #[EX25 - DEVC](/DEVC/EX25) -  Project 25 - Controlling the Number of Decimal Places in the Output.
 
+#[EX26 - DEVC](/DEVC/EX26) -  Project 26 - How to declare floats - Calc Circumference and Area  of a Circular Table
 
 
 ### License
