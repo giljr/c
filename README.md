@@ -101,6 +101,8 @@ Welcome!!!
 
 #[EX23 - DEVC](/DEVC/EX23) -  Project 23 - DEMO FOR ESCAPE SEQUENCES IN C
 
+#[EX24 - DEVC](/DEVC/EX24) -  Project 24 - The use of Type Names for Un/signed Integer Types (U, L, UL, LL, ULL)
+
 
 
 ### License
