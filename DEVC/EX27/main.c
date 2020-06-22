@@ -34,7 +34,7 @@ From Beginning_c_5th_edition - Book pg 52
 
 #include <stdio.h>
 
-#define Pi 3.1415926
+#define Pi 3.1415926f
 
 int main(void)
 {
