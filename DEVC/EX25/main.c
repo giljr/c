@@ -73,19 +73,18 @@ There you have it! Bye! o/
  		printf("-------------------------------------\n");
  		
 		printf("The general form of the format specifier for floating-point\n\r"
-		  "values can be written like this:\n\n");
+		  	"values can be written like this:\n\n");
 		
 		printf("%%[width][.precision][modifier]f\n\n");
  		
 		printf("The first output value (%%8.2f) now has a field width of \n\r"
-         "eight and two decimal places after the decimal point.\n\n\r" 
-		 "The second output value (%%5.0f), which is the count of the number\n\r"
-         "of pieces, has a field width of five characters and no decimal places.\n\n\r"
-		 "The third output value (%%6.2f) will be presented in a field\n\r"
-		 "width of six characters with two decimal places.\n\n\r"
-		 "There you have it! Bye! o/\n\n");
- 		
-
+         		"eight and two decimal places after the decimal point.\n\n\r" 
+		 	"The second output value (%%5.0f), which is the count of the number\n\r"
+         		"of pieces, has a field width of five characters and no decimal places.\n\n\r"
+		 	"The third output value (%%6.2f) will be presented in a field\n\r"
+		 	"width of six characters with two decimal places.\n\n\r"
+		 	"There you have it! Bye! o/\n\n");
+ 	
 		//system("pause");
 		return 0;
 	
