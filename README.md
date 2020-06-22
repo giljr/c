@@ -97,7 +97,9 @@ Welcome!!!
 
 #[EX21 - DEVC](/DEVC/EX21) -  Project 21 - How to make a union of two char as int?   First Approach - Using Bitwise Operations
 
-#[EX22 - DEVC](/DEVC/EX22) -  Project 22: How to make a union of two char as int? Second Approach - Using UNION \o/
+#[EX22 - DEVC](/DEVC/EX22) -  Project 22 - How to make a union of two char as int? Second Approach - Using UNION \o/
+
+#[EX23 - DEVC](/DEVC/EX23) -  Project 23 - DEMO FOR ESCAPE SEQUENCES IN C
 
 
 
