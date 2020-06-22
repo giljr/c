@@ -107,6 +107,8 @@ Welcome!!!
 
 #[EX26 - DEVC](/DEVC/EX26) -  Project 26 - How to declare floats - Calc Circumference and Area  of a Circular Table
 
+#[EX27 - DEVC](/DEVC/EX27) -  Project 27 - How To Declare Floats & Doubles
+
 
 ### License
 
