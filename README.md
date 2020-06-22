@@ -67,7 +67,7 @@ Welcome!!!
 
 #[EX06 - DEVC](/DEVC/EX06) -  Project 06 - Function call by reference in C
 
-#[EX07 - DEVC](/DEVC/EX07) -  Project 07 - Use of Simple Assignment Operator (=) and Compound assignment operators (+=, -=, *=, /=, %=) in C
+#[EX07 - DEVC](/DEVC/EX07) -  Project 07 - Simple Assignment Oper (=) and Compound assignment opers (+=, -=, *=, /=, %=) in C
 
 #[EX08 - DEVC](/DEVC/EX08) -  Project 08 - How to use NULL in C
 
