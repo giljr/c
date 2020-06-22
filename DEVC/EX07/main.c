@@ -2,7 +2,7 @@
  Studing C
  
  Description
- The system is a deo for +=, -=, *=, /=, %= operators
+ The system is a demo for +=, -=, *=, /=, %= operators
  
  Use of Simple Assignment Operator (=) and
  Compound assignment operators (+=, -=, *=, /=, %=) i C
