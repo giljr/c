@@ -1,5 +1,6 @@
 /*
-  Simple use of modifiers:
+  Project 02
+  Simple use of modifiers
   'long' and 'short' is applicable only for integers!
   
   Exception: 'long double'
