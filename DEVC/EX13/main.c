@@ -1,4 +1,5 @@
 /*
+ Project 13
  sprintf - The Use of
 
  The sprintf() works just like printf() but instead of sending output to console it returns 
@@ -19,7 +20,7 @@
 						                              // %f - floating points - 5	
 	Included in <stdio.h> library.                    // %e - exponential - (scientific) - 2^2
 	                                                  // %g - Fixed decimal - 5.05
-													  // %.2f - float - number of decimal - 5.12
+					                  // %.2f - float - number of decimal - 5.12
 	  
 
  *************************************
@@ -46,29 +47,28 @@
 int main()
 {
  
- 	int c;
+    int c;
     int sal;
     char name[30], designation[30], info[60];
  
     printf("Enter your name: ");
     gets(name);
     
-	//scanf("%s", &name);
+    //scanf("%s", &name);
     //while((c=getchar())!= '\n' && c!= EOF){}
 	 
     printf("Enter your designation: ");
     gets(designation);
     
-	//scanf("%s", &designation);
+    //scanf("%s", &designation);
     //while((c=getchar())!= '\n' && c!= EOF){}
  
     printf("Enter your salary: ");
     	
-	scanf("%d", &sal);
-	while((c=getchar())!= '\n' && c!= EOF){}
+    scanf("%d", &sal);
+    while((c=getchar())!= '\n' && c!= EOF){}
  
-    sprintf(info, "Welcome %s !\nName: %s \nDesignation: %s\nSalary: %d",
-        name, name, designation, sal);
+    sprintf(info, "Welcome %s !\nName: %s \nDesignation: %s\nSalary: %d", name, name, designation, sal);
  
     printf("\n%s", info);
      
