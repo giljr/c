@@ -111,6 +111,8 @@ Welcome!!!
 
 #[EX28 - DEVC](/DEVC/EX28) -  Project 28 - Finding  The Limits: <limits.h>
 
+#[EX29 - DEVC](/DEVC/EX29) -  Project 29 - Format specifiers in C
+
 
 ### License
 
