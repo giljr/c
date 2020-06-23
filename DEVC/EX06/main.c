@@ -1,4 +1,5 @@
 /* 
+ Project 06
  Studing C 
  Function call by reference in C
  
@@ -34,8 +35,8 @@
 Output
 Before swap, value of a : 100
 Before swap, value of b : 200
-After swap, value of a : 200
-After swap, value of b : 100
+After swap, value of a  : 200
+After swap, value of b  : 100
 ************************************
  
  Author: https://www.tutorialspoint.com/
