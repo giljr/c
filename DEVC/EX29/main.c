@@ -45,7 +45,7 @@ int main()
     
     /* 2 - Integer format specifier   : %d, %i */
     int x = 45, y = 90; 
-    printf("(int x = 45) 	  is a int   and as format specifier use %%d  that results: %d\ or\n", x); 
+    printf("(int x = 45) 	  is a int   and as format specifier use %%d  that results: %d or\n", x); 
     printf("(int y = 90) 	  is a int   and as format specifier use %%i  that results: %i\n", x); 
     
     /* 3 - Floating-point format specifier : %f, %e or %E */
