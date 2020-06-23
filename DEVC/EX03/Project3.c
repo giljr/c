@@ -1,5 +1,6 @@
 /*
- A simple function 'add' declaration.
+ Project 03
+ A simple function 'add' declaration
 
  When declaring each parameters of the function,
  be aware of the type declared... 
