@@ -1,4 +1,5 @@
 /*
+  Project 14
   sprintf - Another Use (convert integer & float to strings)
   
   Another important use of sprintf() function is to convert integer and float values to strings.
@@ -17,7 +18,7 @@
 						                              // %f - floating points - 5	
 	Included in <stdio.h> library.                    // %e - exponential - (scientific) - 2^2
 	                                                  // %g - Fixed decimal - 5.05
-													  // %.2f - float - number of decimal - 5.12
+							  // %.2f - float - number of decimal - 5.12
 	  
 
   *********************
