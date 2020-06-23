@@ -1,5 +1,6 @@
-/*
-    Studying C Types (char, int, float & double): 
+/*  
+    Project 01
+    Studying C Types (char, int, float & double) 
    	C Data Types
    	****************************
    	Type 	Descrition 	  Bits
