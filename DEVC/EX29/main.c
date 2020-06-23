@@ -3,14 +3,14 @@
    
    Format specifiers in C
    
-   printf(char *format, arg1, arg2, …)
+   printf(char *format, arg1, arg2, â€¦)
    
    1 - Character format specifier : 	   %c
    2 - Integer format specifier   : 	   %d, %i
    3-  Floating-point format specifier :   %f, %e or %E
    4 - Unsigned Octal number for integer : %o
    5 - Unsigned Hexadecimal for integer :  %x, %X
-   6 - String printing : 				   %s
+   6 - String printing : 	           %s
    7 - Double floating-point number :      %lf
    
    
@@ -39,8 +39,8 @@ Output:
 
 int main()
 {
-	/* 1 - Character format specifier : %c */
-	char ch = 'A'; 
+    /* 1 - Character format specifier : %c */
+    char ch = 'A'; 
     printf("('A') 		  is a char  and as format specifier use %%c  that results: %c\n", ch);
     
     /* 2 - Integer format specifier   : %d, %i */
@@ -53,24 +53,24 @@ int main()
     printf("(float a = 12.67) is a float and as format specifier use %%f  that results: %f or\n", a); 
     printf("(float b = 17.69) is a float and as format specifier use %%e  that results: %e\n", a); 
 	
-	/*  4 - Unsigned Octal number for integer : %o */
+    /*  4 - Unsigned Octal number for integer : %o */
     int b = 8; 
     printf("(int b = 9) is int to octal  and as format specifier use %%o  that results: %o\n", b); 
 	
 	
-	/* 5 - Unsigned Hexadecimal for integer : %x, %X */
-	int c = 10; 
+    /* 5 - Unsigned Hexadecimal for integer : %x, %X */
+    int c = 10; 
     printf("(int c = 10) is a int to hex and as format specifier use %%x  that results:  %x\n", c); 
 	
 	
-	/* 6 - String printing : %s */
-	char d[] = "j3"; 
+    /* 6 - String printing : %s */
+    char d[] = "j3"; 
     printf("(char d[] = \"j3\") is string  and as format specifier use %%s  that results: %s\n", d); 
 	
-	/* 7- Double floating-point number : %lf */
-	double e = 45.65; 
+    /* 7- Double floating-point number : %lf */
+    double e = 45.65; 
     printf("(double e = 45.65) is double and as format specifier use %%lf that results: %lf\n", e);
 	
-	//system("pause");
-	return 0;
+    //system("pause");
+    return 0;
 }
