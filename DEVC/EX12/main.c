@@ -1,4 +1,5 @@
 /*
+ Project 12
  How to Compare 2 strings in C
  
  Description:
