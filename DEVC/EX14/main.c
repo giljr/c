@@ -3,19 +3,21 @@
   sprintf - Another Use (convert integer & float to strings)
   
   Another important use of sprintf() function is to convert integer and float values to strings.
+  
   Description
   The system simply outputs 2 strings.
   Then returns each strings using 1 sprintf function.
  
   There is an option for get(acquire, obtain) the outuput other than gets() method:
   scanf(): but this actually is more difficult, since we need to clear input buffer.
-  Reference:  
+  
+  Reference 
   https://stackoverflow.com/questions/7898215/how-to-clear-input-buffer-in-c/7898516#7898516
 
 	Syntax: int sprintf(char *str,                    // Array that stores the output
-	                    const char *control_string,   // Parameter that format the output:
-						[ arg_1, arg_2, ... ]);       // %d - data - integers - 5
-						                              // %f - floating points - 5	
+	                    const char *control_string,   // Parameter that format the output: [ arg_1, arg_2, ... ]);       
+			                                  // %d - data - integers - 5
+						          // %f - floating points - 5	
 	Included in <stdio.h> library.                    // %e - exponential - (scientific) - 2^2
 	                                                  // %g - Fixed decimal - 5.05
 							  // %.2f - float - number of decimal - 5.12
@@ -35,7 +37,6 @@
 
 #include<stdio.h>
 #include<string.h>
-
  
 int main()
 {
@@ -54,3 +55,5 @@ int main()
     // signal to operating system program ran fine
     return 0;
 }
+
+
