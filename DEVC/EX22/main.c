@@ -1,5 +1,5 @@
 /*
-  Project 22:
+  Project 22
   How to make a union of two char as int?
   Second Approach - Using UNION \o/
   
@@ -22,7 +22,6 @@ Output:
  
  Date: Jun, 21/2020  
 */
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,8 +50,9 @@ int main()
 	
 	printf("%X", data.result);
 	
-	
 	//system("pause");
 	return 0;
 	
 }
+
+
