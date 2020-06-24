@@ -34,8 +34,6 @@
  Date: Jun, 20/2020
 */
 
-
-
 #include <stdio.h>
 #define uint32_t int
 /* Prototype */
@@ -65,3 +63,5 @@ uint32_t ChangeEndianness(uint32_t value)
 	result |= (value & 0xFF000000) >> 24;
 	return result;	
 } 
+
+
