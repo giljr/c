@@ -1,4 +1,5 @@
 /*
+ Project 04
   Multi-file programs - How to Use it!
   
   Multi-file programs. A large C or C++ program should be divided into multiple files. 
@@ -22,13 +23,13 @@
 		#endif
 		
    Structure:
-	       ----  sys.h ------          High level sheet
+	      ------  sys.h ------          High level sheet
 	     |                    |
 	    v                    |
 	main.c                  |
-	    |                  v
-	     ------------> lcd.c & lcd.h
-	   |-----------> calc.c & calc.h
+	   |                   v
+	    ------------> lcd.c & lcd.h
+	  |-----------> calc.c & calc.h
 	   
 ************************
 Output
