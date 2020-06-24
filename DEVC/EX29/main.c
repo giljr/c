@@ -56,21 +56,21 @@ int main()
 	
     /*  4 - Unsigned Octal number for integer : %o */
     int c = 8; 
-    printf("(int b = 9) is int to octal  and as format specifier use %%o  that results: %o\n", c); 
+    printf("(int c = 9) is int to octal  and as format specifier use %%o  that results: %o\n", c); 
 	
 	
     /* 5 - Unsigned Hexadecimal for integer : %x, %X */
     int d = 10; 
-    printf("(int c = 10) is a int to hex and as format specifier use %%x  that results:  %x\n", d); 
+    printf("(int d = 10) is a int to hex and as format specifier use %%x  that results:  %x\n", d); 
 	
 	
     /* 6 - String printing : %s */
     char e[] = "j3"; 
-    printf("(char d[] = \"j3\") is string  and as format specifier use %%s  that results: %s\n", e); 
+    printf("(char e[] = \"j3\") is string  and as format specifier use %%s  that results: %s\n", e); 
 	
     /* 7- Double floating-point number : %lf */
     double f = 45.65; 
-    printf("(double e = 45.65) is double and as format specifier use %%lf that results: %lf\n", f);
+    printf("(double f = 45.65) is double and as format specifier use %%lf that results: %lf\n", f);
 	
     //system("pause");
     return 0;
