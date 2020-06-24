@@ -71,7 +71,9 @@ int main()
     sprintf(info, "Welcome %s !\nName: %s \nDesignation: %s\nSalary: %d", name, name, designation, sal);
  
     printf("\n%s", info);
-     
+    
+    //system("pause");  
     // signal to operating system program ran fine
     return 0;
 }
+
