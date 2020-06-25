@@ -5,7 +5,7 @@ Hi, This is all about C. :raising_hand:
 
 Why C?
 
-Linux will likely be written in C forever! ((Marty Fouts)[https://www.quora.com/How-long-will-Linux-be-written-in-C] - June 6 - OS designer with 40 years of experience)
+Linux will likely be written in C forever! [Marty Fouts](https://www.quora.com/How-long-will-Linux-be-written-in-C) - (June 6/20 - OS designer with 40 years of experience)
 
 C and C++ are among the most powerful languages you can find. Those are quite fast and stable, and thus are a good choice for microcontrollers. The compiler used to transform code into object files is avr-g++. Then, a program called avrdude is used to upload the program into the Arduino microcontroller.
 
