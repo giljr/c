@@ -5,6 +5,8 @@ Hi, This is all about C. :raising_hand:
 
 Why C?
 
+Linux will likely be written in C forever! ((Marty Fouts)[https://www.quora.com/How-long-will-Linux-be-written-in-C] - June 6 - OS designer with 40 years of experience)
+
 C and C++ are among the most powerful languages you can find. Those are quite fast and stable, and thus are a good choice for microcontrollers. The compiler used to transform code into object files is avr-g++. Then, a program called avrdude is used to upload the program into the Arduino microcontroller.
 
 The C programming language is one of the most powerful and efficient programming languages in the world. If you’re interested in learning programming or building applications, learning C should be the first step you take. Most of the modern-day programming languages have been inspired by it to some degree. C was developed back in the 1970s by Dennis M. Ritchie for a UNIX system. It is based on languages like B, CPL and BCPL. Unlike its predecessors, C is capable of both high level programming as well as low-level programming. C also does not take up much computer resources, so it can be used by small applications as well as large programs (like operating systems). (from https://blog.udemy.com/)
