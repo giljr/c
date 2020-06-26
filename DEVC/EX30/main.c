@@ -37,7 +37,7 @@ cosine = 0.500000
  
 int main() 
 { 	
-    /*
+    	/*
 	Enumeration:
 	Here the example defines the enumeration type week, 
 	so variables of this type can have one of the seven values
@@ -49,19 +49,20 @@ int main()
 	enum week{Mon, Tue, Wed, Thur, Fri, Sat, Sun}; 
    	enum week day; 
    	day = Mon; 
-    int i= Mon;
-    for(i ; i <= Sun; i++)
+    	int i= Mon;
+    	for(i ; i <= Sun; i++)
 	{
-       printf("%d\n", i );
+       	printf("%d\n", i );
     }
    
-    /*
+    	/*
 	Mathematical Functions:
 		The math.h header file includes declarations for a wide range of mathematical functions. 
 		To give you a feel here are some examples
 	*/
-    printf("\nMath Functions:\n");
-    printf("--------------\n");
+    	
+	printf("\nMath Functions:\n");
+    	printf("--------------\n");
     
    	double x = 2.25;
 	double less = 0.0;
