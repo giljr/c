@@ -115,6 +115,8 @@ Welcome!!!
 
 #[EX29 - DEVC](/DEVC/EX29) -  Project 29 - Format specifiers in C
 
+#[EX30 - DEVC](/DEVC/EX30) -  Project 30 - Enumeration, Math & Trigonometry Examples in C
+
 
 ### License
 
