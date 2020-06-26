@@ -53,7 +53,7 @@ int main()
     	for(i ; i <= Sun; i++)
 	{
        	printf("%d\n", i );
-    }
+    	}
    
     	/*
 	Mathematical Functions:
