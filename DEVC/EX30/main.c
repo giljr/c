@@ -69,7 +69,7 @@ int main()
 	double more = 0.0;
 	double root = 0.0;
 	
-	printf("less = %lf\n", floor(x));   			// Result is 2.0
+	printf("less = %lf\n", floor(x));   				// Result is 2.0
 	printf("more = %lf\n", ceil(x)); 				// Result is 3.0
 	printf("root = %lf\n", sqrt(x)); 				// Result is 1.5
 	
@@ -82,12 +82,12 @@ int main()
 	printf("\nTrig Functions:\n");
 	printf("--------------\n");
 	
-	double angle = 60.0; 							// Angle in degrees
+	double angle = 60.0; 						// Angle in degrees
 	double pi = 3.14159265;
 	double sine = 0.0;
 	double cosine = 0.0;
-	printf("sine = %f\n",sin(pi*angle/180)); 		// Angle converted to radians
-	printf("cosine = %f\n", cos(pi*angle/180.0)); 	// Angle converted to radians
+	printf("sine = %f\n",sin(pi*angle/180)); 			// Angle converted to radians
+	printf("cosine = %f\n", cos(pi*angle/180.0)); 			// Angle converted to radians
    		
 	//system("pause");
 	return 0;
