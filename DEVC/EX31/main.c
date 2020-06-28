@@ -9,14 +9,14 @@
   Make a C language algorithm to calculate how much each customer has spent on
   orders placed in a snack bar. The snack bar sells the following products:
 
-  Item Product 	Code 	Price Unit
+  Item Product 		Code 	Price Unit
   1 Hot Dog 		100 	5.00
   2 X-salad 		101 	8.79
   3 X-bacon 		102 	9.99
-  4 Mixed 			103 	6.89
-  5 Salad 			104 	4.80
-  6 Water 			105 	3.49
-  7 Soda	 		106 	4.99
+  4 Mixed 		103 	6.89
+  5 Salad 		104 	4.80
+  6 Water 		105 	3.49
+  7 Soda	 	106 	4.99
 
   Requirements:
   
@@ -92,48 +92,49 @@ int main()
 	
 	printf("\n------------------------------");
 	
-    printf("\n\nPlease Choose your Combo (Enter the number required):");
-    scanf("%d", &choseProduct);
-    while((c = getchar()) != '\n' && c != EOF) { }
+    	printf("\n\nPlease Choose your Combo (Enter the number required):");
+    	scanf("%d", &choseProduct);
+    	while((c = getchar()) != '\n' && c != EOF) { }
 
 	printf("\nEnter the quantity requested:");
 	scanf("%d", &quantityOfProduct);
 	while((c = getchar()) != '\n' && c != EOF) { }
 
-	switch (choseProduct) {
+	switch (choseProduct) 
+	   {
     	
 		case 1:
-        	printf("\nYou chose: %d x Hot Dog", quantityOfProduct);        	
-        	break;
+        		printf("\nYou chose: %d x Hot Dog", quantityOfProduct);        	
+        		break;
 
-    	case 2:
-        	printf("\nYou chose: %d x X-Salad", quantityOfProduct);        	
-        	break;
+    		case 2:
+        		printf("\nYou chose: %d x X-Salad", quantityOfProduct);        	
+        		break;
 
-    	case 3:
-        	printf("\nYou chose: %d x X-Bacon ", quantityOfProduct);        	
-        	break;
+    		case 3:
+        		printf("\nYou chose: %d x X-Bacon ", quantityOfProduct);        	
+        		break;
 	
-	    case 4:
-        	printf("\nYou chose: %d x Mix", quantityOfProduct );        	
-        	break;
+	   	 case 4:
+        		printf("\nYou chose: %d x Mix", quantityOfProduct );        	
+        		break;
         	
-    	case 5:
-        	printf ("\nYou chose: %d x Salad", quantityOfProduct);
-        	break;
+    		case 5:
+        		printf ("\nYou chose: %d x Salad", quantityOfProduct);
+        		break;
         	
-    	case 6:
-        	printf ("\nYou chose: %d x Water ", quantityOfProduct);
-        	break;
+    		case 6:
+        		printf ("\nYou chose: %d x Water ", quantityOfProduct);
+        		break;
         	
-        case 7:
-        	printf ("\nYou chose: %d x Soda", quantityOfProduct);
-        	break;
+        	case 7:
+        		printf ("\nYou chose: %d x Soda", quantityOfProduct);
+        		break;
         	
-    	default:
-        	printf("\nInvalid Product! Please, Try again:)");
-            break;
-	}
+    		default:
+        		printf("\nInvalid Product! Please, Try again:)");
+            		break;
+           }
 
 	//system("pause");
 	return 0;
