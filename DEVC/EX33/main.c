@@ -78,21 +78,21 @@ float divi(float a, float b){ return (a/b); }
 
 int main()
 {
-	int choice;
+    int choice;
 	
-	float a, b, result, c;
+    float a, b, result, c;
 	
-	printf("Enter your choice: 0 for sum, 1 for sub, 2 for mult, 3 for divi: ");
-	scanf("%d", &choice);
+    printf("Enter your choice: 0 for sum, 1 for sub, 2 for mult, 3 for divi: ");
+    scanf("%d", &choice);
     while((c = getchar())!= '\n' && c != EOF){}
 	
-	// filters out values greater than 
-	if (choice < 4)	
+    // filters out values greater than 
+    if (choice < 4)	
 	{
-		printf("Enter the two numbers:\n");
+    		printf("Enter the two numbers:\n");
 		
-		scanf("%f %f", &a, &b);
-    	while((c = getchar())!= '\n' && c != EOF){}
+    		scanf("%f %f", &a, &b);
+    		while((c = getchar())!= '\n' && c != EOF){}
     	
 		switch(choice)
 			{
