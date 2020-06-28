@@ -65,7 +65,7 @@ Try again :)
 
 #include <stdio.h>
 
-#define opr
+#define opr 4
 
 float sum(float a, float b){ return (a+b); } 
 
