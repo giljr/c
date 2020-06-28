@@ -117,6 +117,8 @@ Welcome!!!
 
 #[EX30 - DEVC](/DEVC/EX30) -  Project 30 - Enumeration, Math & Trigonometry Examples in C
 
+#[EX31 - DEVC](/DEVC/EX31) - Project 31 - Computer Engineer Course Practical Activity 2020
+
 
 ### License
 
