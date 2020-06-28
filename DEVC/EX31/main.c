@@ -50,7 +50,7 @@ Product:                Price:
 
 Please Choose your Combo (Enter the number required):1
 
-Entre a Quantidade desse produto:12
+Enter the quantity requested: 12
 
 You chose: 12 x Hot Dog
 
