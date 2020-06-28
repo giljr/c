@@ -129,9 +129,9 @@ int main()
 		// Awesome, isn't it? One single line!
 		printf("%f", ptr2func[choice](a,b));
 				
-		} else
+	} else
 	
-			printf("Invalid Operation:/ \nTry again :)");
+		printf("Invalid Operation:/ \nTry again :)");
 
 	//system("pause");
 	return 0;
