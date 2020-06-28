@@ -101,14 +101,14 @@ int main()
 	
 	printf("Enter your choice: 0 for sum, 1 for sub, 2 for mult, 3 for divi: ");
 	scanf("%d", &choice);
-    while((c = getchar())!= '\n' && c != EOF){}
+    	while((c = getchar())!= '\n' && c != EOF){}
 	
 	// filters out values greater than 
 	if (choice < 4)	
 	{
-		printf("Enter the two numbers:\n");
+	printf("Enter the two numbers:\n");
 		
-		scanf("%f %f", &a, &b);
+	scanf("%f %f", &a, &b);
     	while((c = getchar())!= '\n' && c != EOF){}
     	
     	/*
