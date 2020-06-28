@@ -1,5 +1,5 @@
 /*
-  Project 32
+  Project 34
   
   This Project will demonstrate the use of function pointers!
   
@@ -10,10 +10,10 @@
   definitely some situations in which the user has to decide which function has to
   be called right. 
   
-  I will demo two method odf doing so... This is Second one, this Project 33!
+  I will demo two method odf doing so... This is Second one, this Project 34!
    
   In the privious: 
-  	Project 32 we will use Switch Expressions Statement. 
+  	Project 33 we will use Switch Expressions Statement. 
 	  It it out too:)
   
   Description
