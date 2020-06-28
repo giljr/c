@@ -106,14 +106,14 @@ int main()
 	// filters out values greater than 
 	if (choice < 4)	
 	{
-	printf("Enter the two numbers:\n");
+		printf("Enter the two numbers:\n");
 		
-	scanf("%f %f", &a, &b);
-    	while((c = getchar())!= '\n' && c != EOF){}
+		scanf("%f %f", &a, &b);
+    		while((c = getchar())!= '\n' && c != EOF){}
     	
-    	/*
-    	// Eliminating the switch statements;
-    	// Here we have a lot of redundance, here:/
+    		/*
+    		// Eliminating the switch statements;
+    		// Here we have a lot of redundance, here:/
 		switch(choice)
 			{
 				case 0: result = sum(a, b); break;
@@ -122,16 +122,16 @@ int main()
 				case 3: result = divi(a, b); break;				
 			}				
 			
-		printf("%f", result);		
+			printf("%f", result);		
 		*/
 		
 		// Here we are simply calling the specific chose function at runtime; 
 		// Awesome, isn't it? One single line!
 		printf("%f", ptr2func[choice](a,b));
 				
-	} else
+		} else
 	
-		printf("Invalid Operation:/ \nTry again :)");
+			printf("Invalid Operation:/ \nTry again :)");
 
 	//system("pause");
 	return 0;
