@@ -119,6 +119,8 @@ Welcome!!!
 
 #[EX31 - DEVC](/DEVC/EX31) - Project 31 - Computer Engineer Course Practical Activity 2020
 
+#[EX33 - DEVC](/DEVC/EX33) - Project 33 - Using Switch Case Statements
+
 
 ### License
 
