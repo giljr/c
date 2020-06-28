@@ -121,6 +121,7 @@ Welcome!!!
 
 #[EX33 - DEVC](/DEVC/EX33) - Project 33 - Using Switch Case Statements
 
+#[EX34 - DEVC](/DEVC/EX34) - Project 34 - Demonstrate the use of function pointers
 
 ### License
 
