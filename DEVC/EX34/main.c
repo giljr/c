@@ -104,7 +104,7 @@ int main()
     	while((c = getchar())!= '\n' && c != EOF){}
 	
 	// filters out values greater than 
-	if (choice < 4)	
+	if (choice < opr)	
 	{
 		printf("Enter the two numbers:\n");
 		
