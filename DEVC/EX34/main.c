@@ -10,10 +10,10 @@
   definitely some situations in which the user has to decide which function has to
   be called right. 
   
-  I will demo two method odf doing so... This is Second one, this Project 34!
+  I will demo two method of doing so... This is Second one, this Project 34!
    
   In the privious: 
-  	Project 33 we will use Switch Expressions Statement. 
+  	Project 33 we used Switch Expressions Statement. 
 	  It it out too:)
   
   Description
@@ -30,7 +30,7 @@
   
   Are like normal pointers but they have the capability to point to a function. 
   Functions are stored as instructions in memory.
-  This program is more concise and easy to read and undenstand.
+  This program is more concise and easy to read and understand.
   We can eliminate a lot of redundance. See how for yourself...
   The decision are made at runtime.
   Here we eliminate the use of switch expressions.  
@@ -54,7 +54,7 @@ Try again :)
 *****************************
 
   Note: If you run it in MS Visual C ++ 2019 or newer:
-  use scanf_s() function instead.
+  use scanf_s() function instead scanf();
   
   Author Neso Academy (https://youtu.be/wQ-gWwKKeP4)
   Edited by j3
