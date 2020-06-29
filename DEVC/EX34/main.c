@@ -14,7 +14,7 @@
    
   In the privious: 
   	Project 33 we used Switch Expressions Statement. 
-	  It it out too:)
+	  It is published too:)
   
   Description
   
