@@ -113,7 +113,7 @@ int main()
     	
     		/*
     		// Eliminating the switch statements;
-    		// Here we have a lot of redundance, here:/
+    		// Here we have a lot of redundance, look:/
 		switch(choice)
 			{
 				case 0: result = sum(a, b); break;
