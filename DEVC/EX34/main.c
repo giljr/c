@@ -126,7 +126,7 @@ int main()
 		*/
 		
 		// Here we are simply calling the specific chose function at runtime; 
-		// Awesome, isn't it? One single line!
+		// Awesome, isn't it? One single line fits all!
 		printf("%f", ptr2func[choice](a,b));
 				
 	} else
