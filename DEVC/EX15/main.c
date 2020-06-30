@@ -7,7 +7,7 @@
 	 while writing data to a buffer, overruns the buffer's 
 	 boundary and overwrites adjacent memory locations.
 	 
-	 Below you see that the reserved buffer was only 5 bytes;
+	 Below you see that the reserved buffer was only 6 bytes;
 	 But the word ""HELLO!"  needs 7 BYTES:
 	 1.[H]
 	 2.[E]
@@ -20,7 +20,7 @@
 	 So the buffer overflow affect the next memory location, which 
 	 where located the variable 'count' :/
 	 
-	 Some anotation about C:
+   Some anotation about C:
      .The vector name is a number (txt1 is a number);
      .In c variables cannot be declared mixed with methods;
    
@@ -35,10 +35,10 @@ HELLO5555
 Now the number is = 5555 - > correct:)
 Using snprintf we reserve an exact space in memory to store the word HELLO.
 *******************************************************************************
- Author : microgenios.com.br
- Edited by j3
+   Author : microgenios.com.br
+   Edited by j3
 
- Date: Jun, 20/2020
+   Date: Jun, 20/2020
 
 */
 
