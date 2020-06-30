@@ -66,7 +66,7 @@ Try again :)
 
 #include <stdio.h>
 
-#define opr
+#define opr 4
 
 float sum(float a, float b){ return (a+b); } 
 
@@ -86,8 +86,8 @@ int main()
     scanf("%d", &choice);
     while((c = getchar())!= '\n' && c != EOF){}
 	
-    // filters out values greater than 
-    if (choice < 4)	
+    // filters out values greater than opr, which is 4;)
+    if (choice < opr)	
 	{
     		printf("Enter the two numbers:\n");
 		
