@@ -127,6 +127,9 @@ Welcome!!!
 
 #[EX35 - DEVC](/DEVC/EX35) - Project 35 - Simple Calculator v1 -  Nested if
 
+#[EX36 - DEVC](/DEVC/EX36) -  Project 36 - Simple Calculator v1 - Switch
+
+
 
 ### License
 
