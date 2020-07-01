@@ -129,6 +129,8 @@ Welcome!!!
 
 #[EX36 - DEVC](/DEVC/EX36) -  Project 36 - Simple Calculator v1 - Switch
 
+#[EX38 - DEVC](/DEVC/EX38) -  Project 38 - Simple Calculator v1 - Switch & While
+
 
 
 ### License
