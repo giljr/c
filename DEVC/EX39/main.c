@@ -48,8 +48,7 @@ Enter:
 2                       <--meaning Subtration
 10                      <--First Number entered
 5                       <--Second Number entered
-5                       <--A
-rithmetic Result: 10 - 5 = 5
+5                       <--Arithmetic Result: 10 - 5 = 5
 Displaying Information:
 Op      Number_1        Number_2        Result
 --      --------        --------        ------
@@ -104,11 +103,11 @@ int main() {
 
     /* Memory allocation for noOfRecords structures */
     
-	ptr = (struct operation *)malloc(noOfRecords * sizeof(struct operation));
+    ptr = (struct operation *)malloc(noOfRecords * sizeof(struct operation));
     
     /* Iterate over each record to populate the struct object 'operation' */
 	
-	for (i = 0; i < noOfRecords; ++i) {
+    for (i = 0; i < noOfRecords; ++i) {
         printf("Enter: \n(a) operation --> 1-Add 2-Sub 3-Mult 4-Div,\n(b) number1,\n(c) number2 &\n(d) the result ot the arithmetic operation, respectively:\n");
         scanf("%i %f %f %f", &(ptr + i)->opr, &(ptr + i)->fnumber1, &(ptr + i)->fnumber2, &(ptr + i)->fnumber3);
     }
@@ -122,10 +121,9 @@ int main() {
         printf("%i\t%f\t%f\t%f\n", (ptr + i)->opr, (ptr + i)->fnumber1,  (ptr + i)->fnumber2,  (ptr + i)->fnumber3) ;
     
 	
-	/* deallocating the memory */
-    
-	free(ptr);
+    /* deallocating the memory */
+    free(ptr);
     
     //system("pause");
-	return 0;
+    return 0;
 }
