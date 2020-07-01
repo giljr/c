@@ -87,10 +87,10 @@ Op      Number_1        Number_2        Result
 /* Declaring the struct to hold all Calcs for each operation */
 
 struct operation {
-    int opr;
-	float fnumber1;
-	float fnumber2;
-	float fnumber3;
+    int opr;        // Hold the operation type
+    float fnumber1; // Hold the first Number
+    float fnumber2; // Hold the second Number
+    float fnumber3; // Hold the result
 };
 
 int main() {
