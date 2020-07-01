@@ -131,6 +131,8 @@ Welcome!!!
 
 #[EX38 - DEVC](/DEVC/EX38) -  Project 38 - Simple Calculator v1 - Switch & While
 
+#[EX39 - DEVC](/DEVC/EX39) -  Project 39 - This program use malloc - Project 38 improvement - Calculator v2
+
 
 
 ### License
