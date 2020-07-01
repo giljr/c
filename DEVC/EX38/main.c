@@ -6,7 +6,7 @@
   
  Redo Project 36, now inserting a new option in the MENU called EXIT. 
  The program will end when the user enters any other value
- outside the MENU options.
+ outside the MENU options (5, actually:)
  
 ****************************************************
 Output:
