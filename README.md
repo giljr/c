@@ -125,6 +125,9 @@ Welcome!!!
 
 #[EX34 - DEVC](/DEVC/EX34) - Project 34 - Demonstrate the use of function pointers
 
+#[EX35 - DEVC](/DEVC/EX35) - Project 35 - Simple Calculator v1 -  Nested if
+
+
 ### License
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
