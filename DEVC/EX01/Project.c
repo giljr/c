@@ -5,8 +5,8 @@
    	****************************
    	Type 	Descrition 	  Bits
    	****************************
-   	char 	character 		8 
-   	int	 	integer			16			
+   	char 	character 	8 
+   	int	 	integer	16			
    	float 	floating point  32
    	double 	floating point  64 
    	****************************
