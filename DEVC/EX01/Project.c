@@ -3,7 +3,7 @@
     Studying C Types (char, int, float & double) 
    	C Data Types
    	****************************
-   	Type 	Descrition 	  Bits
+   	Type 	Descrition     Bits
    	****************************
    	char 	character 	8 
    	int	 	integer	16			
