@@ -1,6 +1,6 @@
 /*
   Project 39
-  This program use alloc to storage the operations entered by the user
+  This program use malloc to storage the operations entered by the user
   ( It is for Project 38 improvement - Calculator v2 )
 
   It tries to implementing a memory function in the Calculator v1 (Project 38)
@@ -119,8 +119,7 @@ int main() {
     printf("--\t--------\t--------\t------\n");
     for (i = 0; i < noOfRecords; ++i)
         printf("%i\t%f\t%f\t%f\n", (ptr + i)->opr, (ptr + i)->fnumber1,  (ptr + i)->fnumber2,  (ptr + i)->fnumber3) ;
-    
-	
+    	
     /* deallocating the memory */
     free(ptr);
     
