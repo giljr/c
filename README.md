@@ -137,6 +137,8 @@ Welcome!!!
 
 #[EX41 - DEVC](/DEVC/EX41) -  Project 41 - Presenting a Menu for Snack Bar
 
+#[EX42 - DEVC](/DEVC/EX42) -  Project 42 - Matrices Multiplication
+
 
 ### License
 
