@@ -4,7 +4,7 @@
   Description
   This program initialize 3 matrices:
   p[1][7] - Price of the Snack bar Products
-  g[7][1] - Quantity of each item asked 
+  q[7][1] - Quantity of each item asked 
   t[1][7] - Total price to pay, then:
   
   p[1][7]    *   q[7][1]       =  t[1][7]
