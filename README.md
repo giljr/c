@@ -133,6 +133,8 @@ Welcome!!!
 
 #[EX39 - DEVC](/DEVC/EX39) -  Project 39 - This program uses malloc - Project 38 improvement - Calculator v2
 
+#[EX40 - DEVC](/DEVC/EX40) -  Project 40 - Reading & Displaying Strings in C
+
 
 
 
