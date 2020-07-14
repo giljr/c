@@ -35,6 +35,8 @@ _______Receipt:________
         Total = 439.50
 -----------------------
 ***********************
+  From: How to Debug DEV ++ (https://youtu.be/xxy5RdHucGc)
+  By Professor José de Assis (Pt_BR)
   Editor J3
   Date: Jul, 13/2020
 
