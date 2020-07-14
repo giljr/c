@@ -141,6 +141,8 @@ Welcome!!!
 
 #[EX43 - DEVC](/DEVC/EX43) -  Project 43 - Matrices Multiplication - Accepting Floats
 
+#[EX44 - DEVC](/DEVC/EX44) -  Project 44 - Initializing 3 Matrices & Multiply it all
+
 
 ### License
 
