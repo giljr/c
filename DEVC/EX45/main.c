@@ -28,8 +28,6 @@
  The user enter Code + Product + Space serially; The user can acummulate the products;
  When done, type 'q' to get the Receipt;
  It is for the academy's elegant solution of Project 31:)
- I'd like to thank Bonin, my tutor o/
- 
  
  Printing on the screen a test of the program using 
  the first 3 digits for products and 
@@ -80,7 +78,9 @@ and have a good appetite!
 ***********************
   Editor J3
   Date: Jul, 15/2020
-
+  
+  I'd like to thank Prof. Borin, Me.(https://br.linkedin.com/in/borinvini)  
+  o/
 */
 #include <stdio.h>
 
