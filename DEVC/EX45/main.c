@@ -132,12 +132,12 @@ int main()
 		 		q[0][0] += quant;				
 				break;
 
-    	 case 2:
+    	         case 2:
         		printf("You chose: %d x X-Salad\n", quant); 
 				q[1][0] += quant;      	
         		break;
 
-    	 case 3:
+    	         case 3:
         		printf("You chose: %d x X-Bacon\n", quant); 
 				q[2][0] += quant;       	
         		break;
@@ -147,34 +147,34 @@ int main()
         		q[3][0] += quant;	
 				break;
         	
-    	 case 5:
+    	         case 5:
         		printf ("You chose: %d x Salad\n", quant);
         		q[4][0] += quant;
         		break;
         	
-    	 case 6:
+    	         case 6:
         		printf ("You chose: %d x Water\n", quant);
         		q[5][0] += quant;
         		break;
         	
-         case 7:
+                case 7:
         		printf ("You chose: %d x Soda\n", quant);
         		q[6][0] += quant;
         		break;
         	
-    	 default:
+    	        default:
 		        printf("Invalid Product:/\n");
 				break;
-         }
+             }
          
-	 scanf("%i %i", &prod, &quant);     
+	     scanf("%i %i", &prod, &quant);     
 	}
 
     printf("\tGood Choice!\n");	
 
     /* Calculating all 't' matrix - total to pay = debit */
-	int m = 0;	
-	for (i=0; i<prows; i++)
+    int m = 0;	
+    for (i=0; i<prows; i++)
 		{	
 		    for(j=0; j<qcolumns; j++)
 			{
@@ -192,13 +192,12 @@ int main()
 				sum = 0;
 		}
 	}
-		
-	/* Printing the receipt -  print when there is value on 't' index */
-	printf ("\n Here you have the ticket:\n\n"); 
-	printf("___________Receipt:____________\n");
-	printf("Quant\tPrice\tProduct\tTotal\n");
-	printf("-------------------------------\n");
-	for( i=0; i<trows; i++ )
+    /* Printing the receipt -  print when there is value on 't' index */
+    printf ("\n Here you have the ticket:\n\n"); 
+    printf("___________Receipt:____________\n");
+    printf("Quant\tPrice\tProduct\tTotal\n");
+    printf("-------------------------------\n");
+    for( i=0; i<trows; i++ )
 	{
 		for(j=0; j<tcolumns; j++)
 		{
@@ -216,7 +215,7 @@ int main()
 		printf("\t\t\n-------------------------------");
 		printf("\t\t\n");
 	}
-	printf("\nThank you for your visit\nand have a good appetite!\n");
-	//system("pause");
-	return 0;
+    printf("\nThank you for your visit\nand have a good appetite!\n");
+    //system("pause");
+    return 0;
 }
