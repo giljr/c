@@ -4,7 +4,7 @@
   Description
   
   This program calculates how much each customer spends in a snack bar.
-  In essence, this program initialize 3 matrices:
+  In essence, this program initializes 3 matrices:
   
   p[1][7] - Price of the Snack bar Products
   q[7][1] - Quantity of each item asked 
@@ -97,7 +97,7 @@ int main()
 	int prod = 0;
         int quant = 0;
 	
-	/*  */
+	/* Menu on screen splash */
 	printf("\n-------------------------------");
 	printf("\n:::::::JayThree Snack Bar::::::");	
 	printf("\n\t  Welcome!!");
