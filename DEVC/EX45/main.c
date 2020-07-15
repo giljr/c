@@ -157,12 +157,12 @@ int main()
         		q[5][0] += quant;
         		break;
         	
-                case 7:
+                 case 7:
         		printf ("You chose: %d x Soda\n", quant);
         		q[6][0] += quant;
         		break;
         	
-    	        default:
+    	         default:
 		        printf("Invalid Product:/\n");
 				break;
              }
