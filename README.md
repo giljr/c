@@ -143,6 +143,8 @@ Welcome!!!
 
 #[EX44 - DEVC](/DEVC/EX44) -  Project 44 - Initializing 3 Matrices & Multiply it all
 
+#[EX45 - DEVC](/DEVC/EX45) -  Project 45 - Solution for J3 Snack Bar (solve Project 31:)
+
 
 ### License
 
