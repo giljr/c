@@ -95,7 +95,7 @@ int main()
 	int i,j,k;
 	float res = 0, sum = 0;
 	int prod = 0;
-    int quant = 0;
+        int quant = 0;
 	
 	/*  */
 	printf("\n-------------------------------");
