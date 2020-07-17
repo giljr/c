@@ -145,6 +145,7 @@ Welcome!!!
 
 #[EX45 - DEVC](/DEVC/EX45) -  Project 45 - Solution for J3 Snack Bar (solve Project 31:)
 
+#[EX47 - DEVC](/DEVC/EX47) -  Project 47 - How to add 2 Matrices
 
 ### License
 
