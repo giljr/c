@@ -33,11 +33,10 @@ Please, enter 1 integers between 33-127:
 
 char letter1;
 char letter2;
+int res;
 
 int main()
 {
-	int res;
-	
 	printf("Please, enter 1 integers between 33-127:\n");
 	scanf("%i", &letter1);
 	printf("%d is character %c\n", letter1, letter1);
@@ -48,7 +47,7 @@ int main()
 	
 	char mathz = 'A' + '#' + '\0';
 	res = letter1 + letter2;
-	printf("\n%i(%c) + %i(%c) = %i(%c)", letter1, letter1, letter2, letter2, res);
+	printf("\n%i(%c) + %i(%c) = %i(%c)", letter1, letter1, letter2, letter2, res, res);
 
 	//system("pause");
 	return 0;
