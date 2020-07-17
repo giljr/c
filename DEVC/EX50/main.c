@@ -1,6 +1,6 @@
 
 /*
-  Project 49 - Matriz manipulation in the extreme "/
+  Project 50 - Matrix manipulation in the extreme "/
   
   Description
   
@@ -108,37 +108,37 @@ int main()
 	}
 	
 	printf("\nPlease enter %d elements for m1[%d][%d]:\n", y, size, size);	
-/* 2D array declaration*/
+	/* 2D array declaration*/
 
-/* 2D array declaration*/
-int m1[size][size];
-/* Counter variables for the loop */
-int i, j;
+	/* 2D array declaration*/
+	int m1[size][size];
+	/* Counter variables for the loop */
+	int i, j;
 
-for(i=0; i<size; i++) 
-{
+	for(i=0; i<size; i++) 
+	{
 
-  for(j=0;j<size;j++) 
-  {
-     printf("Enter value for m1[%d][%d]:", i, j);
-     scanf("%d", &m1[i][j]);
-  }
-}
+  		for(j=0;j<size;j++) 
+  		{
+     		printf("Enter value for m1[%d][%d]:", i, j);
+     		scanf("%d", &m1[i][j]);
+  		}
+	}
 
-/* Displaying array elements */
-printf("\nHere is the %d elements entered for m1[%d][%d]:\n", y, size, size);
-for(i=0; i<size; i++) 
-{
-  for(j=0;j<size;j++) 
-  {
-     printf("%d\t", m1[i][j]);
-  }
-  printf("\n");
-}
+	/* Displaying array elements */
+	printf("\nHere is the %d elements entered for m1[%d][%d]:\n", y, size, size);
+	for(i=0; i<size; i++) 
+	{
+  		for(j=0;j<size;j++) 
+  		{
+     		printf("%d\t", m1[i][j]);
+  		}
+ 		 printf("\n");
+	}
 
-/* Populating a matrix with letters */
-printf("\nMatrix m2[5][4] is populated by letters elements:\n");
-char m2[5][4] ={
+	/* Populating a matrix with letters */
+	printf("\nMatrix m2[5][4] is populated by letters elements:\n");
+	char m2[5][4] ={
         {'a','b','c','d'},
         {'e','f','g','h'},
         {'i','j','k','l'},
@@ -146,49 +146,49 @@ char m2[5][4] ={
         {'q','r','s','t'}
         };
 
- for (int i=0; i<5; i++)
-{
-	for(j=0; j<4; j++)
-	 {
-		printf("%c\t",m2[i][j]);
-	}
-  printf("\n");
-} 
+ 	for (int i=0; i<5; i++)
+	{
+		for(j=0; j<4; j++)
+	 	{
+			printf("%c\t",m2[i][j]);
+		}
+  	printf("\n");
+	} 
   
-/* Converting a matrix for integers */
-printf("\nConverting Matrix m2[5][4] to integers:\n");     
+	/* Converting a matrix for integers */
+	printf("\nConverting Matrix m2[5][4] to integers:\n");     
 
-for (int i=0; i<5; i++)
-{
-	for(j=0; j<4; j++)
-	 {
-		printf("%i\t",m2[i][j]);
-	 }
+	for (int i=0; i<5; i++)
+	{
+		for(j=0; j<4; j++)
+	 	{
+			printf("%i\t",m2[i][j]);
+	 	}
 
-   printf("\n");
-}
-/* Using pointers: */
-/* To use pointer, just declare it and pointing it to initial address of matrix */
-printf("\nUsing Pointer to scanning a matrix m3[3][3]:\n"); 
-// 2d array
-int m3 [3][3] = { { 1, 2, 3 }, { 4, 5, 6 }, {7, 8, 9} };
-/* Declaring the pointer to integer as NULL */
-int *pointer = NULL;
-/* Pointing the address of the initial value of matrix -> m3[0][0] */
-/* You can also write *m3 */
-pointer = &m3[0][0]; 
-/* Loop of row */
-for (i = 0; i < 3; ++i) 
-{   /* Loop for column */
-    for (j = 0; j < 3; ++j)
-    {
-        /*Read element of 2D array*/
-        //printf("m3[%d][%d] = %d\n", i, j, *(pointer + ( i + j)));
-        printf("m3[%d][%d] = %d\n", i, j, *pointer++);
-		//printf("m3[%d][%d] = %d\n", i, j, *pointer);
-        //pointer++;
-    }
-}
+   	printf("\n");
+	}
+	/* Using pointers: */
+	/* To use pointer, just declare it and pointing it to initial address of matrix */
+	printf("\nUsing Pointer to scanning a matrix m3[3][3]:\n"); 
+	// 2d array
+	int m3 [3][3] = { { 1, 2, 3 }, { 4, 5, 6 }, {7, 8, 9} };
+	/* Declaring the pointer to integer as NULL */
+	int *pointer = NULL;
+	/* Pointing the address of the initial value of matrix -> m3[0][0] */
+	/* You can also write *m3 */
+	pointer = &m3[0][0]; 
+	/* Loop of row */
+	for (i = 0; i < 3; ++i) 
+	{   /* Loop for column */
+    		for (j = 0; j < 3; ++j)
+    		{
+        		/*Read element of 2D array*/
+        		//printf("m3[%d][%d] = %d\n", i, j, *(pointer + ( i + j)));
+        		printf("m3[%d][%d] = %d\n", i, j, *pointer++);
+			//printf("m3[%d][%d] = %d\n", i, j, *pointer);
+        		//pointer++;
+    		}
+	}
 
-return 0;
+	return 0;
 }
