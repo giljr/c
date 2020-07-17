@@ -151,6 +151,8 @@ Welcome!!!
 
 #[EX49 - DEVC](/DEVC/EX49) -  Project 49 - Doing Math With Letter :)
 
+#[EX50 - DEVC](/DEVC/EX50) -  Project 50 - Matrix manipulation in the extreme "/
+
 
 
 
