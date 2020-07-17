@@ -62,7 +62,7 @@ int main()
 {
 	int r1 = 1, c1 = 12, r2 = 1, c2 = 12;
 	char mounth[12][12] = { "jan", "fev", "mar", "apr",  "may", "jun", "jul", "aug", "sept", "oct", "nov", "dez"};
-    int MAX_CAP = 150;
+    	int MAX_CAP = 150;
     
 	printf("What is the capacity of the reservoir? (suggestion: 10): \n");
 	scanf("%d", &MAX_CAP);
@@ -71,9 +71,9 @@ int main()
 	int m1[1][12];
 	int m4[1][12];
 	 
-    int m2[1][12] = {0};
-    int m3[1][12] = {0};	    
-    int r[1][12] = {0};
+    	int m2[1][12] = {0};
+    	int m3[1][12] = {0};	    
+    	int r[1][12] = {0};
 	int i, j, k;
 	
 	int total_rain = 0;
@@ -90,7 +90,7 @@ int main()
 		
 	}
 	printf("Here is the first matrix:\n");		
-    for(i = 0; i < r1; i++ )
+    	for(i = 0; i < r1; i++ )
 	{
 		for(j = 0; j < c1; j++)
 		{
@@ -110,7 +110,7 @@ int main()
 		
 	}
 	printf("Here is the second matrix:\n");		
-    for(i = 0; i < r2; i++ )
+    	for(i = 0; i < r2; i++ )
 	{
 		for(j = 0; j < c2; j++)
 		{
@@ -153,7 +153,7 @@ int main()
 	}
 	
 	/* Proceeding to all operations */
-    for(i = 0; i < r2; i++ )
+    	for(i = 0; i < r2; i++ )
 	{
 		for(j = 0; j < c2; j++)
 		{
@@ -176,7 +176,7 @@ int main()
 	printf("Here is the resultant pluviometric matrix: MAX = %d\n", MAX_CAP);	
 	printf("------------------------------------------------------\n");
 	printf("Mount\tInit\tRain\tPartial\tDrain\tStatus\tFinal\n");
-    printf("______________________________________________________\n");
+    	printf("______________________________________________________\n");
 	for(i = 0; i < r2; i++ )
 	{
 		for(j = 0; j < c2; j++)
@@ -187,7 +187,7 @@ int main()
 			
 			printf("%d -\t", m3[i][j]);			
 			printf("%d =\t", m4[i][j]);				
-         	if(r[i][j] <= 0)
+         		if(r[i][j] <= 0)
 			{
 				r[i][j] = 0;
 				printf("Empty!\t");
