@@ -45,7 +45,7 @@ int main()
 	scanf("%i", &letter2);	
 	printf("%d is character %c\n", letter2, letter2);
 	
-	char mathz = 'A' + '#' + '\0';
+	char mathz = 'A' + '#';
 	res = letter1 + letter2;
 	printf("\n%i(%c) + %i(%c) = %i(%c)", letter1, letter1, letter2, letter2, res, res);
 
