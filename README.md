@@ -153,6 +153,8 @@ Welcome!!!
 
 #[EX50 - DEVC](/DEVC/EX50) -  Project 50 - Matrix manipulation in the extreme "/
 
+#[EX52 - DEVC](/DEVC/EX52) -  Project 52 - 2D Matrix - Pointer use to save memory
+
 
 
 
