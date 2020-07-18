@@ -58,11 +58,11 @@ int main()
 	printf("Please, enter the matrix size: ");
 	scanf("%d", &size);
 	
-	while ( size > 10)
+	while ( size > 10 || size == 0)
 	{		
+		while((c = getchar()) != '\n' && c != EOF){};
 		printf("Please, the matrix size must be in the range of 1-10:");
-	    	scanf("%d", &size);
-	    	while((c = getchar()) != '\n' && c != EOF){};
+	    	scanf("%d", &size);	    	
 	}
     
 	LINE = size;
