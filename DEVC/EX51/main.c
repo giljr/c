@@ -61,19 +61,19 @@ int main()
 	while ( size > 10)
 	{		
 		printf("Please, the matrix size must be in the range of 1-10:");
-	    scanf("%d", &size);
-	    while((c = getchar()) != '\n' && c != EOF){};
+	    	scanf("%d", &size);
+	    	while((c = getchar()) != '\n' && c != EOF){};
 	}
     
 	LINE = size;
-    COLUMN = size;
+    	COLUMN = size;
 
 	for (i = 0; i < LINE; i++)
 	{
 
 		for (j = 0; j < COLUMN; j++)
 		{
-		    mtx[size][size];
+		    	mtx[size][size];
 			while((c = getchar()) != '\n' && c != EOF){};
 			printf("Please, enter each value of the matrix, index %d,%d :", i, j);
 			scanf_s("%c", &mtx[i][j]);			
