@@ -61,7 +61,7 @@ int main()
 	while ( size > 10 || size == 0)
 	{		
 		while((c = getchar()) != '\n' && c != EOF){};
-		printf("Please, the matrix size must be in the range of 1-10:");
+		printf("Please, the matrix size must be in the range of 1-10: ");
 	    	scanf("%d", &size);	    	
 	}
     
