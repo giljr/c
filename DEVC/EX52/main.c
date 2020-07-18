@@ -13,7 +13,7 @@
     1) You have to specify the numbers of collumns; there's no problem if you won't specify the 
 	   numbers of rows;
 	2) Using 2-D arrays a lots of memory space is simply wasted
-	   | 2 |   | P | i | n | e | a | p | p | l | e | \0 |
+	   | 2 |   | P | i | n | e | a | p | p  | l  | e  | \0 |
 	   | 2 |   | A | p | p | l | e | s | \0 | \0 | \0 | \0 | 
                                           *    *    *        (3/24 lost memory spaces :/
     3) Solution: unisng pointer
