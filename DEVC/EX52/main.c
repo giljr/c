@@ -20,7 +20,7 @@
          | 2 |   | P | i | n | e | a | p | p | l | e | \0 | 2 |   | A | p | p | l | e | s | \0 |
 		                                                      (0/21 lost memory space :) 
 		   ^                                                ^
-	  *fruit[0][0]                                     *fruit[0][1]    
+	  *fruits[0][0]                                     *fruits[0][1]    
 	        
 **************************************************
 Output:
