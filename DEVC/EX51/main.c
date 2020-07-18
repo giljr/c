@@ -55,7 +55,7 @@ char mtx[10][10];
 int main()
 {
     int size = 0;
-	printf("Please, enter the matrix size:\n");
+	printf("Please, enter the matrix size: ");
 	scanf("%d", &size);
 	
 	while ( size > 10)
