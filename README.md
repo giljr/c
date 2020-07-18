@@ -153,6 +153,8 @@ Welcome!!!
 
 #[EX50 - DEVC](/DEVC/EX50) -  Project 50 - Matrix manipulation in the extreme "/
 
+#[EX51 - DEVC](/DEVC/EX51) -  Project 51 - How To Declare a Matrix of Char (How to clear input buffer)
+
 #[EX52 - DEVC](/DEVC/EX52) -  Project 52 - 2D Matrix - Pointer use to save memory
 
 
