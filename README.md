@@ -160,7 +160,7 @@ Welcome!!!
 
 #[EX54 - DEVC](/DEVC/EX54) -  Project 54 - More advanced topics about Pointer & Array of Strings
 
-#[EX55 - DEVC](/DEVC/EX55) -  Project 55 - 3-D Matrix - How to Access it with a Triple Loops
+#[EX55 - DEVC](/DEVC/EX55) -  Project 55 - 3D Matrix - How to Access it with a Triple Loops
 
 
 
