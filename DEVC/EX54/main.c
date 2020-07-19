@@ -102,7 +102,7 @@ int main()
 	  so whenever something is a variable we can indeed change it; 
 	  in other words we can print this out or put on 
 	  the left-hand side of the equal sign.
-	  And it woks ;)
+	  And it works ;)
 	*/
 	
 	puts(movie2);
