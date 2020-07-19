@@ -34,7 +34,6 @@ Star Wars: Episode VII - The Force Awakens
 
 int main()
 {
-	//char movie1[] = "Star War : The Return!";
 	char movie1[] ="Star Wars Episode V:";
 	/* 
 	   Movie1 was essentially a special type of variable; 
