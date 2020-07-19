@@ -162,7 +162,7 @@ Welcome!!!
 
 #[EX55 - DEVC](/DEVC/EX55) -  Project 55 - 3D Matrix - How to Access it with a Triple Loops
 
-
+#[EX56 - DEVC](/DEVC/EX56) -  Project 56 - String Copy, String Concat & Malloc in C
 
 ### License
 
