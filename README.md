@@ -164,6 +164,9 @@ Welcome!!!
 
 #[EX56 - DEVC](/DEVC/EX56) -  Project 56 - String Copy, String Concat & Malloc in C
 
+#[EX57 - DEVC](/DEVC/EX57) -  Project 57 - Strtok - How to Use It in C!
+
+
 ### License
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
