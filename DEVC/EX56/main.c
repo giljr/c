@@ -1,5 +1,5 @@
 /*
-  Project 56 - String Copy, String Cancat & Malloc in C
+  Project 56 - String Copy, String Concat & Malloc in C
   
   Description:
   This program demostrate the use of malloc + strcpy + strcat;
@@ -9,6 +9,7 @@
   where each element in the array is of type character pointer.
   Confused? Read on!
   
+  What is de diff?
   char *message     -> message points to a character
   char* messages[5] -> messages is an array of 5 elements
                        where each element in the array is
@@ -19,11 +20,11 @@
      Array    Address representation     Memory at random position
   ---------   ----------------------     --------------------------
      Seq        Mem     _char*_          ...points to these adds...
-					    _______	            _____________________
+		        _______	            ____________________
   messages[0]   200    | 1000 | ----->1000 | o | n | e | \0 |   |
   messages[1]   201    | 1556 | -------              _____________________
-  messages[2]   202    | 2012 |  ---   ------->1556 | t | w | o | \0 |   |
-  messages[3]   203    |   ?  |    |            _____________________
+  messages[2]   202    | 2012 |  ---    ------>1556 | t | w | o | \0 |   |
+  messages[3]   203    |   ?  |    |           _____________________
   messages[4]   204    |   ?  |    ------>2012 | f | o | u | r  |\0 |
 
 *********************************************************************
@@ -108,6 +109,7 @@ int main()
 		free (messages[i]);
 	printf("All the memory used by malloc is now released!!!\n");
 	printf("Do not forget the free method of malloc!!!\n");
+	
 	//system("pause");
 	return 0;
 }
