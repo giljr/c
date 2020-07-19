@@ -74,12 +74,12 @@ int main()
 	  We need to use a special function like
 	  strcpy function (String Copy) or 
 	  what access each element individually one 
-	  by one:
+	  by one as below:
 	*/
 	
 	char newstrig[] = "String copied to movie1";
 	// strcpy(destination, source)
-    strcpy(movie1, newstrig);
+    	strcpy(movie1, newstrig);
 	printf("The string modified by strcpy(): %s\n", movie1);
 	
 	printf("%c\n", movie1[22]); // This will print '1', the last char of movie1
@@ -90,9 +90,9 @@ int main()
 	
 	/*	  
 	  Would be awesome if we could just work
-      with these strings like a normal variable?
+     	  with these strings like a normal variable?
       
-      Check it out!
+      	  Check it out!
 	*/
 	
 	char * movie2 = "Star Wars: Episode VII";
@@ -123,17 +123,17 @@ int main()
 	  So the key concept takeaway from this
 	  code is whenever you just make a
 	  very simple array of characters it's
-      hard to change because that name of the
-      array is a constant and we can't easily
-      change constants; 
+          hard to change because that name of the
+          array is a constant and we can't easily
+          change constants; 
       
 	  However whenever we make a pointer to 
 	  a string, this pointer is a variable, 
 	  so you can easily put it on the left hand 
 	  side since all this is doing is its storing
-      the address of something so then we can
-      treat it like a string :)	
+          the address of something so then we can
+          treat it like a string :)	
       
-      thenewboston, Thanks you!!!!!!!!!!!!!!!!!!
+          thenewboston, Thanks you!!!!!!!!!!!!!!!!!!
 	*/	
 }
