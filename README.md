@@ -137,6 +137,7 @@ Welcome!!!
 
 #[EX41 - DEVC](/DEVC/EX41) -  Project 41 - Presenting a Menu for Snack Bar
 
+
 #[EX42 - DEVC](/DEVC/EX42) -  Project 42 - Matrices Multiplication
 
 #[EX43 - DEVC](/DEVC/EX43) -  Project 43 - Matrices Multiplication - Accepting Floats
@@ -158,6 +159,9 @@ Welcome!!!
 #[EX52 - DEVC](/DEVC/EX52) -  Project 52 - 2D Matrix - Pointer use to save memory
 
 #[EX54 - DEVC](/DEVC/EX54) -  Project 54 - More advanced topics about Pointer & Array of Strings
+
+#[EX55 - DEVC](/DEVC/EX55) -  Project 55 - 3-D Matrix - How to Access it with a Triple Loops
+
 
 
 ### License
