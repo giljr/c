@@ -1,5 +1,5 @@
 /*
-   Project 54 - More advanced topics about Pointer & Array
+   Project 54 - More advanced topics about Pointer & Array of Strings
    
    Description:
    We'll understand the basics behind pointers and how to dereference 
