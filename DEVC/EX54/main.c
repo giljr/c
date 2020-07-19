@@ -23,6 +23,10 @@ Star Wars: Episode VII - The Force Awakens
    thenewboston
    C Programming Tutorial - 45 - Strings and Pointers
    https://youtu.be/-9fqo94G6YU
+   &   
+   mycodeschool
+   Character arrays and pointers - part 1
+   https://youtu.be/Bf8a6IC1dE8
    
    Edited by J3
    Date: Jul, 19/2020 
