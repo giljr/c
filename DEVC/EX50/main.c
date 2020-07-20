@@ -1,6 +1,6 @@
 
 /*
-  Project 50 - Matriz manipulation in the extreme "/
+  Project 50 - Matriz String manipulation in the extreme "/
   
   Description
   
@@ -128,7 +128,7 @@ int main()
 		}			
 	}
 	
-	printf("\nPlease enter %d numbers for m1[%d][%d]:\n", y, size, size);	
+printf("\nPlease enter %d numbers for m1[%d][%d]:\n", y, size, size);	
 /* 2D array declaration*/
 
 /* 2D array declaration*/
@@ -160,8 +160,8 @@ for(i=0; i<size; i++)
 /* Populating a matrix with letters */
 printf("\nMatrix m2[2][13] is populated by letters elements:\n");
 char m2[2][13] =
-	{
-		{'a','b','c','d','e','f','g','h','i','j','k','l','m'},
+    {
+	{'a','b','c','d','e','f','g','h','i','j','k','l','m'},
         {'n','o','p','q','r','s','t','u','w','v','x', 'y','z'}
     };
 
@@ -171,7 +171,7 @@ char m2[2][13] =
 	 {
 		printf("%c\t",m2[i][j]);
 	}
-  printf("\n");
+        printf("\n");
 } 
   
 /* Converting a matrix for integers */
@@ -186,6 +186,7 @@ for (int i=0; i<2; i++)
 
    printf("\n");
 }
+	
 /* Using pointers: */
 /* To use pointer, just declare it and pointing it to initial address of matrix */
 printf("\nUsing Pointer to scanning a matrix m3[3][3]:\n"); 
@@ -204,7 +205,7 @@ for (i = 0; i < 3; ++i)
         /*Read element of 2D array*/
         //printf("m3[%d][%d] = %d\n", i, j, *(pointer + ( i + j)));
         printf("m3[%d][%d] = %d\n", i, j, *pointer++);
-		//printf("m3[%d][%d] = %d\n", i, j, *pointer);
+	//printf("m3[%d][%d] = %d\n", i, j, *pointer);
         //pointer++;
     }
 }
