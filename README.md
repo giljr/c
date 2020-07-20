@@ -60,6 +60,8 @@ Welcome!!!
 
 #[Project 11 - Visual C++ 2019](/source/repos/Project11) - Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
 
+#[Project 12 - Visual C++ 2019](/source/repos/Project12) - Project 12 - Visual C++ 2019 - Exercise 3 - Homework - Frequency of Characters in a Matrix of Strings
+
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
