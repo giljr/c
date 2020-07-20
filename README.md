@@ -166,6 +166,9 @@ Welcome!!!
 
 #[EX57 - DEVC](/DEVC/EX57) -  Project 57 - Strtok - String Tokenizer - How to Use It in C!
 
+#[EX58 - DEVC](/DEVC/EX58) -  Project 58 - Finding the Frequency of Characters in a String
+
+
 
 ### License
 
