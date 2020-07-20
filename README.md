@@ -168,6 +168,7 @@ Welcome!!!
 
 #[EX58 - DEVC](/DEVC/EX58) -  Project 58 - Finding the Frequency of Characters in a String
 
+#[EX59 - DEVC](/DEVC/EX59) -  Project 59 - Frequency of Characters in a Matrix of Strings (Ex. 3 - Academic Homework)
 
 
 ### License
