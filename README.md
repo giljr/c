@@ -56,6 +56,8 @@ Welcome!!!
 
 #[Project8 - Visual C++ 2019](/source/repos/Project8) -   Simple calculator v1 (addition & subtraction) - Demo for functions
 
+#[Project 10 - Visual C++ 2019](/source/repos/Project10) - Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar
+
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
