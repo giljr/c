@@ -1,7 +1,7 @@
 /*
-  Project 45 - Solution for J3 Snack Bar - Solve Project 31
+  Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar
 
-  Description
+  Description:
 
   This program calculates how much each customer spends in a snack bar.
   In essence, this program initializes 3 matrices:
