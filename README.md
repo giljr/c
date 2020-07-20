@@ -58,6 +58,8 @@ Welcome!!!
 
 #[Project 10 - Visual C++ 2019](/source/repos/Project10) - Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar
 
+#[Project 11 - Visual C++ 2019](/source/repos/Project11) - Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
+
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
