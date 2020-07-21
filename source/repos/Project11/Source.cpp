@@ -1,5 +1,5 @@
 /*
-  Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
+  Project 11 - Visual C++ 2019 - Exercise 1 - Homework - Pluviometric Controller
   
   Description
 
@@ -9,7 +9,6 @@
   the consumption during those months.
   If the reservoir is full, notify; If empty, let me know too.
   Use the RU to take the final test:)
-
   Here is the essence of the algorithm:
   ---------------------------------------------------------
   Rain | Reservoir | Reservoir |  Consumption | Reservoir
@@ -61,7 +60,7 @@ ______________________________________________________
 int main()
 {
 	int r1 = 1, c1 = 12, r2 = 1, c2 = 12;
-	char mounth[12][12] = { "jan", "fev", "mar", "apr",  "may", "jun", "jul", "aug", "sept", "oct", "nov", "dez" };
+	char month[12][12] = { "jan", "fev", "mar", "apr",  "may", "jun", "jul", "aug", "sept", "oct", "nov", "dez" };
 	int MAX_CAP = 150;
 
 	printf("What is the capacity of the reservoir? (suggestion: 10): \n");
@@ -81,7 +80,7 @@ int main()
 
 	printf("Please, enter the of rain (mm) in your region, amount: \n");
 	printf("Suggestion: 5 6 4 10 3 5 4 4 3 3 3 12\n");
-	for (int i = 0; i < r1; i++)
+	for(int i = 0; i < r1; i++)
 	{
 		for (j = 0; j < c1; j++)
 		{
@@ -175,13 +174,13 @@ int main()
 	}
 	printf("Here is the resultant pluviometric matrix: MAX = %d\n", MAX_CAP);
 	printf("------------------------------------------------------\n");
-	printf("Mount\tInit\tRain\tPartial\tDrain\tStatus\tFinal\n");
+	printf("Month\tInit\tRain\tPartial\tDrain\tStatus\tFinal\n");
 	printf("______________________________________________________\n");
 	for (i = 0; i < r2; i++)
 	{
 		for (j = 0; j < c2; j++)
 		{
-			printf("%s\t", mounth[j]);
+			printf("%s\t", month[j]);
 			printf("%d +\t", m2[i][j]);
 			printf("%d =\t", m1[i][j]);
 
