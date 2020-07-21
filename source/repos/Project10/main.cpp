@@ -22,7 +22,7 @@
   |  3.49 |                      |  3.49 |
   |_ 4.99_|                      |_ 4.99_|
 
-						Total =  $ 43.95
+			Total =  $ 43.95
 
  Other matrices, like 'seq', 'code' and 'menu' serves only for presentation purpose;
  The user enter Code + Product + Space serially; The user can accumulate the products;
@@ -72,7 +72,7 @@ Quant   Price   Product Total
 -------------------------------
 14 x    9.99    X_Bacon 139.86
 -------------------------------
-				Total = 139.86
+		Total = 139.86
 -------------------------------
 
 Thank you for your visit
