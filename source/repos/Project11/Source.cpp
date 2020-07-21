@@ -1,5 +1,5 @@
 /*
-  Project 11 - Visual C++ 2019 - Exercise 1 - Homework - Pluviometric Controller
+  Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
   
   Description
 
