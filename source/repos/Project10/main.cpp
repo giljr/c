@@ -1,7 +1,7 @@
 /*
-  Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar
-
-  Description:
+  #Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar 
+  
+  Description
 
   This program calculates how much each customer spends in a snack bar.
   In essence, this program initializes 3 matrices:
@@ -25,7 +25,7 @@
 						Total =  $ 43.95
 
  Other matrices, like 'seq', 'code' and 'menu' serves only for presentation purpose;
- The user enter Code + Product + Space serially; The user can acummulate the products;
+ The user enter Code + Product + Space serially; The user can accumulate the products;
  When done, type 'q' to get the Receipt;
  It is for the academy's elegant solution of Project 31:)
 
@@ -124,7 +124,7 @@ int main()
 
 	/* Populating 'q' matrix - quantity of each product indexed */
 	/* While loop exit by typing 'q' - Quit */
-	/* Product can be acummulated in a single bid */
+	/* Product can be accumulated in a single bid */
 	while (getchar() != 'q')
 	{
 		switch (prod)
