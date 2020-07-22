@@ -22,7 +22,7 @@ Output:  (RU 3336662)
 
 What is the capacity of the reservoir? (suggestion: 10):
 10
-Please, enter the of rain (mm) in your region, amount:
+Please, enter the of rain (mm) in your region, monthly:
 Suggestion: 5 6 4 10 3 5 4 4 3 3 3 12
 5 6 4 10 3 5 4 4 3 3 3 12
 Here is the first matrix:
@@ -78,7 +78,7 @@ int main()
 	int total_rain = 0;
 	int total_drain = 0;
 
-	printf("Please, enter the of rain (mm) in your region, amount: \n");
+	printf("Please, enter the of rain (mm) in your region, monthly: \n");
 	printf("Suggestion: 5 6 4 10 3 5 4 4 3 3 3 12\n");
 	for(int i = 0; i < r1; i++)
 	{
