@@ -38,7 +38,8 @@ width of six characters with two decimal places.
 There you have it! Bye! o/
 **************************************************************************
  
- From: Beginning_c_5th_edition - Book - pg 46
+ From: Book: Beginning_c_5th_edition - Takes you Step-by-Step From Novice to C Programmer - Ivor Horton
+       page - pg 46 - Floating-Point Number Representation - Chapter 2: First Steps in Programming
  Edited by j3
  
  Date: Jun, 22/2020
