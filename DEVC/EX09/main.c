@@ -23,7 +23,7 @@
   0A  _ _|  |  |  |                  |  |  |  |_ _ 0D
   0B  _ _ _|  |  |                   |  |  |_ _ _  0C
   0C _ _ _ _ |  |                    |  | _ _ _ _  0B
-  0D _ _ _ _ _ |      		    | _ _ _ _ _   0A
+  0D _ _ _ _ _ |      		     | _ _ _ _ _   0A
 
  Author: https://www.geeksforgeeks.org/little-and-big-endian-mystery/
  Edited by j3
