@@ -176,6 +176,12 @@ Welcome!!!
 
 #[EX59 - DEVC](/DEVC/EX59) -  Project 59 - Frequency of Characters in a Matrix of Strings (Ex. 3 - Academic Homework)
 
+#[EX62 - DEVC](/DEVC/EX62) -  Project 62 - Data Structure: struct in C -  [Struct, Union, Bit Field & Enumeration in C - Intro to These Important Concepts for Microcontroller World — CRootConceptSeries # Episode 00](https://medium.com/jungletronics/struct-union-bit-field-enumeration-in-c-e3af4672a424)
+
+#[EX63 - DEVC](/DEVC/EX63) -  Project 63 - Data Structure: struct in C -  [Intro to struct — CRootConceptSeries # Episode 01](https://medium.com/jungletronics/struct-union-bit-field-enumeration-in-c-e3af4672a424)
+
+#[EX64 - DEVC](/DEVC/EX64) -  Project 64 - Data Structure: struct in C -  [Intro to struct — CRootConceptSeries # Episode 01](https://medium.com/jungletronics/data-structure-struct-in-c-caf48ae3c1b2)
+
 
 ### License
 
