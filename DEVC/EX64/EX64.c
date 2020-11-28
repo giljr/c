@@ -85,36 +85,36 @@ struct Date date_init(struct Date *dt)
 
 void date_print(const struct Date *dt)
 {
-	//printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", (*dt).day, (*dt).month, (*dt).year,(*dt).status);
+     //printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", (*dt).day, (*dt).month, (*dt).year,(*dt).status);
 	
-	printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt->day, dt->month, dt->year, dt->status);
+     printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt->day, dt->month, dt->year, dt->status);
 }
 
 int validate() 
 {
-	// Hardware Serial initialization stake goes here!
-	return TRUE;
+     // Hardware Serial initialization stake goes here!
+     return TRUE;
 }
 	
 main()
 {
-	struct Date clock;
-	//UART_Init(9600);
+     struct Date clock;
+     //UART_Init(9600);
 	
-    clock = date_init(&clock);
+     clock = date_init(&clock);
      
-    clock = date_modify(&clock, 28, 11, 2020, TRUE);
+     clock = date_modify(&clock, 28, 11, 2020, TRUE);
     
-	//clock.day = 28;
-    //clock.month = 11;
-    //clock.year = 2020;
-    //clock.status = 0;
+     //clock.day = 28;
+     //clock.month = 11;
+     //clock.year = 2020;
+     //clock.status = 0;
     
-    date_print(&clock);
-    
-	//printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
+     date_print(&clock);
+     
+     //printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
 	
-	return 0;
+     return 0;
 	
 }
 
