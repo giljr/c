@@ -65,7 +65,7 @@ struct Date date_init(struct Date dt)
 struct Date date_modify(struct Date dt, int day, int month, int year)
 {
      
-	 dt.day = day;
+     dt.day = day;
      dt.month = month;
      dt.year = year;
      
