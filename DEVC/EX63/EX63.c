@@ -34,7 +34,7 @@ Status=0
   Inspired by: microgenios.com.br
   Edited by j3
 	
-  Date: Nov, 28/2020
+  Date: Nov, 29/2020
 */
 
 
@@ -43,6 +43,7 @@ Status=0
 #include <stdlib.h>
 
 #define TRUE 1
+#define FALSE 0
 
 struct Date
 {
@@ -52,58 +53,69 @@ struct Date
      unsigned int status;		
 };
 
-struct Date date_modify(struct Date dt, int day, int month, int year, int status)
-{
-     dt.day = day;
-     dt.month = month;
-     dt.year = year;
-     dt.status = status;
-     
-     if(validateUART())
-         {
-            dt.status = 1;
-         } else {
-            dt.status = 0;
-         }  
-     return dt;
-}
-
 struct Date date_init(struct Date dt)
 {
-     dt.day = 28;
+     dt.day = 01;
      dt.month = 11;
      dt.year = 2020;
      dt.status = 1;
+	 return dt;
+}
+
+struct Date date_modify(struct Date dt, int day, int month, int year)
+{
+     
+	 dt.day = day;
+     dt.month = month;
+     dt.year = year;
+     
+     if (validate())
+	 {
+	 	dt.status = TRUE;
+	 } 
+	 else
+	 {
+	 	dt.status = FALSE;
+	 }  
+	 
      return dt;
+}
+
+int validate() 
+{
+	// Hardware Serial initialization stake goes here!
+	return FALSE;
+	//return TRUE;
 }
 
 void date_print(const struct Date dt)
 {
-	printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
+	if(dt.status)
+	{
+        printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d\n\n", dt.day, dt.month, dt.year,dt.status);
+	} 
+	else
+	{
+	  	printf("Error: Object initialization Problem:\\\nPlease, Verify your Serial Port of your Iot Hardware.\n");		
+	}
+
 }
 
-int validateUART() 
-{
-	// Hardware Serial initialization stake goes here!
-	return TRUE;
-}
-	
 main()
 {
 	struct Date clock;
 	//UART_Init(9600);
 	
     clock = date_init(clock);
+    date_print(clock);
      
-    clock = date_modify(clock, 28, 11, 2020, TRUE);
-    
+    clock = date_modify(clock, 28, 11, 2020);    
 	//clock.day = 28;
     //clock.month = 11;
     //clock.year = 2020;
-    //clock.status = 0;
-    
-    date_print(clock);
-    
+    //clock.status = 0;  
+	  
+    date_print(clock);    
 	//printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
 	
 	return 0;
