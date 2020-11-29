@@ -20,10 +20,13 @@
 ********************
 Output
 Date:
-Day=28
+Day=1
 Month=11
 Year=2020
-Status=0
+Status=1
+
+Error: Object initialization Problem:\
+Please, Verify your Serial Port of your Iot Hardware.
 ********************
 	
   GitHub Repo:
