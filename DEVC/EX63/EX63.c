@@ -59,7 +59,7 @@ struct Date date_init(struct Date dt)
      dt.month = 11;
      dt.year = 2020;
      dt.status = 1;
-	 return dt;
+     return dt;
 }
 
 struct Date date_modify(struct Date dt, int day, int month, int year)
@@ -92,32 +92,32 @@ void date_print(const struct Date dt)
 {
 	if(dt.status)
 	{
-        printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d\n\n", dt.day, dt.month, dt.year,dt.status);
+            printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d\n\n", dt.day, dt.month, dt.year,dt.status);
 	} 
 	else
 	{
-	  	printf("Error: Object initialization Problem:\\\nPlease, Verify your Serial Port of your Iot Hardware.\n");		
+	    printf("Error: Object initialization Problem:\\\nPlease, Verify your Serial Port of your Iot Hardware.\n");		
 	}
 
 }
 
 main()
 {
-	struct Date clock;
-	//UART_Init(9600);
+    struct Date clock;
+    //UART_Init(9600);
 	
     clock = date_init(clock);
     date_print(clock);
      
     clock = date_modify(clock, 28, 11, 2020);    
-	//clock.day = 28;
+    //clock.day = 28;
     //clock.month = 11;
     //clock.year = 2020;
     //clock.status = 0;  
 	  
     date_print(clock);    
-	//printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
+    //printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
 	
-	return 0;
+    return 0;
 	
 }
