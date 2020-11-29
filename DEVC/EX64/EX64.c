@@ -88,7 +88,7 @@ struct Date date_modify(struct Date *dt, int day, int month, int year)
          	dt -> status = FALSE;
             //(*dt).status = 0;
          }  
-     return *dt;
+         return *dt;
 }
 
 void date_print(const struct Date *dt)
@@ -110,8 +110,8 @@ void date_print(const struct Date *dt)
 
 main()
 {
-	struct Date clock;
-	//UART_Init(9600);
+    struct Date clock;
+    //UART_Init(9600);
 	
     clock = date_init(&clock);
     date_print(&clock);
@@ -123,9 +123,9 @@ main()
     //clock.status = 0;    
     date_print(&clock);
     
-	//printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
-	
-	return 0;
+    //printf("Date:\nDay=%d\nMonth=%d\nYear=%d\nStatus=%d", dt.day, dt.month, dt.year,dt.status);
+	 
+    return 0;
 	
 }
 
