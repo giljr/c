@@ -182,6 +182,9 @@ Welcome!!!
 
 #[EX64 - DEVC](/DEVC/EX64) -  Project 64 - Data Structure: struct in C -  [Intro to struct — CRootConceptSeries # Episode 01](https://medium.com/jungletronics/data-structure-struct-in-c-caf48ae3c1b2)
 
+#[EX65 - DEVC](/DEVC/EX65) -  Project 65 - Pointers & Arrays in C -  Intro to Pointers in C
+
+
 
 ### License
 
