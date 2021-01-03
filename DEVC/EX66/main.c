@@ -1,14 +1,16 @@
 /*
-  Project 45 - Daniel's Resto - Classe e Sabor ao seu dispor!
+  Project 46 - Daniel's Resto - Classe e Sabor ao seu dispor!
   
   Descricao
   
   O restaurante "Daniel's Resto", tem sua sede em 
-     Belo Horizonte
+     
+	 Belo Horizonte MG
      Rua Nobre, Pampulha, numero 100.
   
   Seu proprietario e conhecedor da mais legitima culinaria Mineira e e formado na Franca:
-    Ecole DelMetre Paris Certificacao Internacional
+    
+	Ecole DelMetre Paris Certificacao Internacional
   
   Para prova de conceito fora desenvolvido esse codigo executavel em Windows.
   
@@ -136,7 +138,7 @@ int main()
 	/* Menu  splash */
 	printf("\n-------------------------------------");
 	printf("\n::::::::::::Daniel's Resto:::::::::::");	
-	printf("\n\--------------Bem Vindo--------------");	
+	printf("\n--------------Bem Vindo--------------");	
 	printf("\n-----------------MENU----------------\n");
   	printf("Cod\tProduto\t\tPreco\n");
   	printf("-------------------------------------\n");
