@@ -184,6 +184,7 @@ Welcome!!!
 
 #[EX65 - DEVC](/DEVC/EX65) -  Project 65 - Pointers & Arrays in C -  Intro to Pointers in C
 
+#[EX66 - DEVC](/DEVC/EX66) -  Project 65 - Daniel's Resto - Classe e Sabor ao seu dispor! -  Trabalho academico - veja o encarte dos requisitos!
 
 
 ### License
