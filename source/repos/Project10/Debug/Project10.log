@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\giljr\source\repos\Project10\main.cpp(94,61): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Project10.vcxproj -> C:\Users\giljr\source\repos\Project10\Debug\Project10.exe

@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\giljr\source\repos\Project12\Source.cpp(97,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\giljr\source\repos\Project12\Source.cpp(97,12): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\giljr\source\repos\Project12\Source.cpp(97,12): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\giljr\source\repos\Project12\Source.cpp(97,12): message : this argument is used as a buffer size
+  Project12.vcxproj -> C:\Users\giljr\source\repos\Project12\Debug\Project12.exe
