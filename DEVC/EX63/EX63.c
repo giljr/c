@@ -65,12 +65,12 @@ struct Date date_init(struct Date dt)
      return dt;
 }
 
-struct Date date_modify(struct Date dt, int day, int month, int year)
+struct Date date_modify(struct Date dt, int _day, int _month, int _year)
 {
      
-     dt.day = day;
-     dt.month = month;
-     dt.year = year;
+     dt.day = _day;
+     dt.month = _month;
+     dt.year = _year;
      
      if (validate())
 	 {
