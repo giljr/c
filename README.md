@@ -40,27 +40,27 @@ Welcome!!!
 
 [#01 - Solution -_if_while_dowhile_for](_01_if_while_dowhile_for/) #CSeries - Solution1 - Inside 4 projs exemplifying the use of selection (if) & Iterations statements while, do-while & for loops; 
 
-#[Project1 - Visual C++ 2019](/source/repos/Project1) -  It is even or odd? If statement - simple Selection Statement.
+#[Project1 - Visual C++ 2019](/VISUALC/source/repos/Project1) -  It is even or odd? If statement - simple Selection Statement.
 
-#[Project2 - Visual C++ 2019](/source/repos/Project2) -  Halting the system w/ while:)
+#[Project2 - Visual C++ 2019](/VISUALC/source/repos/Project2) -  Halting the system w/ while:)
 
-#[Project3 - Visual C++ 2019](/source/repos/Project3) -  Halting the system w/ do-while:)
+#[Project3 - Visual C++ 2019](/VISUALC/source/repos/Project3) -  Halting the system w/ do-while:)
 
-#[Project4 - Visual C++ 2019](/source/repos/Project4) - Halting the system w/ for - run 5 times only
+#[Project4 - Visual C++ 2019](/VISUALC/source/repos/Project4) - Halting the system w/ for - run 5 times only
 
-#[Project5 - Visual C++ 2019](/source/repos/Project5) - Using Vectors and scanning it w/ 1 for loop
+#[Project5 - Visual C++ 2019](/VISUALC/source/repos/Project5) - Using Vectors and scanning it w/ 1 for loop
 
-#[Project6 - Visual C++ 2019](/source/repos/Project6) - Using Matrices - How to scan each element using 2 for loops
+#[Project6 - Visual C++ 2019](/VISUALC/source/repos/Project6) - Using Matrices - How to scan each element using 2 for loops
 
-#[Project7 - Visual C++ 2019](/source/repos/Project7) - Using Function in C - a simple calculator - returning the bigger from 3 integers
+#[Project7 - Visual C++ 2019](/VISUALC/source/repos/Project7) - Using Function in C - a simple calculator - returning the bigger from 3 integers
 
-#[Project8 - Visual C++ 2019](/source/repos/Project8) -   Simple calculator v1 (addition & subtraction) - Demo for functions
+#[Project8 - Visual C++ 2019](/VISUALC/source/repos/Project8) -   Simple calculator v1 (addition & subtraction) - Demo for functions
 
-#[Project 10 - Visual C++ 2019](/source/repos/Project10) - Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar
+#[Project 10 - Visual C++ 2019](/VISUALC/source/repos/Project10) - Project 10 - Visual C++ 2019 - Exercise 1 - Homework - Snack Bar
 
-#[Project 11 - Visual C++ 2019](/source/repos/Project11) - Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
+#[Project 11 - Visual C++ 2019](/VISUALC/source/repos/Project11) - Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
 
-#[Project 12 - Visual C++ 2019](/source/repos/Project12) - Project 12 - Visual C++ 2019 - Exercise 3 - Homework - Frequency of Characters in a Matrix of Strings
+#[Project 12 - Visual C++ 2019](/VISUALC/source/repos/Project12) - Project 12 - Visual C++ 2019 - Exercise 3 - Homework - Frequency of Characters in a Matrix of Strings
 
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
