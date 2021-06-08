@@ -186,6 +186,8 @@ Welcome!!!
 
 #[EX66 - DEVC](/DEVC/EX66) -  Project 65 - Daniel's Resto - Classe e Sabor ao seu dispor! -  Trabalho academico - veja o encarte dos requisitos!
 
+#[EX68 - DEVC](/DEVC/EX68) -  Project 68 - How to get the type of a variable in C code? - Intro to C Language
+
 
 ### License
 
