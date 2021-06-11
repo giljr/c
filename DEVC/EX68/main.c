@@ -53,9 +53,9 @@ int main() {
 	printf("The Default C type is: ");
 	if(sizeof(f)==sizeof(char))
         printf("char");
-    else if(sizeof(f)==sizeof(int))
+        else if(sizeof(f)==sizeof(int))
         printf("int");
-    else if(sizeof(f)==sizeof(double))
+        else if(sizeof(f)==sizeof(double))
         printf("double");
 	
 	return 0;
