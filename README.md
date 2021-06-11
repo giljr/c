@@ -184,9 +184,13 @@ Welcome!!!
 
 #[EX65 - DEVC](/DEVC/EX65) -  Project 65 - Pointers & Arrays in C -  Intro to Pointers in C
 
-#[EX66 - DEVC](/DEVC/EX66) -  Project 65 - Daniel's Resto - Classe e Sabor ao seu dispor! -  Trabalho academico - veja o encarte dos requisitos!
+#[EX66 - DEVC](/DEVC/EX66) -  Project 66 - Daniel's Resto - Classe e Sabor ao seu dispor! -  Trabalho academico - veja o encarte dos requisitos!
 
 #[EX68 - DEVC](/DEVC/EX68) -  Project 68 - How to get the type of a variable in C code? - Intro to C Language
+
+#[EX69 - DEVC](/DEVC/EX69) -  Project 69 - A Pointer to a Pointer Exercise - How to use pointer of pointer in C Language
+
+#[EX70 - DEVC](/DEVC/EX70) -  Project 70 - Multiple indirection with integers - How to use multiply pointer in C Language
 
 
 ### License
