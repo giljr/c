@@ -58,7 +58,7 @@
 
 #define LENGTH 3
 
-int data[LENGTH];	    // some integers
+int data[LENGTH];	                // some integers
 
 int main(int argc, char **argv) {
 	int *pi;			// a simple pointer to an integer
@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
 
 	printf("multiple indirection example\n");
 
-	// initialize our integer array
+	/* initialize our integer array */
 	for (int i = 0; i < LENGTH; i++) {
 		data[i] = i;
 	}
@@ -81,11 +81,11 @@ int main(int argc, char **argv) {
 	pi = data;			// set the pointer to an integer  to the start of the data array
 	
 	ppi = &pi;			// and set the pointer to a pointer to pi itself
-	                    // The asterisk(*), which is sometimes called the  
-						// deferencing operator or the indirection operator, 
-						// gives me access to the data it is stored at that address
-	                    // Remember: (&) gives me reference to an address
-                        //           (*) gives me access    to the data 
+	                                // The asterisk(*), which is sometimes called the  
+					// deferencing operator or the indirection operator, 
+					// gives me access to the data it is stored at that address
+	                                // Remember: (&) gives me reference to an address
+                                        //           (*) gives me access    to the data 
 
 	for (int i = 0; i < LENGTH; i++) {
 		printf("array address is %d\n", data);
