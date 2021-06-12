@@ -10,7 +10,7 @@
  How to resolve  this error: 
 
 
- ‘for’ loop initial declarations are only allowed in C99 or C11 mode) ?
+ â€˜forâ€™ loop initial declarations are only allowed in C99 or C11 mode) ?
 
 
  Configure Dev C++ to use the ansi iso c99 standard (recommended to avoid further compatibility issues with the exercises in the book)
@@ -67,14 +67,14 @@
 char *words[LENGTH];		        // some strings
 
 int main(int argc, char **argv) {
-	char *pc;			            // a pointer to a character
+	char *pc;			// a pointer to a character
 	
-	char **ppc;			            // a pointer to a pointer to a character
-                                    // The asterisk(*), which is sometimes called the  
-						            // deferencing operator or the indirection operator, 
-						            // gives me access to the data it is stored at that address
+	char **ppc;			// a pointer to a pointer to a character
+                                        // The asterisk(*), which is sometimes called the  
+					// deferencing operator or the indirection operator, 
+					// gives me access to the data it is stored at that address
 	                                // Remember: (&) gives me reference to an address
-                                    //           (*) gives me access    to the data  									
+                                        //           (*) gives me access    to the data  									
 	/* initialize our string array  */
 	words[0] = "zero";
 	words[1] = "one";
@@ -101,16 +101,16 @@ int main(int argc, char **argv) {
 		ppc = words + i;
 		printf("ppc = %d\n", ppc);
 		pc = *ppc;		
-		while (*pc != 0) {			// process each character in a string
-			printf("%c", *pc);		// print out each character of the string individually
-			pc += 1;
-			printf("-> pc = %d\n", pc);			
+		while (*pc != 0) {	// process each character in a string
+		   printf("%c", *pc);	// print out each character of the string individually
+		   pc += 1;
+		   printf("-> pc = %d\n", pc);			
 		}
 		
 		//printf("\n");
 	}
 	printf("Loop End\n");
 	
-    printf("\nppc = %d\n", ppc);
+        printf("\nppc = %d\n", ppc);
 	return 0;
 }
