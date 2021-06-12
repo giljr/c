@@ -101,7 +101,7 @@ int main(int argc, char **argv) {
 		printf("%c ", *pc);	// print out each character of the string individually
 		pc += 1;
 		printf("pc = %d\n", pc);			
-	}
+	        }
 		
 		//printf("\n");
 	}
