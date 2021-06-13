@@ -192,6 +192,10 @@ Welcome!!!
 
 #[EX70 - DEVC](/DEVC/EX70) -  Project 70 - Multiple indirection with integers - How to use multiply pointer in C Language
 
+#[EX71 - DEVC](/DEVC/EX71) -  Project 71 - Using Arrays of Structures - Book: Beginning C - From Novice to Professional (Ivor Horton)
+
+#[EX72 - DEVC](/DEVC/EX72) -  Project 72 - Practical Work Academy nº 5 Computer Engineer UNINTER - Saving .csv File in C Language
+
 
 ### License
 
