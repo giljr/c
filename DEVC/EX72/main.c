@@ -7,7 +7,7 @@
    
    This program solves this Practice exercise from my Computer Enginner's home work at: 
    
-   UNINTER - Engenharia da Computação - Escola Superior Politécnica - https://www.uninter.com
+   UNINTER - Engenharia da ComputaÃ§Ã£o - Escola Superior PolitÃ©cnica - https://www.uninter.com
    
    PRACTICE 05
 	Create a program, in C language, that receives 6 records containing, Product Name,
@@ -106,7 +106,7 @@
 	************************************************************
 	
    Author: Gilberto Jr RU 3326662   
-   Curso : Engenharia da Computação
+   Curso : Engenharia da ComputaÃ§Ã£o
    Date: Jun, 2021
 */
 
@@ -136,7 +136,7 @@ int main(int argc, char *argv[]) {
 		printf("Do you want to enter details of a%s Product (Y or N)? ", pcount?"nother " : "");
 		scanf(" %c", &test);
 		
-		if(tolower(test)=='n') break;                       // If negative, break the loop :/
+		if(tolower(test)=='n') break;                           // If negative, break the loop :/
 
 		printf("\nEnter the name of the product: ");
 		scanf("%s", &My_prods[pcount].name);              	// Read the product's name
