@@ -155,8 +155,8 @@ int main(int argc, char *argv[]) {
 	/* Initialize the file to save all inside as .csv file */
 	FILE *fpt;
 	
-    fpt = fopen(filename, "w+");
-    fprintf(fpt,"Code;Price;Product\n");
+        fpt = fopen(filename, "w+");
+        fprintf(fpt,"Code;Price;Product\n");
     	
 	/* Saving all Products to a File */
 	for (int i = 0; i < pcount; i++)
@@ -174,15 +174,15 @@ int main(int argc, char *argv[]) {
 	printf("\tCod\tPrice\tProduct\n");
 	printf("---------------------------------------\n");
 
-    for (int i = 0; i < pcount; i++)
+        for (int i = 0; i < pcount; i++)
 	{
 
 		printf("\n\t%d\t%.2f\t%s", My_prods[i].code, My_prods[i].value, My_prods[i].name);
 	
 	}
 		
-    printf("\n_______________________________________\n");
-    printf("\n_______________________________________\n");
+       printf("\n_______________________________________\n");
+       printf("\n_______________________________________\n");
     
-	return 0;
+       return 0;
 }
