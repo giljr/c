@@ -196,6 +196,18 @@ Welcome!!!
 
 #[EX72 - DEVC](/DEVC/EX72) -  Project 72 - Practical Work Academy nº 5 Computer Engineer UNINTER - Saving .csv File in C Language
 
+#[EX73 - DEVC](/DEVC/EX73) -  Project 73 - How to Navegate Throght Nodes Using Recursion in C Language
+
+#[EX74 - DEVC](/DEVC/EX74) -  Project 74 - Simple Use of recursion - sum() in C Language
+
+#[EX75 - DEVC](/DEVC/EX75) -  Project 75 - Practical Work Academy nº 4 Computer Engineer UNINTER -  Recursive Funtions Max & Min
+
+#[EX76 - DEVC](/DEVC/EX76) -  Project 76 - Practical Work Academy nº 2 Computer Engineer UNINTER -  Structs & Concatenations
+
+#[EX77 - DEVC](/DEVC/EX77) -  Project 77 - Practical Work Academy nº 1 Computer Engineer UNINTER -  Structs & Pointers
+
+#[EX78 - DEVC](/DEVC/EX78) -  Project 78 - Practical Work Academy nº 3 Computer Engineer UNINTER -  Structs & Functions
+
 
 ### License
 
