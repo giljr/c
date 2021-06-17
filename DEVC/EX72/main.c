@@ -9,7 +9,7 @@
    
    UNINTER - Engenharia da Computação - Escola Superior Politécnica - https://www.uninter.com
    
-   PRACTICE 05
+   PRACTICE 5
 	Create a program, in C language, that receives 6 records containing, Product Name,
 	Product code (numeric), product value. Request that all data for everyone be entered
 	the records and at the end save them in a.csv file, use the ; (semicolon) for separator and
