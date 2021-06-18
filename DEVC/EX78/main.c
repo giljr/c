@@ -39,8 +39,8 @@
 	To demonstrate the operation, use the first two digits of the room as the width of the room.
     	its RU and for height the last two digits of its RU. 
     
-    ************************************************************
-    Output:
+    	************************************************************
+    	Output:
     
 	Please, enter the width of your area: 33.0
 	Please, enter the height of your area: 62.0
