@@ -103,8 +103,8 @@
 	4th Edition Pg 418   Author Ivor Horton 
 	Chap 11 - Dynamic Memory Allocation for Structure
 	   
-	UNINTER - Curso: Engenharia da Computação
-	Escola Superior Politécnica
+	UNINTER - Curso: Engenharia da ComputaÃ§Ã£o
+	Escola Superior PolitÃ©cnica
 	Author: Gilberto Jr RU 3326662 
 	Edited: J3
 	Date: Jun, 2021
@@ -196,7 +196,7 @@ int main(int argc, char *argv[]) {
 		free(ptr2Calendar[i]);
 	}
 	printf("\n____________________________________\n");
-    printf("\n____________________________________\n");
+    	printf("\n____________________________________\n");
 	
 	return 0;
 }
