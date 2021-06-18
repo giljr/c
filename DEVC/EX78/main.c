@@ -8,16 +8,16 @@
 	The program ends when the room type equals -1. 
 	The table below shows, for each type of room, the amount of watts per square meter:
 
-    kind of room  - Power (w)
+        kind of room  - Power (w)
            0      -   12
            1      -   15
-		   2      -   18
-		   3      -   20
-		   4      -   22
+   	   2      -   18
+	   3      -   20
+	   4      -   22
 		   
-    Use a struct structure to logically group information.
+        Use a struct structure to logically group information.
     
-    Here's the prototyping functions proposed:
+        Here's the prototyping functions proposed:
     
 	room(int type of room, float width and float length). 
 	
@@ -37,7 +37,7 @@
 	At the end, show the user the number of lamps in rounded integer values up.
     
 	To demonstrate the operation, use the first two digits of the room as the width of the room.
-    its RU and for height the last two digits of its RU. 
+    	its RU and for height the last two digits of its RU. 
     
     ************************************************************
     Output:
@@ -47,7 +47,7 @@
 	Please, enter the type of your room: 0
 	171 lamps will be necessary for 2046.00 m^2 of area of type 0
     
-    ************************************************************
+    	************************************************************
 	Output /: invalid type entered :/
 	 
 	Please, enter the width of your area: 33.0
@@ -59,8 +59,8 @@
 	************************************************************
 
 	Author: Gilberto Jr RU 3326662   
-	UNINTER - Escola Superior Politécnica
-	Curso : Engenharia da Computação
+	UNINTER - Escola Superior PolitÃ©cnica
+	Curso : Engenharia da ComputaÃ§Ã£o
 	Date: Jun, 2021
 */
 
@@ -82,7 +82,7 @@ typedef struct Room
 {
 	int type;
 	float width;
-    float height;
+    	float height;
 	float area;
 	
 } Room_t;
