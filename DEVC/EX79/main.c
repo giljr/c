@@ -68,40 +68,40 @@
    
        Address     Memory
 	           +-------------+
-	*first     ¦  ¦ ¦ ¦  ¦ ¦ +--? NULL  -> 80186
-	           +--+-+-+--+-+-¦                   ¦
-	*current   ¦  ¦ ¦ ¦  ¦ ¦ +--? NULL  -> 80186-¦> NULL -> 90144  -> NULL
-	           +--+-+-+--+-+-¦                   ¦
-	*previous  ¦  ¦ ¦ ¦  ¦ ¦ +--? NULL  -> 80186 +--------> 90144 
-	           +-------------¦                   ¦                ¦
-	           ¦     ...     ¦                   ¦                ¦
-	           ¦             ¦                   ¦                ¦
-	    80186  +-------------¦   Register1 <-----+                ¦
-	           ¦+++++++++++++¦                                    ¦
-	           ¦+++++++++++++¦                                    ¦                 ?
-	           ¦+++++++++++++¦                                    ¦
-	           ¦+++++++++++++¦                                    ¦
-	           +-------------¦                                    ¦
-	           ¦             ¦                                    ¦
-	           ¦     ...     ¦                                    ¦
-	    90144  +-------------¦   Register2  <---------------------+
-	           ¦+++++++++++++¦
-	           ¦+++++++++++++¦
-	           ¦+++++++++++++¦
-	           ¦+++++++++++++¦
-	           +-------------¦
-	           ¦             ¦
-	           ¦             ¦
-	           ¦             ¦
-	           ¦             ¦
+	*first     Â¦  Â¦ Â¦ Â¦  Â¦ Â¦ +--> NULL  -> 80186
+	           +--+-+-+--+-+-Â¦                   Â¦
+	*current   Â¦  Â¦ Â¦ Â¦  Â¦ Â¦ +--> NULL  -> 80186-Â¦> NULL -> 90144  -> NULL
+	           +--+-+-+--+-+-Â¦                   Â¦
+	*previous  Â¦  Â¦ Â¦ Â¦  Â¦ Â¦ +--> NULL  -> 80186 +--------> 90144 
+	           +-------------Â¦                   Â¦                Â¦
+	           Â¦     ...     Â¦                   Â¦                Â¦
+	           Â¦             Â¦                   Â¦                Â¦
+	    80186  +-------------Â¦   Register1 <-----+                Â¦
+	           Â¦+++++++++++++Â¦                                    Â¦
+	           Â¦+++++++++++++Â¦                                    Â¦                 ?
+	           Â¦+++++++++++++Â¦                                    Â¦
+	           Â¦+++++++++++++Â¦                                    Â¦
+	           +-------------Â¦                                    Â¦
+	           Â¦             Â¦                                    Â¦
+	           Â¦     ...     Â¦                                    Â¦
+	    90144  +-------------Â¦   Register2  <---------------------+
+	           Â¦+++++++++++++Â¦
+	           Â¦+++++++++++++Â¦
+	           Â¦+++++++++++++Â¦
+	           Â¦+++++++++++++Â¦
+	           +-------------Â¦
+	           Â¦             Â¦
+	           Â¦             Â¦
+	           Â¦             Â¦
+	           Â¦             Â¦
 	           +-------------+
 	       
 	Based on: book - Beginning C From Novice to Professional
 	4th Edition Pg 422   Author Ivor Horton 
 	Chap 11 - Pointers to Structure As Structure Members
 	   
-	UNINTER - Curso: Engenharia da Computação
-	Escola Superior Politécnica
+	UNINTER - Curso: Engenharia da ComputaÃ§Ã£o
+	Escola Superior PolitÃ©cnica
 	Author: Gilberto Jr RU 3326662 
 	Edited: J3
 	Date: Jun, 2021
@@ -125,13 +125,13 @@ int main(int argc, char *argv[]) {
 		char name[50];
 		int day;
 		int month;	
-		struct Niver *next;                                 /* Pointer to the next structure */ 
+		struct Niver *next;                                     /* Pointer to the next structure */ 
 		
 	}Niver_t;
 	
-	Niver_t *first = NULL;									/* Pointer to the first Register */
-	Niver_t *current = NULL;								/* Pointer to the current Register */
-	Niver_t *previous = NULL;								/* Pointer to the previus Register */
+	Niver_t *first = NULL;						/* Pointer to the first Register */
+	Niver_t *current = NULL;					/* Pointer to the current Register */
+	Niver_t *previous = NULL;					/* Pointer to the previus Register */
 	
 	/* Pointer to structure array declaration */
 	//Niver_t *ptr2Calendar[12];
@@ -164,10 +164,10 @@ int main(int argc, char *argv[]) {
 		current = (Niver_t*) malloc(sizeof(Niver_t));
 		
 		if(first == NULL)
-			first = current;                				/* Set pointer to first register */
+			first = current;                		/* Set pointer to first register */
 		
 		if(previous != NULL)
-			previous->next = current;  		                /* Set next pointer for previous register */ 
+			previous->next = current;  		        /* Set next pointer for previous register */ 
 				
 		printf("\nPlease enter the ID number to the next register: ");
 		//scanf("%i", &Calendar[rcount].id);                /* Read the id of the person in the register */	
@@ -189,16 +189,16 @@ int main(int argc, char *argv[]) {
 		while ((c = getchar()) != '\n' && c != EOF) { } 	/* clears input buffer */
 			
 		printf("\nPlease enter the Month of Anniversary to this register: ");
-		//scanf("%i", &Calendar[rcount].month);             /* Read the id of the person in the register */	
+		//scanf("%i", &Calendar[rcount].month);                 /* Read the id of the person in the register */	
 		//scanf("%i", &ptr2Calendar[rcounter]->month);
 		scanf("%i", &current->month);		
 		while ((c = getchar()) != '\n' && c != EOF) { } 	/* clears input buffer */
  		
-		current->next = NULL;  								/* In case it is the last... */
-		previous = current;     							/* Save address of the last register */
+		current->next = NULL;  					/* In case it is the last... */
+		previous = current;     				/* Save address of the last register */
 	}
 	
-	current = first;                						/* Starting at the beginning */
+	current = first;                				/* Starting at the beginning */
 	
 	/* Printing the receipt if everything is ok */
 	printf ("\n You have Entered these dates:\n\n"); 
@@ -207,14 +207,14 @@ int main(int argc, char *argv[]) {
 	printf("------------------------------------\n");		
 	/* This for loop prints the output and frees the memory allocated, block by block */	
 	//for(int i = 0; i < rcounter; i++)
-	while(current != NULL)     								/* As long as we have a valid pointer */ 
+	while(current != NULL)     					/* As long as we have a valid pointer */ 
 	{		
 		//printf("%i| %s |%i |%i \n", Calendar[i].id, Calendar[i].name);
 		//printf(" %i | %s | %i | %i \n", ptr2Calendar[i]->id, ptr2Calendar[i]->name, ptr2Calendar[i]->day, ptr2Calendar[i]->month);
 		printf(" %i | %s | %i | %i \n", current->id, current->name, current->day, current->month);
 		
-		previous = current;    								/* Save the pointer so we can free memory */
-		current = current->next;  							/* Get the pointer to the next */
+		previous = current;    					/* Save the pointer so we can free memory */
+		current = current->next;  				/* Get the pointer to the next */
 		
 		/* It is very important to free each block of memory previously allocated;
 		   If you don't keep track and don't free it after malloc, you might have memory leaks :/
@@ -224,7 +224,7 @@ int main(int argc, char *argv[]) {
 		free(previous); 
 	}
 	printf("\n____________________________________\n");
-    printf("\n____________________________________\n");
+    	printf("\n____________________________________\n");
 	
 	return 0;
 }
