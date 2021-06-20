@@ -50,41 +50,41 @@
             
                       Head                              Tail
                    +----------+     +---------+     +---------+
-           NULL--->¦.¦      ¦.¦---->¦.¦     ¦.¦---->¦.¦     ¦.¦---> NULL
+           NULL--->Â¦.Â¦      Â¦.Â¦---->Â¦.Â¦     Â¦.Â¦---->Â¦.Â¦     Â¦.Â¦---> NULL
                    +----------+     +---------+     +---------+
-                       ¦                 ¦
+                       Â¦                 Â¦
 					   +->Register1      +->Register2
                                                  
 
                   +-------------+
-*first    NULL <--¦.¦ ¦ ¦ ¦ ¦ ¦.+--> NULL  -> 80186
-                  +-+-+-+-+-+-+-¦                   ¦
-*current   80186 <¦.¦ ¦ ¦ ¦ ¦ ¦.+--> NULL  -> 80186-¦> NULL -> 90144  -> NULL
-                  +-+-+-+-+-+-+-¦                   ¦
-*previous         ¦.¦ ¦ ¦ ¦ ¦ ¦.+--> NULL  -> 80186 +--------> 90144
-                  +-+-+-+-+-+-+-¦                   ¦                ¦
- *last     80186 <¦.¦ ¦ ¦ ¦ ¦ ¦.+--> NULL  -> 90144 ¦                ¦
-                  +-------------¦                   ¦                ¦
-                  ¦     ...     ¦                   ¦                ¦
-                  ¦             ¦                   ¦                ¦
-           80186 <+-------------¦   Register1 >-----+                ¦                 ?
-                  ¦+++++++++++++¦                                    ¦
-                  ¦+++++++++++++¦                                    ¦
-                  ¦+++++++++++++¦                                    ¦
-                  ¦+++++++++++++¦                                    ¦
-                  +-------------¦                                    ¦
-                  ¦             ¦                                    ¦
-                  ¦     ...     ¦                                    ¦
-           90144 ?+-------------¦   Register2  >---------------------+
-                  ¦+++++++++++++¦
-                  ¦+++++++++++++¦
-                  ¦+++++++++++++¦
-                  ¦+++++++++++++¦
-                  +-------------¦
-                  ¦             ¦
-                  ¦             ¦
-                  ¦             ¦
-                  ¦             ¦
+*first    NULL <--Â¦.Â¦ Â¦ Â¦ Â¦ Â¦ Â¦.+--> NULL  -> 80186
+                  +-+-+-+-+-+-+-Â¦                   Â¦
+*current   80186 <Â¦.Â¦ Â¦ Â¦ Â¦ Â¦ Â¦.+--> NULL  -> 80186-Â¦> NULL -> 90144  -> NULL
+                  +-+-+-+-+-+-+-Â¦                   Â¦
+*previous         Â¦.Â¦ Â¦ Â¦ Â¦ Â¦ Â¦.+--> NULL  -> 80186 +--------> 90144
+                  +-+-+-+-+-+-+-Â¦                   Â¦                Â¦
+ *last     80186 <Â¦.Â¦ Â¦ Â¦ Â¦ Â¦ Â¦.+--> NULL  -> 90144 Â¦                Â¦
+                  +-------------Â¦                   Â¦                Â¦
+                  Â¦     ...     Â¦                   Â¦                Â¦
+                  Â¦             Â¦                   Â¦                Â¦
+           80186 <+-------------Â¦   Register1 >-----+                Â¦                 ?
+                  Â¦+++++++++++++Â¦                                    Â¦
+                  Â¦+++++++++++++Â¦                                    Â¦
+                  Â¦+++++++++++++Â¦                                    Â¦
+                  Â¦+++++++++++++Â¦                                    Â¦
+                  +-------------Â¦                                    Â¦
+                  Â¦             Â¦                                    Â¦
+                  Â¦     ...     Â¦                                    Â¦
+           90144 ?+-------------Â¦   Register2  >---------------------+
+                  Â¦+++++++++++++Â¦
+                  Â¦+++++++++++++Â¦
+                  Â¦+++++++++++++Â¦
+                  Â¦+++++++++++++Â¦
+                  +-------------Â¦
+                  Â¦             Â¦
+                  Â¦             Â¦
+                  Â¦             Â¦
+                  Â¦             Â¦
                   +-------------+
 	       
 	Based on: book - Beginning C From Novice to Professional
@@ -119,9 +119,9 @@ int main(int argc, char *argv[]) {
 		
 	}Niver_t;
 	
-	Niver_t *first = NULL;									/* Pointer to the first Register */
-	Niver_t *current = NULL;								/* Pointer to the current Register */
-	Niver_t *last = NULL;						    		/* Pointer to the previus Register */
+	Niver_t *first = NULL;					        /* Pointer to the first Register */
+	Niver_t *current = NULL;				        /* Pointer to the current Register */
+	Niver_t *last = NULL;					        /* Pointer to the previus Register */
 	
 	/* Pointer to structure array declaration */
 	//Niver_t *ptr2Calendar[12];
@@ -161,13 +161,13 @@ int main(int argc, char *argv[]) {
 		}
 		else
 		{
-			last->next = current;  		                   /* Set next pointer for previous register */
-			current->previous = last;                      /* Previous address for current node */
+			last->next = current;  		                /* Set next pointer for previous register */
+			current->previous = last;                       /* Previous address for current node */
 		}
 			
 				
 		printf("\nPlease enter the ID number to the next register: ");
-		//scanf("%i", &Calendar[rcount].id);                /* Read the id of the person in the register */	
+		//scanf("%i", &Calendar[rcount].id);                    /* Read the id of the person in the register */	
 		//scanf("%i", &ptr2Calendar[rcounter]->id);	
 		scanf("%i", current->id);	
 		while ((c = getchar()) != '\n' && c != EOF) { } 	/* clears input buffer */	
@@ -186,16 +186,16 @@ int main(int argc, char *argv[]) {
 		while ((c = getchar()) != '\n' && c != EOF) { } 	/* clears input buffer */
 			
 		printf("\nPlease enter the Month of Anniversary to this register: ");
-		//scanf("%i", &Calendar[rcount].month);             /* Read the id of the person in the register */	
+		//scanf("%i", &Calendar[rcount].month);                 /* Read the id of the person in the register */	
 		//scanf("%i", &ptr2Calendar[rcounter]->month);
 		scanf("%i", &current->month);		
 		while ((c = getchar()) != '\n' && c != EOF) { } 	/* clears input buffer */
  		
-		current->next = NULL;  								/* In case it is the last... */
-		last = current;     	     						/* Save address of the last register */
+		current->next = NULL;  					/* In case it is the last... */
+		last = current;     	     				/* Save address of the last register */
 	}
 	
-	//current = first;                						/* Starting at the beginning */
+	//current = first;                				/* Starting at the beginning */
 	
 	/* Printing the receipt if everything is ok */
 	printf ("\n You have Entered these dates:\n\n"); 
@@ -204,15 +204,15 @@ int main(int argc, char *argv[]) {
 	printf("------------------------------------\n");		
 	/* This for loop prints the output and frees the memory allocated, block by block */	
 	//for(int i = 0; i < rcounter; i++)
-	while(current != NULL)     								/* As long as we have a valid pointer */ 
+	while(current != NULL)     					/* As long as we have a valid pointer */ 
 	{		
 		//printf("%i| %s |%i |%i \n", Calendar[i].id, Calendar[i].name);
 		//printf(" %i | %s | %i | %i \n", ptr2Calendar[i]->id, ptr2Calendar[i]->name, ptr2Calendar[i]->day, ptr2Calendar[i]->month);
 		printf(" %i | %s | %i | %i \n", current->id, current->name, current->day, current->month);
 		
-		last = current;    								    /* Save the pointer so we can free memory */
-		//current = current->next;  						/* Get the pointer to the next */
-		current = current->previous;  						/* PRINTTING IN REVERSE ORDER */
+		last = current;    					/* Save the pointer so we can free memory */
+		//current = current->next;  				/* Get the pointer to the next */
+		current = current->previous;  				/* PRINTTING IN REVERSE ORDER */
 		
 		/* It is very important to free each block of memory previously allocated;
 		   If you don't keep track and don't free it after malloc, you might have memory leaks :/
@@ -223,7 +223,7 @@ int main(int argc, char *argv[]) {
 		free(last);
 	}
 	printf("\n____________________________________\n");
-    printf("\n____________________________________\n");
+        printf("\n____________________________________\n");
 	
 	return 0;
 }
