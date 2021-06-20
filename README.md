@@ -210,6 +210,7 @@ Welcome!!!
 
 #[EX79 - DEVC](/DEVC/EX79) -  Project 79 - Practical Work Academy nº 1 Computer Engineer UNINTER -   Using LINKED LIST & Structs
 
+#[EX80 - DEVC](/DEVC/EX80) -  Project 80 - Practical Work Academy nº 1 Computer Engineer UNINTER -   Using DOUBLY LINKED LIST & Structs
 
 
 ### License
