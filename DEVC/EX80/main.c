@@ -157,7 +157,7 @@ int main(int argc, char *argv[]) {
 		if(first == NULL)
 		{
 			first = current;                                /* Set pointer to first register */
-			current->previous = NULL;                       /* The fisrt node points previous to NULL */
+			current->previous = NULL;                       /* The first node points previous to NULL */
 		}
 		else
 		{
