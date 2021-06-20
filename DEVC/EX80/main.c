@@ -1,7 +1,7 @@
 /* Project 80  -- DOUBLY LINKED LIST
     
-	This example should produce the same output as Project 77, 
-    burt here we are using DOUBLY LINKED LIST.
+    This example should produce the same output as Project 77, 
+    but here we are using DOUBLY LINKED LIST.
     
     Please see the comments to the previous project (69)
      
@@ -116,8 +116,8 @@ int main(int argc, char *argv[]) {
 		char name[50];
 		int day;
 		int month;	
-		struct Niver *next;                                 /* Pointer to the next structure */
-		struct Niver *previous;                             /* Pointer to the previous structure */ 
+		struct Niver *next;                                     /* Pointer to the next structure */
+		struct Niver *previous;                                 /* Pointer to the previous structure */ 
 		
 	}Niver_t;
 	
@@ -139,7 +139,7 @@ int main(int argc, char *argv[]) {
 	
 	/* rcount - is the counter for each register entered:) */	
 	//for(rcounter = 0; rcounter < 12; rcounter++)
-	for( ; ; )  // Infinite loop; you do not have to worry about arrays and mess around with indexes
+	for( ; ; )  /* Infinite loop; you do not have to worry about arrays and mess around with indexes */
 	{
 		//printf("\nDo you What to enter details of a%s anniversary date (y or N)?", rcounter?"nother":"");
 		printf("\nDo you What to enter details of a%s anniversary date (Y or N)?", first == NULL?"nother":"");
