@@ -1,4 +1,4 @@
-/* Project 80  -- LINKED LIST
+/* Project 80  -- DOUBLY LINKED LIST
     
 	This example should produce the same output as Project 77, 
     burt here we are using DOUBLY LINKED LIST.
