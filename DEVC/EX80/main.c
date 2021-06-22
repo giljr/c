@@ -93,7 +93,7 @@
 	4th Edition Pg 426   Author Ivor Horton 
 	Chap 11 - Doubly Linked Lists
 	   
-	UNINTER - Curso: Engenharia da Computa??o
+	UNINTER - Curso: Engenharia da Computacao
 	Escola Superior Politecnica
 	Author: Gilberto Jr RU 3326662 
 	Edited: J3
