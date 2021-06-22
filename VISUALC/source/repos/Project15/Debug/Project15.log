@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\giljr\source\repos\Project15\main.c(131,33): warning C4244: 'return': conversão de 'int' para 'float', possível perda de dados
+C:\Users\giljr\source\repos\Project15\main.c(134,15): warning C4244: 'return': conversão de 'double' para 'float', possível perda de dados
+  Project15.vcxproj -> C:\Users\giljr\source\repos\Project15\Debug\Project15.exe

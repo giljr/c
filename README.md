@@ -62,6 +62,19 @@ Welcome!!!
 
 #[Project 12 - Visual C++ 2019](/VISUALC/source/repos/Project12) - Project 12 - Visual C++ 2019 - Exercise 3 - Homework - Frequency of Characters in a Matrix of Strings
 
+#[Project 13 - Visual C++ 2019](/VISUALC/source/repos/Project13) - Project 13 - Visual C++ 2019 - Exercise 1 2021 - Homework - Struct Typedef
+
+#[Project 14 - Visual C++ 2019](/VISUALC/source/repos/Project14) - Project 14 - Visual C++ 2019 - Exercise 2 2021 - Homework - Struct Typedef String Concat
+
+#[Project 15 - Visual C++ 2019](/VISUALC/source/repos/Project15) - Project 15 - Visual C++ 2019 - Exercise 3 2021 - Homework - Struct Typedef Ceil()
+
+#[Project 16 - Visual C++ 2019](/VISUALC/source/repos/Project16) - Project 16 - Visual C++ 2019 - Exercise 4 2021 - Homework - Arrays Max & Min
+
+#[Project 17 - Visual C++ 2019](/VISUALC/source/repos/Project17) - Project 17 - Visual C++ 2019 - Exercise 5 2021 - Homework - Strutcs & File CSV
+
+
+
+
 
 ### [Dev-C++5.11] (https://sourceforge.net/projects/orwelldevcpp/) Projects Solutions list  (from 2020 until now): :black_nib:
 
