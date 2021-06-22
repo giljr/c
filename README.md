@@ -60,11 +60,11 @@ Welcome!!!
 
 #[Project 11 - Visual C++ 2019](/VISUALC/source/repos/Project11) - Project 11 - Visual C++ 2019 - Exercise 2 - Homework - Pluviometric Controller
 
-#[Project 12 - Visual C++ 2019](/VISUALC/source/repos/Project12) - Project 12 - Visual C++ 2019 - Exercise 3 - Homework - Frequency of Characters in a Matrix of Strings
+#[Project 12 - Visual C++ 2019](/VISUALC/source/repos/Project12) - Project 12 - Visual C++ 2019 - Exercise 3 - Homework - Frequency of Chars Matrix
 
 #[Project 13 - Visual C++ 2019](/VISUALC/source/repos/Project13) - Project 13 - Visual C++ 2019 - Exercise 1 2021 - Homework - Struct Typedef
 
-#[Project 14 - Visual C++ 2019](/VISUALC/source/repos/Project14) - Project 14 - Visual C++ 2019 - Exercise 2 2021 - Homework - Struct Typedef String Concat
+#[Project 14 - Visual C++ 2019](/VISUALC/source/repos/Project14) - Project 14 - Visual C++ 2019 - Exercise 2 2021 - Homework - Struct String Concat
 
 #[Project 15 - Visual C++ 2019](/VISUALC/source/repos/Project15) - Project 15 - Visual C++ 2019 - Exercise 3 2021 - Homework - Struct Typedef Ceil()
 
