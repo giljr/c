@@ -125,7 +125,7 @@ int main(int argc, char* argv[]) {
 	};
 
 	/* Initializing the variable named My_prod of type struct product */
-	struct product My_prods[6];
+	struct product My_prods[6] = {0,0,.0};
 	int pcount = 0;
 	char test = '\0';
 
@@ -136,19 +136,19 @@ int main(int argc, char* argv[]) {
 		printf("Do you want to enter details of a%s Product (Y or N)? ", pcount ? "nother " : "");
 		scanf_s(" %c", &test, sizeof(&test));
 
-		if (tolower(test) == 'n') break;                       // If negative, break the loop :/
+		if (tolower(test) == 'n') break;									   // If negative, break the loop :/
 
-		printf("\nEnter the name of the product: ");
-		scanf_s("%s", &My_prods[pcount].name, sizeof(&My_prods[pcount].name));              	// Read the product's name
-		while ((c = getchar()) != '\n' && c != EOF) {}    	// clears input buffer 
+		printf("\nEnter the name of the product: ");                           // Read the product's name - 
+		scanf_s("%s", &My_prods[pcount].name, sizeof(My_prods[pcount].name));  // Fixing BUG: sizeof(&...) -> sizeof(...) nov, 2021 
+		while ((c = getchar()) != '\n' && c != EOF) {}    	                   // clears input buffer 
 
 		printf("\nWhat is the %s's code? ", My_prods[pcount].name);
-		scanf_s("%d", &My_prods[pcount].code);              	// Read the product's code
-		while ((c = getchar()) != '\n' && c != EOF) {} 	// clears input buffer
+		scanf_s("%d", &My_prods[pcount].code);              				   // Read the product's code
+		while ((c = getchar()) != '\n' && c != EOF) {} 						   // clears input buffer
 
 		printf("\nWhat is %s's value?: ", My_prods[pcount].name);
-		scanf_s("%f", &My_prods[pcount].value);          		// Read the product's value
-		while ((c = getchar()) != '\n' && c != EOF) {}  	// clears input buffer		
+		scanf_s("%f", &My_prods[pcount].value);          		               // Read the product's value
+		while ((c = getchar()) != '\n' && c != EOF) {}  	                   // clears input buffer		
 
 	}
 
