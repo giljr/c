@@ -7,7 +7,7 @@
 
    This program solves this Practice exercise from my Computer Enginner's home work at:
 
-   UNINTER - Engenharia da Computação - Escola Superior Politécnica - https://www.uninter.com
+   UNINTER - Engenharia da ComputaÃ§Ã£o - Escola Superior PolitÃ©cnica - https://www.uninter.com
 
    PRACTICE 05
 	Create a program, in C language, that receives 6 records containing, Product Name,
@@ -106,7 +106,7 @@
 	************************************************************
 
    Author: Gilberto Jr RU 3326662
-   Curso : Engenharia da Computação
+   Curso : Engenharia da ComputaÃ§Ã£o
    Date: Jun, 2021
 */
 
@@ -136,19 +136,19 @@ int main(int argc, char* argv[]) {
 		printf("Do you want to enter details of a%s Product (Y or N)? ", pcount ? "nother " : "");
 		scanf_s(" %c", &test, sizeof(&test));
 
-		if (tolower(test) == 'n') break;									   // If negative, break the loop :/
+		if (tolower(test) == 'n') break;				       // If negative, break the loop :/
 
 		printf("\nEnter the name of the product: ");                           // Read the product's name - 
 		scanf_s("%s", &My_prods[pcount].name, sizeof(My_prods[pcount].name));  // Fixing BUG: sizeof(&...) -> sizeof(...) nov, 2021 
-		while ((c = getchar()) != '\n' && c != EOF) {}    	                   // clears input buffer 
+		while ((c = getchar()) != '\n' && c != EOF) {}    	               // clears input buffer 
 
 		printf("\nWhat is the %s's code? ", My_prods[pcount].name);
-		scanf_s("%d", &My_prods[pcount].code);              				   // Read the product's code
-		while ((c = getchar()) != '\n' && c != EOF) {} 						   // clears input buffer
+		scanf_s("%d", &My_prods[pcount].code);              		       // Read the product's code
+		while ((c = getchar()) != '\n' && c != EOF) {} 			       // clears input buffer
 
 		printf("\nWhat is %s's value?: ", My_prods[pcount].name);
-		scanf_s("%f", &My_prods[pcount].value);          		               // Read the product's value
-		while ((c = getchar()) != '\n' && c != EOF) {}  	                   // clears input buffer		
+		scanf_s("%f", &My_prods[pcount].value);          		       // Read the product's value
+		while ((c = getchar()) != '\n' && c != EOF) {}  	               // clears input buffer		
 
 	}
 
