@@ -31,7 +31,7 @@ I´m using [Visual C++ 2019](https://visualstudio.microsoft.com/vs/community/).
 
 I will also use [Dev-C++ download | SourceForge.net](https://sourceforge.net/projects/orwelldevcpp/) This is an amazing IDE! Try it yourself!
 
-EDITED (nov, 2021): From know on I will use and recommend: [Visual Code is Awesome!](https://code.visualstudio.com/)
+**EDITED (nov, 2021)**:From know on I will use **vscode** and recommend you: [Visual Code is Awesome!](https://code.visualstudio.com/)
 
 The solution will be numereded and divided into important computer subject:
 Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3). 
@@ -61,7 +61,7 @@ Welcome!!!
 
 #[09 - FILEREADPLUSPARSING.C - 2021](/VS/09_filereadplusparsing.c) -  It shows How To Parse a File. It aims Project #10.
 
-#[10 - MUSICALBUM_V2 - 2021](/VS/10_musicalbum_v2.c) -  This is a deque. It implements a J3 MUSIC ALBUM!
+#[10 - MUSICALBUM_V2 - 2021](/VS/10_musicalbum_v2.c) - [01 Episode#CSeries — MUSIC ALBUM_V2.C — This is a Deque in C](https://medium.com/jungletronics/music-album-v2-c-b54b42ef55bc)
 
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
