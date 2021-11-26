@@ -253,6 +253,24 @@ Welcome!!!
 
 #[EX80 - DEVC](/DEVC/EX80) -  Project 80 - Practical Work Academy nº 1 Computer Engineer UNINTER -   Using DOUBLY LINKED LIST & Structs
 
+#[EX81 - DEVC](/DEVC/EX81) -  Project 81 - The use of gets() and strcpy()
+
+#[EX82 - DEVC](/DEVC/EX82) -  Project 82 - Triple for use
+
+#[EX83 - DEVC](/DEVC/EX83) -  Project 83 - BUBBLE SORT (Ascendant Algorithm)
+
+#[EX84 - DEVC](/DEVC/EX84) -  Project 84 - BUBBLE SORT (Descendant Algorithm)
+
+#[EX85 - DEVC](/DEVC/EX85) -  Project 85 - QUICK SORT (Ascendant Algorithm)
+
+#[EX86 - DEVC](/DEVC/EX86) -  Project 86 - QUICK SORT (Descendant Algorithm)
+
+#[EX87 - DEVC](/DEVC/EX87) -  Project 87 - Sequential Search Algorithm (SSA)
+
+#[EX88 - DEVC](/DEVC/EX88) -  Project 88 - DOUBLY LINKED LIST
+
+#[EX89 - DEVC](/DEVC/EX89) -  Project 89 - DOUBLY LINKED LIST - JR'PLAYLIST! First Try :/ 
+
 
 ### License
 
