@@ -51,9 +51,9 @@ Welcome!!!
 
 #[05 - DEQUE_V1.C - 2021](/VS/05_deque_v1.c) - This is a deque (en) - It transform the Project 04 code in English.
 
-#[06 - MUSICALBUM_V1.C - 2021](/VS/06_musicalbum_v1.c) - It is a Deque or Double Ended Queue. It implements a J3 MUSIC ALBUM!iT IS A SINGLE LINKED LIST. It aims Project #10.
+#[06 - MUSICALBUM_V1.C - 2021](/VS/06_musicalbum_v1.c) - It is a Deque or Double Ended Queue. J3 MUSIC ALBUM! It aims Project #10.
 
-#[07 - SSCAN_PARSING.C - 2021](/VS/07_sscan_parsing.c) -  This shows how to parse a line. It's purpose is for the academic work. It aims Project #10.
+#[07 - SSCAN_PARSING.C - 2021](/VS/07_sscan_parsing.c) -  This shows how to parse a line. It aims Project #10.
 
 #[08 - FILEREADINCHUNK.C - 2021](/VS/08_filereadinchunk.c) -  It shows HOW TO SAVE INTO A FILE (FOPEN). It aims Project #10.
 
