@@ -39,27 +39,27 @@ Welcome!!!
 
 ### [VS] (https://code.visualstudio.com/) Visual Code Solutions list (from 2021 until now):
 
-#00 - HELLOWORLD.C - 2021](/VS/00_helloworld.c) -  This is part of this post: [00 Episode#CSeries VS Code How to Run It Right Away!](https://medium.com/jungletronics/vs-code-how-to-run-it-right-away-6fc9e569099a)
+#[00 - HELLOWORLD.C - 2021](/VS/00_helloworld.c) -  This is part of this post: [00 Episode#CSeries VS Code How to Run It Right Away!](https://medium.com/jungletronics/vs-code-how-to-run-it-right-away-6fc9e569099a)
 
-#01 - GETINPUT.C - 2021](/VS/01_getinput.c) -  How to input data in vs interface?: [00 Episode#CSeries VS Code How to Run It Right Away!](https://medium.com/jungletronics/vs-code-how-to-run-it-right-away-6fc9e569099a)
+#[01 - GETINPUT.C - 2021](/VS/01_getinput.c) -  How to input data in vs interface?: [00 Episode#CSeries VS Code How to Run It Right Away!](https://medium.com/jungletronics/vs-code-how-to-run-it-right-away-6fc9e569099a)
 
-#02 - FOPEN.C - 2021](/VS/02_fopen.c) -  This demostrate the use of fopen in C.
+#[02 - FOPEN.C - 2021](/VS/02_fopen.c) -  This demostrate the use of fopen in C.
 
-#03 - MUSICALBUM_V0 - 2021](/VS/03_musicalbum_v0.c) -  This is a college work using DOUBLY LINKED LIST. It aims Project #10.
+#[03 - MUSICALBUM_V0 - 2021](/VS/03_musicalbum_v0.c) -  This is a college work using DOUBLY LINKED LIST. It aims Project #10.
 
-#04 - SINGLY_LINKED_LIST.C - 2021](/VS/04_singly_linked_list.c) -  Gives me base for the Project #10 - Author: https://github.com/borinvini/
+#[04 - SINGLY_LINKED_LIST.C - 2021](/VS/04_singly_linked_list.c) -  Gives me base for the Project #10 - Author: https://github.com/borinvini/
 
-#05 - DEQUE_V1.C - 2021](/VS/05_deque_v1.c) - This is a deque (en) - It transform the Project 04 code in English.
+#[05 - DEQUE_V1.C - 2021](/VS/05_deque_v1.c) - This is a deque (en) - It transform the Project 04 code in English.
 
-#06 - MUSICALBUM_V1.C - 2021](/VS/06_musicalbum_v1.c) - It is a Deque or Double Ended Queue. It implements a J3 MUSIC ALBUM!iT IS A SINGLE LINKED LIST. It aims Project #10.
+#[06 - MUSICALBUM_V1.C - 2021](/VS/06_musicalbum_v1.c) - It is a Deque or Double Ended Queue. It implements a J3 MUSIC ALBUM!iT IS A SINGLE LINKED LIST. It aims Project #10.
 
-#07 - SSCAN_PARSING.C - 2021](/VS/07_sscan_parsing.c) -  This shows how to parse a line. It's purpose is for the academic work. It aims Project #10.
+#[07 - SSCAN_PARSING.C - 2021](/VS/07_sscan_parsing.c) -  This shows how to parse a line. It's purpose is for the academic work. It aims Project #10.
 
-#08 - FILEREADINCHUNK.C - 2021](/VS/08_filereadinchunk.c) -  It shows HOW TO SAVE INTO A FILE (FOPEN). It aims Project #10.
+#[08 - FILEREADINCHUNK.C - 2021](/VS/08_filereadinchunk.c) -  It shows HOW TO SAVE INTO A FILE (FOPEN). It aims Project #10.
 
-#09 - FILEREADPLUSPARSING.C - 2021](/VS/09_filereadplusparsing.c) -  It shows How To Parse a File. It aims Project #10.
+#[09 - FILEREADPLUSPARSING.C - 2021](/VS/09_filereadplusparsing.c) -  It shows How To Parse a File. It aims Project #10.
 
-#10 - MUSICALBUM_V2 - 2021](/VS/10_musicalbum_v2.c) -  This is a deque. It implements a J3 MUSIC ALBUM!
+#[10 - MUSICALBUM_V2 - 2021](/VS/10_musicalbum_v2.c) -  This is a deque. It implements a J3 MUSIC ALBUM!
 
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
