@@ -66,7 +66,7 @@ Welcome!!!
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
 
-#[Project0 - Visual C++ 2019](/VISUALC/source/repos/Project0) Inside 4 projs how to use of selection (if) & Iterations statements while, do-while & for loops; 
+#[Project0 - Visual C++ 2019](/VISUALC/source/repos/Project0) - 4 projs how to use if selection, loops while, do-while & for (WarmUp); 
 
 #[Project1 - Visual C++ 2019](/VISUALC/source/repos/Project1) -  It is even or odd? If statement - simple Selection Statement.
 
