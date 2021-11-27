@@ -31,7 +31,7 @@ I´m using [Visual C++ 2019](https://visualstudio.microsoft.com/vs/community/).
 
 I will also use [Dev-C++ download | SourceForge.net](https://sourceforge.net/projects/orwelldevcpp/) This is an amazing IDE! Try it yourself!
 
-**EDITED (nov, 2021)**:From know on I will use **vscode** and recommend you: [Visual Code is Awesome!](https://code.visualstudio.com/)
+**EDITED (nov, 2021)**: From know on I will use **vscode** and recommend you: [Visual Code is Awesome!](https://code.visualstudio.com/)
 
 The solution will be numereded and divided into important computer subject:
 Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3). 
@@ -66,7 +66,7 @@ Welcome!!!
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
 
-[#01 - Solution -_if_while_dowhile_for](_01_if_while_dowhile_for/) #CSeries - Solution1 - Inside 4 projs exemplifying the use of selection (if) & Iterations statements while, do-while & for loops; 
+#[Project0 - Visual C++ 2019](/VISUALC/source/repos/Project0) Inside 4 projs how to use of selection (if) & Iterations statements while, do-while & for loops; 
 
 #[Project1 - Visual C++ 2019](/VISUALC/source/repos/Project1) -  It is even or odd? If statement - simple Selection Statement.
 
@@ -183,7 +183,6 @@ Welcome!!!
 #[EX40 - DEVC](/DEVC/EX40) -  Project 40 - Reading & Displaying Strings in C
 
 #[EX41 - DEVC](/DEVC/EX41) -  Project 41 - Presenting a Menu for Snack Bar
-
 
 #[EX42 - DEVC](/DEVC/EX42) -  Project 42 - Matrices Multiplication
 
