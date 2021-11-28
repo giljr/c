@@ -354,11 +354,11 @@ void ShowHash(Table_t *TableHash)
 		while (ScanItem != NULL)
 		{
 			printf("%d -> ", ScanItem->id);
-        printf("\n_____________________________________\n");
-        printf("RU: %i\n", ScanItem->id);
-        printf("Student: %s\n", ScanItem->student);
-        printf("Email: %s\n", ScanItem->email);
-        printf("_____________________________________\n");
+        		printf("\n_____________________________________\n");
+        		printf("RU: %i\n", ScanItem->id);
+       		 	printf("Student: %s\n", ScanItem->student);
+        		printf("Email: %s\n", ScanItem->email);
+        		printf("_____________________________________\n");
 			ScanItem = ScanItem->prox;
 		}
 		printf("\n");
