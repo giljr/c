@@ -63,7 +63,7 @@ Welcome!!!
 
 #[10 - MUSICALBUM_V2 - 2021](/VS/10_musicalbum_v2.c) - [01 Episode#CSeries — MUSIC ALBUM_V2.C — This is a Deque in C](https://medium.com/jungletronics/music-album-v2-c-b54b42ef55bc)
 
-#[11 - HASHTABLE_V0 - 2021](/VS/11_hashtable_v0.c) - [02 Episode#CSeries — Hash tables in C — This is a HashTable in C](https://medium.com/jungletronics/hash-tables-in-c-5293c2bf6061)
+#[11 - HASHTABLE_V0 - 2021](/VS/11_hash_00.c) - [02 Episode#CSeries — Hash tables in C — This is a HashTable in C](https://medium.com/jungletronics/hash-tables-in-c-5293c2bf6061)
 
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
