@@ -32,6 +32,8 @@ Credits: https://br.linkedin.com/in/borinvini
 
 Requirements:
 
+EXERCISE N. 1
+
 Make a C language algorithm that emulates the characteristics of a video player
 songs running in text mode via command prompt.
 1. You must create a playlist of songs using a linked list. The list
