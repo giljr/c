@@ -156,8 +156,7 @@ Date: Nov, 2021
 
 //Typedef definition
 typedef struct HashList
-{
-	int id;
+{	int id;
     	char student[50];
     	char email[50];
 	struct HashList *prox;
