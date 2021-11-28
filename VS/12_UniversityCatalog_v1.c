@@ -158,8 +158,8 @@ Date: Nov, 2021
 typedef struct HashList
 {
 	int id;
-    char student[50];
-    char email[50];
+    	char student[50];
+    	char email[50];
 	struct HashList *prox;
 } HashList_t;
 
@@ -183,7 +183,7 @@ int main()
 	Table_t *TableHash = (Table_t *)malloc(sizeof(Table_t));
 	TableHash->Size = VECTORSIZE;
 	TableHash->ListKey = (HashList_t **)malloc(VECTORSIZE * sizeof(HashList_t *));
-    char student[50], email[50];
+    	char student[50], email[50];
 
 	for (int i = 0; i < VECTORSIZE; i++)
 		TableHash->ListKey[i] = NULL;
@@ -285,8 +285,8 @@ void InsertHash(Table_t *TableHash, int id, char student[50], char email[50], in
 	HashList_t *NewItem;
 	NewItem = (HashList_t *)malloc(sizeof(HashList_t));
 	NewItem->id = id;
-    strcpy(NewItem->student, student);
-    strcpy(NewItem->email, email);
+    	strcpy(NewItem->student, student);
+    	strcpy(NewItem->email, email);
 	NewItem->prox = NULL;
 
 	NewItem->prox = TableHash->ListKey[pos];
