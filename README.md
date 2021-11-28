@@ -61,9 +61,11 @@ Welcome!!!
 
 #[09 - FILEREADPLUSPARSING.C - 2021](/VS/09_filereadplusparsing.c) -  It shows How To Parse a File. It aims Project #10.
 
-#[10 - MUSICALBUM_V2 - 2021](/VS/10_musicalbum_v2.c) - [01 Episode#CSeries — MUSIC ALBUM_V2.C — This is a Deque in C](https://medium.com/jungletronics/music-album-v2-c-b54b42ef55bc)
+#[10 - MUSICALBUM_V2.C - 2021](/VS/10_musicalbum_v2.c) - [01 Episode#CSeries — MUSIC ALBUM_V2.C — Deque - Exercise 1](https://medium.com/jungletronics/music-album-v2-c-b54b42ef55bc)
 
-#[11 - HASHTABLE_V0 - 2021](/VS/11_hash_00.c) - [02 Episode#CSeries — Hash tables in C — This is a HashTable in C](https://medium.com/jungletronics/hash-tables-in-c-5293c2bf6061)
+#[11 - HASHTABLE_V0.C - 2021](/VS/11_hash_00.c) - [02 Episode#CSeries — Hash tables in C — This is a HashTable in C](https://medium.com/jungletronics/hash-tables-in-c-5293c2bf6061)
+
+#[12 - UNIVERSITYCATALOG_V1.C - 2021](/VS/12_UniversityCatalog_v1.c) - [03 Episode#CSeries — University Catalog V1 - Exercise 2](https://medium.com/jungletronics/university-catalog-v1-9db8cfc526a2)
 
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
