@@ -232,7 +232,7 @@ int main()
 			{
 			}
 			pos = HashingFunction(id);
-			printf("Searching for idber %i ...\n", id);
+			printf("Searching for id %i ...\n", id);
 			printf("WARNING: The System returns if nothing is found, ok? \n");
 			system("pause");
 			SearchHash(TableHash, id, pos);
@@ -304,7 +304,7 @@ void SearchHash(Table_t *TableHash, int id, int pos)
 	if (TableHash->ListKey[pos]->id == id)
 	{
 		TableHash->ListKey[pos] = TableHash->ListKey[pos]->prox;
-		printf("YES, The The student RU-%d was found in table!\n", id);
+		printf("YES, The student RU-%d was found in table!\n", id);
 	}
 	else
 	{
@@ -314,7 +314,7 @@ void SearchHash(Table_t *TableHash, int id, int pos)
 			ScanItem = ScanItem->prox;
 		}
 		Auxiliar->prox = ScanItem->prox;
-		printf("YES, The student RU-%d was found in table!\n", id);
+		printf("YES, The The student RU-%d was found in table!\n", id);
 	}
 }
 
