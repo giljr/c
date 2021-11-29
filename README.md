@@ -31,7 +31,7 @@ I´m using [Visual C++ 2019](https://visualstudio.microsoft.com/vs/community/).
 
 I will also use [Dev-C++ download | SourceForge.net](https://sourceforge.net/projects/orwelldevcpp/) This is an amazing IDE! Try it yourself!
 
-**EDITED (nov, 2021)**: From know on I will use **vscode** and recommend you: [Visual Code is Awesome!](https://code.visualstudio.com/)
+**EDITED (nov, 2021)**: From know on I will use **vscode** and recommend you too: [Visual Code is Awesome!](https://code.visualstudio.com/)
 
 The solution will be numereded and divided into important computer subject:
 Be Welcome to my website, where I explore Arduino, PIC & Rpi - [Jungletronics & KidTronics](https://medium.com/@J.3). 
@@ -73,7 +73,7 @@ Welcome!!!
 
 #[15 - LINEARSEARCHALG_V0.C - 2021](/VS/17_linearserchalg_v0.c) - [06 Episode#CSeries — LINEAR SORT](https://medium.com/jungletronics/linear-sort-e3c80c985381)
 
-#[16 - DOUBLYLINKEDLIST_V0.C - 2021](/VS/18_doublylinkedlist_v0.c) - [03 Episode#CSeries — DOUBLY LINKED LIST](https://medium.com/jungletronics/double-linked-list-aa23836e0f41)
+#[16 - DOUBLYLINKEDLIST_V0.C - 2021](/VS/18_doublylinkedlist_v0.c) - [07 Episode#CSeries — DOUBLY LINKED LIST](https://medium.com/jungletronics/double-linked-list-aa23836e0f41)
 
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
