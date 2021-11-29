@@ -17,6 +17,16 @@
        
     1- find an element within a list
     
+    *****************************************************************
+	Output
+	
+	Sequential Search Algorithm
+	Vector Generation:
+	792     330     111     19      473     641     505     862     70      60
+	Select a value to search: 19
+	Value found in the position 4. 
+	Pressione qualquer tecla para continuar. . .
+    *****************************************************************    
     Based on: https://github.com/borinvini
 	   
 	UNINTER - Curso: Engenharia da Computacao
