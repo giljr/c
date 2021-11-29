@@ -22,11 +22,21 @@
     
     TIME Comparing 100,000 Vector size:
     ____________________
-    BUBBLE      QUICK
-	__________  ________
+    BUBBLE        QUICK
+    __________  ________
     38.461000   0.028000
     ____________________
-		
+    
+    ********************************************************************************
+	Output
+
+	QUICK SORT (Descendant)
+	NOT ORDERED VECTOR:
+	61      50      38      14      70      64      18      93      16      18
+	ORDERED VECTOR:
+	93      70      64      61      50      38      18      18      16      14
+	Pressione qualquer tecla para continuar. . . 
+    *********************************************************************************
     Based on: https://github.com/borinvini
 	   
 	UNINTER - Curso: Engenharia da Computacao
@@ -59,7 +69,7 @@ int main()
 	for (int i = 0; i < VECTORSIZE; i++)
 		vet[i] = rand() % 100;
 
-    printf("QUICK SORT (Descendant)\n");
+    	printf("QUICK SORT (Descendant)\n");
 	printf("NOT ORDERED VECTOR:\n");
 	for (int i = 0; i < VECTORSIZE; i++) // Print NOT ORDERED VECTOR
 		printf("%d\t", vet[i]);
@@ -70,7 +80,7 @@ int main()
 	printf("\nORDERED VECTOR:\n");
 	for (int i = 0; i < VECTORSIZE; i++) // Print ORDERED VECTOR
 		printf("%d\t", vet[i]);
-    printf("\n");
+    	printf("\n");
 	system("pause");
 	return 0;
 }
