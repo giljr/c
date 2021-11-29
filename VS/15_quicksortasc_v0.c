@@ -59,7 +59,7 @@ int main()
 	for (int i = 0; i < VECTORSIZE; i++)
 		vet[i] = rand() % 100;
 
-    printf("QUICK SORT (Ascendant)\n");
+    	printf("QUICK SORT (Ascendant)\n");
 	printf("NOT ORDERED VECTOR:\n");
 	for (int i = 0; i < VECTORSIZE; i++) // Print NOT ORDERED VECTOR
 		printf("%d\t", vet[i]);
@@ -70,7 +70,7 @@ int main()
 	printf("\nORDERED VECTOR:\n");
 	for (int i = 0; i < VECTORSIZE; i++) // Print ORDERED VECTOR
 		printf("%d\t", vet[i]);
-    printf("\n");
+    	printf("\n");
 	system("pause");
 	return 0;
 }
