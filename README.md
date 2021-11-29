@@ -67,6 +67,14 @@ Welcome!!!
 
 #[12 - UNIVERSITYCATALOG_V1.C - 2021](/VS/12_UniversityCatalog_v1.c) - [03 Episode#CSeries — University Catalog V1 - Exercise 2](https://medium.com/jungletronics/university-catalog-v1-9db8cfc526a2)
 
+#[13 - BUBBLESORASC_V0.C - 2021](/VS/13_bubblesortasc_v0.c) - [04 Episode#CSeries — BUBBLE SORT (Ascendant Algorithm)](https://medium.com/jungletronics/bubble-sort-ascendant-algorithm-5a3cf7b530f7)
+
+#[14 - QUICKSORTASC_V0.C - 2021](/VS/15_quicksortasc_v0.c) - [05 Episode#CSeries — QUICKSORT (Ascendant Algorithm)](https://medium.com/jungletronics/quicksort-ascendant-algorithm-c4809da6d7a7)
+
+#[15 - LINEARSEARCHALG_V0.C - 2021](/VS/17_linearserchalg_v0.c) - [06 Episode#CSeries — LINEAR SORT](https://medium.com/jungletronics/linear-sort-e3c80c985381)
+
+#[16 - DOUBLYLINKEDLIST_V0.C - 2021](/VS/18_doublylinkedlist_v0.c) - [03 Episode#CSeries — DOUBLY LINKED LIST](https://medium.com/jungletronics/double-linked-list-aa23836e0f41)
+
 
 ### [Visual C++ 2019] (https://visualstudio.microsoft.com/downloads/) Solutions list (from 2020 until now): :notebook_with_decorative_cover:
 
