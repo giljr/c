@@ -6,8 +6,6 @@ Project #12 (CSeries)
 Description:
 
 This is a HashTable which implements a hash function.
-A hash function turns a key into a random-looking number, 
-and it must always return the same number given the same key.
 
 A hash function turns a key into a random-looking number, 
 and it must always return the same number given the same key.
