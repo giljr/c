@@ -23,10 +23,20 @@
     TIME Comparing 100,000 Vector size:
     ____________________
     BUBBLE      QUICK
-	__________  ________
+    __________  ________
     38.461000   0.028000
     ____________________
-		
+    
+    **************************************************************************
+	Output
+	
+	QUICK SORT (Ascendant)
+	NOT ORDERED VECTOR:
+	74      91      67      51      22      6       61      22      72      57
+	ORDERED VECTOR:
+	6       22      22      51      57      61      67      72      74      91
+	Pressione qualquer tecla para continuar. . . 
+    ****************************************************************************
     Based on: https://github.com/borinvini
 	   
 	UNINTER - Curso: Engenharia da Computacao
