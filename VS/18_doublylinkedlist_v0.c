@@ -13,7 +13,7 @@
 	2) Ask the user to enter records;
 	3) Records must be stored in a vector;
 	4) Make a Menu to enter new tracks;
-    5) Through the pointer to the record vector, show the playlist
+    	5) Through the pointer to the record vector, show the playlist
 	
 	To demonstrate the operation, take screenshots of the terminal using its name
 	complete and your birthday day and month in one of the requested input logs.
@@ -108,7 +108,7 @@ int main(int argc, char *argv[]) {
 
 	for( ; ; )  /* Infinite loop; you do not have to worry about arrays and mess around with indexes */
 	{
-	    printf("\nDo you What to enter a Track now (Y or N)?");
+	    	printf("\nDo you What to enter a Track now (Y or N)?");
 		scanf(" %c", &test);
 		//while ((c = getchar()) != '\n' && c != EOF) { } 	/* clears input buffer */
 	
@@ -184,7 +184,7 @@ int main(int argc, char *argv[]) {
 		free(last);
 	}
 	    printf("\n______________________________________________________________________\n");
-        printf("\n______________________________________________________________________\n");
+            printf("\n______________________________________________________________________\n");
 	
 	return 0;
 }
