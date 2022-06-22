@@ -73,8 +73,8 @@ int main()
 	{
 		/* Inside if scope, declaring the matrices */
 		int m1[r1][c1]; 
-	    int m2[r2][c2];
-	    int r[r2][c2];
+	    	int m2[r2][c2];
+	    	int r[r2][c2];
 		int i, j;
 			    
 		printf("Please, enter the elements of the first matrix\n");
@@ -87,7 +87,7 @@ int main()
 			
 		}
 		printf("Here is the first matrix:\n");		
-	    for(i = 0; i < r1; i++ )
+	    	for(i = 0; i < r1; i++ )
 		{
 			for(j = 0; j < c1; j++)
 			{
@@ -106,7 +106,7 @@ int main()
 			
 		}
 		printf("Here is the second matrix:\n");		
-	    for(i = 0; i < r2; i++ )
+	    	for(i = 0; i < r2; i++ )
 		{
 			for(j = 0; j < c2; j++)
 			{
@@ -115,7 +115,7 @@ int main()
 			printf("\n");
 		}
 		/* Proceeding to addition operation */
-	    for(i = 0; i < r2; i++ )
+	    	for(i = 0; i < r2; i++ )
 		{
 			for(j = 0; j < c2; j++)
 			{
