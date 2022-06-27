@@ -39,7 +39,7 @@
  
  	Compiler: Dev C ++ Version 2 - Jun,1991
 		  	  (https://sourceforge.net/projects/orwelldevcpp/)
-	    
+	Search: https://developer.ibm.com/articles/au-endianc/
   	Author: F. Simplicio (microgenios.com.br) 
   	Edited by j3
   	date: jun, 18/2020
