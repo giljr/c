@@ -25,6 +25,7 @@
   0C _ _ _ _ |  |                    |  | _ _ _ _  0B
   0D _ _ _ _ _ |      		     | _ _ _ _ _   0A
 
+ Search: https://developer.ibm.com/articles/au-endianc/
  Author: https://www.geeksforgeeks.org/little-and-big-endian-mystery/
  Edited by j3
 
