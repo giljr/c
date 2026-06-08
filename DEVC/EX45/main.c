@@ -1,37 +1,46 @@
 /*
-  Project 45 - Solution for J3 Snack Bar
+Project 45 - Solution for J3 Snack Bar
   
-  Description
+Description
   
-  This program calculates how much each customer spends in a snack bar.
-  In essence, this program initializes 3 matrices:
+This program calculates how much each customer spends in a snack bar.
+In essence, this program initializes 3 matrices:
   
-  p[1][7] - Price of the Snack bar Products
-  q[7][1] - Quantity of each item asked 
-  t[1][7] - Total price to pay
+p[1][7] - Price of the Snack bar Products
+q[7][1] - Quantity of each item asked 
+t[1][7] - Total price to pay
   
-  Then, Make the math matrices multiplication:
+Then, Make the math matrices multiplication:
   
-  p[1][7]    *   q[7][1]       =  t[1][7]
-   _      _                       _      _
-  |  5.00 |                      |  5.00 |
-  |  8.79 |                      |  8.79 |
-  |  9.99 |  * [1,1,1,1,1,1,1] = |  9.99 |
-  |  6.89 |                      |  6.89 |
-  |  4.80 |                      |  4.80 |
-  |  3.49 |                      |  3.49 |
-  |_ 4.99_|                      |_ 4.99_|
+     p[1][7]        *    q[7][1]        =    t[1][1]
   
-                        Total =  $ 43.95
+     Prices (p)     *   Quantities (q)  =   Totals (t)
+
+[ 5.00  8.79 ...]  *      [ 2 ]        =  [ 10.00  8.79 ...] => Grand Total = $18.79
+                          [ 1 ]          
+                           ...    
                         
- Other matrices, like 'seq', 'code' and 'menu' serves only for presentation purpose;
- The user enter Code + Product + Space serially; The user can acummulate the products;
- When done, type 'q' to get the Receipt;
- It is for the academy's elegant solution of Project 31:)
- 
- Printing on the screen a test of the program using 
- the first 3 digits for products and 
- the last 3 digits for quantity of the RU identifier:
+ Additional matrices such as 'seq', 'code', and 'menu' are used only for menu 
+presentation and receipt printing.
+
+Ordering Process
+
+The user enters a product code followed by a quantity.
+Multiple orders of the same product are accumulated.
+When finished, the user types 'q' to print the receipt.
+The receipt shows the quantity, unit price, item total, and grand total.
+
+This solution was designed as an elegant matrix-based implementation of Project 31,
+combining arrays, matrices, loops, and basic data processing concepts.
+
+Example Test
+
+The sample execution uses:
+
+The first three digits of the RU identifier as product codes.
+The last three digits of the RU identifier as quantities.
+
+This produces the demonstration receipt shown below.
  
 ***********************
 Output: (RU 333 6 662)
@@ -132,12 +141,12 @@ int main()
 		 		q[0][0] += quant;				
 				break;
 
-    	         case 2:
+    	 case 2:
         		printf("You chose: %d x X-Salad\n", quant); 
 				q[1][0] += quant;      	
         		break;
 
-    	         case 3:
+    	 case 3:
         		printf("You chose: %d x X-Bacon\n", quant); 
 				q[2][0] += quant;       	
         		break;
@@ -147,22 +156,22 @@ int main()
         		q[3][0] += quant;	
 				break;
         	
-    	         case 5:
+    	 case 5:
         		printf ("You chose: %d x Salad\n", quant);
         		q[4][0] += quant;
         		break;
         	
-    	         case 6:
+    	 case 6:
         		printf ("You chose: %d x Water\n", quant);
         		q[5][0] += quant;
         		break;
         	
-                 case 7:
+         case 7:
         		printf ("You chose: %d x Soda\n", quant);
         		q[6][0] += quant;
         		break;
         	
-    	         default:
+    	 default:
 		        printf("Invalid Product:/\n");
 				break;
              }
