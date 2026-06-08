@@ -16,9 +16,9 @@ Then, Make the math matrices multiplication:
   
      Prices (p)     *   Quantities (q)  =   Totals (t)
 
-[ 5.00  8.79 ...]  *      [ 2 ]        =  [ 10.00  8.79 ...] => Grand Total = $18.79
-                          [ 1 ]          
-                           ...    
+[ 5.00  8.79 ...]   *      [ 2 ]        =  [ 10.00  8.79 ...] => Grand Total = $18.79
+                           [ 1 ]          
+                            ...    
                         
  Additional matrices such as 'seq', 'code', and 'menu' are used only for menu 
 presentation and receipt printing.
@@ -35,15 +35,10 @@ combining arrays, matrices, loops, and basic data processing concepts.
 
 Example Test
 
-The sample execution uses:
-
-The first three digits of the RU identifier as product codes.
-The last three digits of the RU identifier as quantities.
-
 This produces the demonstration receipt shown below.
  
-***********************
-Output: (RU 333 6 662)
+*****************************************************
+
 -------------------------------
 :::::::JayThree Snack Bar::::::
           Welcome!!
