@@ -81,7 +81,8 @@ Thank you for your visit
 and have a good appetite!
 ***********************
   Editor J3
-  Date: Jul, 15/2020
+  Date:    Jul, 15/2020
+  Updated: Jun, 09/2026
   
   I'd like to thank Prof. Borin, Me.(https://br.linkedin.com/in/borinvini)  
   o/
@@ -90,136 +91,146 @@ and have a good appetite!
 
 int main()
 {
-	int seq[1][7] = {1, 2, 3, 4, 5, 6, 7};
-	int code[1][7] = {100, 101, 102, 103, 104, 105, 106};
-	char menu[7][10] = { "Hot_Dog", "X_Salad", "X_Bacon", "Mix",  "Salad", "Water", "Soda" };
-	float p[1][7] = {5.00, 8.79, 9.99, 6.89, 4.80, 3.49, 4.99}, t[1][7] = {0}, debit;
-	int q[7][1] = {0,0,0,0,0,0,0};
-	int prows = 1, pcolumns = 7, qrows = 7, qcolumns = 1, trows = 1, tcolumns = 7;
-	int i,j,k;
-	float res = 0, sum = 0;
-	int prod = 0;
-        int quant = 0;
-	
-	/* Menu on screen splash */
-	printf("\n-------------------------------");
-	printf("\n:::::::JayThree Snack Bar::::::");	
-	printf("\n\t  Welcome!!");
-	printf("\n-------------------------------");	
-	printf("\n--------------MENU-------------\n");
-  	printf("Code\tProduct\t\tPrice\n");
-  	printf("-------------------------------\n");
-  	
-	for(int i = 0; i < 1; i++)
-  	{
-  		for(int j=0; j < 7; j++)
-  		{
-			printf("%i\t", seq[i][j]);
-			printf("%s\t\t", menu[j] );
-			printf("%.2f\t\n", p[i][j] );
-		}
-  		printf("-------------------------------");	  		 	
-	}
-	printf("\n\nPlease Choose your Combo:)\nType:Code>Space>Quant>Enter:\n");
-	printf("To Quit, type 'q':)\n");
-	scanf("%i %i", &prod, &quant);
-	
-	/* Populating 'q' matrix - quantity of each product indexed */
-	/* While loop exit by typing 'q' - Quit */
-	/* Product can be acummulated in a single bid */
-	while(getchar()!= 'q')
-	{
-		switch (prod) 
-	    {
-	   	 case 1:
-         		printf("You chose: %d x Hot Dog\n", quant); 
-		 		q[0][0] += quant;				
-				break;
+    int seq[1][7] = {1, 2, 3, 4, 5, 6, 7};
+    int code[1][7] = {100, 101, 102, 103, 104, 105, 106};
 
-    	 case 2:
-        		printf("You chose: %d x X-Salad\n", quant); 
-				q[1][0] += quant;      	
-        		break;
+    char menu[7][10] =
+    {
+        "Hot_Dog",
+        "X_Salad",
+        "X_Bacon",
+        "Mix",
+        "Salad",
+        "Water",
+        "Soda"
+    };
 
-    	 case 3:
-        		printf("You chose: %d x X-Bacon\n", quant); 
-				q[2][0] += quant;       	
-        		break;
-	
-	   	 case 4:
-        		printf("You chose: %d x Mix\n", quant);        	
-        		q[3][0] += quant;	
-				break;
-        	
-    	 case 5:
-        		printf ("You chose: %d x Salad\n", quant);
-        		q[4][0] += quant;
-        		break;
-        	
-    	 case 6:
-        		printf ("You chose: %d x Water\n", quant);
-        		q[5][0] += quant;
-        		break;
-        	
-         case 7:
-        		printf ("You chose: %d x Soda\n", quant);
-        		q[6][0] += quant;
-        		break;
-        	
-    	 default:
-		        printf("Invalid Product:/\n");
-				break;
-             }
-         
-	     scanf("%i %i", &prod, &quant);     
-	}
+    float p[1][7] = {5.00, 8.79, 9.99, 6.89, 4.80, 3.49, 4.99};
+    float t[1][7] = {0};
+    float debit = 0;
 
-    printf("\tGood Choice!\n");	
+    int q[7][1] = {0};
 
-    /* Calculating all 't' matrix - total to pay = debit */
-    int m = 0;	
-    for (i=0; i<prows; i++)
-		{	
-		    for(j=0; j<qcolumns; j++)
-			{
-				
-				for(k=0; k<qrows; k++)
-				{
-					res += p[i][k] * q[k][j];
-					t[i][m] = res;
-					m++;
-					sum += res;
-					res = 0;
-					
-				}
-				debit = sum;
-				sum = 0;
-		}
-	}
-    /* Printing the receipt -  print when there is value on 't' index */
-    printf ("\n Here you have the ticket:\n\n"); 
-    printf("___________Receipt:____________\n");
-    printf("Quant\tPrice\tProduct\tTotal\n");
+    int trows = 1;
+    int tcolumns = 7;
+
+    int i, j, k;
+    int prod = 0;
+    int quant = 0;
+
+    /* Menu on screen splash */
+    printf("\n-------------------------------");
+    printf("\n:::::::JayThree Snack Bar::::::");
+    printf("\n\t  Welcome!!");
+    printf("\n-------------------------------");
+    printf("\n--------------MENU-------------\n");
+    printf("Code\tProduct\t\tPrice\n");
     printf("-------------------------------\n");
-    for( i=0; i<trows; i++ )
-	{
-		for(j=0; j<tcolumns; j++)
-		{
-			if( t[i][j] != 0)
-			{
-				printf("%d x\t", q[i][j]);
-				printf("%.2f\t", p[i][j]);
-				printf("%s\t", menu[j] );
-				printf("%.2f\t\n", t[i][j]);
-			}			
 
-		}
-		printf("-------------------------------\n");
-		printf("\t\tTotal = %.2f\t", debit);
-		printf("\t\t\n-------------------------------");
-		printf("\t\t\n");
-	}
-    printf("\nThank you for your visit\nand have a good appetite!\n");
-    //system("pause");
+    for (i = 0; i < 1; i++)
+    {
+        for (j = 0; j < 7; j++)
+        {
+            printf("%i\t", seq[i][j]);
+            printf("%s\t\t", menu[j]);
+            printf("%.2f\t\n", p[i][j]);
+        }
+        printf("-------------------------------");
+    }
+
+    printf("\n\nPlease Choose your Combo:)\n");
+    printf("Type: Code<space>Quantity<Enter>\n");
+    printf("To Quit, type 'q'\n");
+
+    scanf("%i %i", &prod, &quant);
+
+    /* Populating q matrix - quantity of each product indexed */
+    while (getchar() != 'q')
+    {
+        switch (prod)
+        {
+            case 1:
+                printf("You chose: %d x Hot Dog\n", quant);
+                q[0][0] += quant;
+                break;
+
+            case 2:
+                printf("You chose: %d x X-Salad\n", quant);
+                q[1][0] += quant;
+                break;
+
+            case 3:
+                printf("You chose: %d x X-Bacon\n", quant);
+                q[2][0] += quant;
+                break;
+
+            case 4:
+                printf("You chose: %d x Mix\n", quant);
+                q[3][0] += quant;
+                break;
+
+            case 5:
+                printf("You chose: %d x Salad\n", quant);
+                q[4][0] += quant;
+                break;
+
+            case 6:
+                printf("You chose: %d x Water\n", quant);
+                q[5][0] += quant;
+                break;
+
+            case 7:
+                printf("You chose: %d x Soda\n", quant);
+                q[6][0] += quant;
+                break;
+
+            default:
+                printf("Invalid Product :/\n");
+                break;
+        }
+
+        scanf("%i %i", &prod, &quant);
+    }
+
+    printf("\tGood Choice!\n");
+
+    /* Element-by-element multiplication:
+       t[0][k] = p[0][k] * q[k][0]
+    */
+    debit = 0;
+
+    for (k = 0; k < 7; k++)
+    {
+        t[0][k] = p[0][k] * q[k][0];
+        debit += t[0][k];
+    }
+
+    /* Printing the receipt */
+    printf("\nHere you have the ticket:\n\n");
+    printf("___________Receipt:____________\n");
+    printf("Quant\tPrice\tProduct\t\tTotal\n");
+    printf("----------------------------------------\n");
+
+    for (i = 0; i < trows; i++)
+    {
+        for (j = 0; j < tcolumns; j++)
+        {
+            if (t[i][j] != 0)
+            {
+                printf("%d x\t", q[j][0]);
+                printf("%.2f\t", p[i][j]);
+                printf("%s\t\t", menu[j]);
+                printf("%.2f\n", t[i][j]);
+            }
+        }
+    }
+
+    printf("----------------------------------------\n");
+    printf("\t\tTotal = %.2f\n", debit);
+    printf("----------------------------------------\n");
+
+    printf("\nThank you for your visit\n");
+    printf("and have a good appetite!\n");
+
     return 0;
 }
